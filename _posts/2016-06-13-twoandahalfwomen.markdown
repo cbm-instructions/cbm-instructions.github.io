@@ -8,7 +8,7 @@ date:   2016-04-29 15:09:51 +0200
 ## Ziel/POV:
 Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine  freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten. 
 
-## Beschreibung fertiger Demonstrator:
+## Projektbeschreibung:
 Unser Projekt umfasst ein Quiz, das mit Hilfe eines Würfels realisiert wurde. Den Spielern ist es möglich einen Einspieler- oder auch Mehrspielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
 
 Erste 2 Sätze als Elevator Pitch für Social Media:
