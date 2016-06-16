@@ -18,12 +18,12 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
 
 ### Materialien:
   - 4x Plexiglas (25cmx25cm)
-  - Raspberry Pi
-  - HDMI-Kabel für Raspberry Pi
-  - Mini USB-Kabel für Raspberry Pi Stromversorgung
-  - Arduino
-  - Netzteil für Arduino
-  - Breadboard
+  - 1x Raspberry Pi
+  - 1x HDMI-Kabel für Raspberry Pi
+  - 1x Mini USB-Kabel für Raspberry Pi Stromversorgung
+  - 1x Arduino
+  - 1x Netzteil für Arduino
+  - 1x Breadboard
   - 2 x Push Dome Buttons (https://www.sparkfun.com/products/11274)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
@@ -32,7 +32,7 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
   - Pins
   - Verbindungen Pins
   - 1x Universalzylinderschloss
-  - 19 Zoll Monitor
+  - 1x 19 Zoll Monitor
   - 
 
 ### Werkzeuge:
