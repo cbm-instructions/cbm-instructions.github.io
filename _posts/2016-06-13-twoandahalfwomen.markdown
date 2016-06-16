@@ -28,7 +28,7 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
-  - Kabel mit Flachsteckhülsen
+  - Insulated Daisy Chain Harness with 32 Crimp Connections (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
   - Pins
   - Verbindungen Pins
   - 1x Universalzylinderschloss
