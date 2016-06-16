@@ -9,7 +9,7 @@ date:   2016-04-29 15:09:51 +0200
 Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine  freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten. 
 
 ## Projektbeschreibung:
-Unser Projekt umfasst ein Quiz, das mit Hilfe eines Würfels realisiert wurde. Den Spielern ist es möglich einen Einspieler- oder auch Mehrspielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
+Unser Projekt umfasst ein Quiz, das mit Hilfe eines Raspberry Pi und einem Arduino realisiert wurde. Das Projekt wird in der Form eines Würfels dargestellt, an welchem die verwendeten Bauteil angebracht sind. Den Spielern ist es möglich einen Einspieler- oder auch Mehrspielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
 
 Erste 2 Sätze als Elevator Pitch für Social Media:
 ???
@@ -18,6 +18,7 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
 
 ### Materialien:
   - 4x Plexiglas (25cmx25cm)
+  - 2x Holz
   - 1x Raspberry Pi
   - 1x HDMI-Kabel für Raspberry Pi
   - 1x Mini USB-Kabel für Raspberry Pi Stromversorgung
