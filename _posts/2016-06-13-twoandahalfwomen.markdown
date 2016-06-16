@@ -5,16 +5,45 @@ layout: post
 date:   2016-04-29 15:09:51 +0200
 ---
 
-Ziel unseres Projekts ist das Erarbeiten neuer Wege, Menschen und ihre Familien mit sorgfältig gestalteter Technik “Nähe auf Distanz” erleben zu lassen. Das Ergebnis sollen Vorschläge, Empfehlungen und konkrete Anleitungen zum Selbermachen sein (“Do It Yourself”-Ansatz), die alle auf der Basis weitgehend verfügbarer Technik beruhen und für Laien umsetzbar sind. Diese werden hier kostenfrei zur Verfügung gestellt werden.
+## Ziel/POV:
+Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine  freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten. 
 
-## Step 1: Benötigte Materialen
-- Plexiglas
-- Raspberry Pi
-- Arduino
-- Breadboard
-- 2 x Push Dome Buttons
-- 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
-- 2x Black IL Concave Arcade Start Button (1 Player, 2 Player)
+## Beschreibung fertiger Demonstrator:
+Unser Projekt umfasst ein Quiz, das mit Hilfe eines Würfels realisiert wurde. Den Spielern ist es möglich einen Einspieler- oder auch Mehrspielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
+
+Erste 2 Sätze als Elevator Pitch für Social Media:
+???
+
+## Verwendete Materialien und Werkzeuge:
+
+### Materialien:
+  - 4x Plexiglas (25cmx25cm)
+  - Raspberry Pi
+  - HDMI-Kabel für Raspberry Pi
+  - Mini USB-Kabel für Raspberry Pi Stromversorgung
+  - Arduino
+  - Netzteil für Arduino
+  - Breadboard
+  - 2 x Push Dome Buttons
+  - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
+  - 2x Black IL Concave Arcade Start Button (1 Player, 2 Player)
+  - Kabel
+  - Pins
+  - Verbindungen Pins
+
+### Werkzeuge:
+  - Lötkolben
+  - Lötzinn
+  - Dremel
+  - Bohrer
+  - Standbohrmaschine
+  - 
+  - 
+  - ??
+- Alles genau beschreiben (ID des Bauteils; genauer Name; auch für Kabel, ...)
+- Mengenangaben für alle Bauteile
+- Evtl. Links zu Shops und Datasheets
+
 
 
 
