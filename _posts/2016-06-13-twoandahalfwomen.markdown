@@ -24,12 +24,16 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
   - Arduino
   - Netzteil für Arduino
   - Breadboard
-  - 2 x Push Dome Buttons
+  - 2 x Push Dome Buttons (https://www.sparkfun.com/products/11274)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
-  - 2x Black IL Concave Arcade Start Button (1 Player, 2 Player)
+  - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
+  - Kabel mit Flachsteckhülsen
   - Pins
   - Verbindungen Pins
+  - 1x Universalzylinderschloss
+  - 19 Zoll Monitor
+  - 
 
 ### Werkzeuge:
   - Lötkolben
@@ -37,6 +41,8 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
   - Dremel
   - Bohrer
   - Standbohrmaschine
+  - Kleber
+  - 
   - 
   - 
   - ??
