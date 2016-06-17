@@ -94,14 +94,20 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 
 
 ## Programmierung:
+
 ### Entwicklung auf dem Raspberry Pi 3
 ####Grundvorraussetzungen
+
+> :warning:
+  Die folgende Kommandos funktionieren NUR unter LINUX. Falls ein anderes Betriebssystem verwendet wird (z.B.: Windows 10 IoT) müssen diese entsprechend angepasst werden
+  
 ##### Step 1:
 Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
 Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
 
 ##### Step 2:
 Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Libraries und den dazugehörigen Quellcode zu installieren
+
 1. `$ sudo apt-get update`
 2. `$ sudo apt-get upgrade`
 3. `$ sudo apt-get install python3`
