@@ -1,5 +1,5 @@
 ---
-title: "Qube"
+title: "How To Build The Qube Quiz"
 categories: instructions
 layout: post
 date:   2016-04-29 15:09:51 +0200
@@ -17,12 +17,13 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 4x Plexiglas (25cmx25cm)
   - Milchglasfolie
   - 2x Holz
-  - 1x Raspberry Pi
-  - 1x Mini USB-Kabel für Raspberry Pi Stromversorgung
-  - 1x Arduino
-  - 1x Netzteil für Arduino
+  - 1x Raspberry Pi 3 
+  - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
+  - 1x Arduino Uno
+  - 1x Netzteil für Arduino Uno
+  - 1x Laptop/PC um den Arduino zu programmieren
   - 1x Breadboard
-  - 2 x Push Dome Buttons (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
+  - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
@@ -91,12 +92,63 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 
 
 ## Programmierung:
+### Entwicklung auf dem Raspberry Pi 3
+####Grundvorraussetzungen
+##### Step 1:
+Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
+Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
 
+##### Step 2:
+Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Libraries und den dazugehörigen Quellcode zu installieren
+1. `$ sudo apt-get update`
+2. `$ sudo apt-get upgrade`
+3. `$ sudo apt-get install python3`
+4. `$ sudo apt-get install sqlite3`
+5. `$ sudo apt-get install python3-sqlalchemy` 
+6. `$ sudo apt-get install python3-pyqt4`
+7. `$ sudo apt-get install qt4-designer`
+8. `$ git clone https://github.com/cbm-instructions/two-and-a-half-women.git`
 
+Wenn man nur die Software installieren will ohne eigene Modifikationen an der GUI vorzunehmen muss Schritt 7 nicht ausgeführt werden.
+Der Qt4 Designer wird nur benötigt um die GUI zu erstellen bzw. zu modifizieren.
 
+##### Step 3:
+1. `$ cd src/qube`
+2. `$ python3 Qube.py` or `$ python3 QubeHub.py`
+3. Viel Spaß!
 
+#### nützliche Quellen
 
+PyQt API
 
+http://pyqt.sourceforge.net/Docs/PyQt4/classes.html
+
+sqlite3
+
+http://www.einplatinencomputer.com/sqlite-statt-mysql/
+
+gpiozero
+
+https://gpiozero.readthedocs.io/en/v1.2.0/
+
+GPIO and Interrupts
+
+http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio
+
+QT4 Designer
+
+http://www.rspilab.com/gui-application-development-using-qt4-designer-and-pyqt-in-raspbian-for-raspberry-pi/
+
+SQLAlchemy
+
+http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
+
+http://www.sqlalchemy.org/
+
+### Entwicklung auf dem Arduino Uno
+#### Step 1:
+#### Step 2:
+#### Step 3:
 
 ## Step 1: Grundlagen verstehen - Raspberry Pi und GPIO-Pins
 
