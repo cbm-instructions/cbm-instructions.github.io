@@ -19,6 +19,8 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 2x Holz
   - 1x Raspberry Pi 3 
   - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
+  - 1x USB oder Bluetooth Maus für den Raspberry Pi
+  - 1x USB oder Bluetooth Tastatur für den Raspberry Pi
   - 1x Arduino Uno
   - 1x Netzteil für Arduino Uno
   - 1x Laptop/PC um den Arduino zu programmieren
