@@ -11,13 +11,11 @@ Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik u
 ## Projektbeschreibung:
 Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hilfe eines Raspberry Pi und einem Arduino realisiert wurde. Das Projekt ist in der Form eines Würfels dargestellt, an welchem die verwendeten Bauteile angebracht sind. Den Spielern ist es möglich einen Einspieler- oder auch Zweispielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
 
-Erste 2 Sätze als Elevator Pitch für Social Media:
-???
-
 ## Verwendete Materialien und Werkzeuge:
 
 ### Materialien:
   - 4x Plexiglas (25cmx25cm)
+  - Milchglasfolie
   - 2x Holz
   - 1x Raspberry Pi
   - 1x HDMI-Kabel für Raspberry Pi
@@ -43,6 +41,7 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
   - Bohrer
   - Standbohrmaschine
   - Kleber
+  - Schere
   - 
   - 
   - 
@@ -53,11 +52,45 @@ Erste 2 Sätze als Elevator Pitch für Social Media:
 
 
 ## Step-by-Step Guide
-### Step 1:
-### Step 2:
-### Step 3:
-### Step 4:
-### Step 5:
+
+### Step 1: Kabel an Buttons löten
+### Step 2: Kabel an Buzzer löten
+### Step 3: Buttons und Buzzer miteinander verbinden
+### Step 4: Buttons und Buzzer mit GPIO von Raspberry verbinden
+### Step 5: Neopixel mit GPIO Pin von Raspberry verbinden
+### Step 6: Neopixel mit Arduino verbinden
+### Step 7: Arduino und Raspberry verbinden
+
+
+Würfel:
+### Step 1: Löcher für die Buttons und Buzzer bohren
+Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zunächst Löcher an den Scheiben gebohrt werden.  
+
+### Step 2: Loch für das Zylinderschloss bohren
+
+### Step 3: Schlitz für Zylinderschloss schneiden
+
+### Step 4: Aussparrung für Raspberry und Arduino sägen
+Aufzeichnen, mit Dremel oder einer Laubsäge sägen, Kanten abschleifen
+
+### Step 5: Milchglasfolie anbringen
+Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Nachdem die Folie auf die richtig Größe geschnitten wurde, muss diese im nächsten Schritt auf dem Plexiglas angebracht werden.
+
+### Step 7: Plexiglasscheiben miteinander verkleben
+
+### Step 8: Buttons und Buzzer anbringen
+
+### Step 9: Zylinderschloss befestigen
+
+### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+
+## Programmierung:
+
+
+
+
+
+
 
 ## Step 1: Grundlagen verstehen - Raspberry Pi und GPIO-Pins
 
