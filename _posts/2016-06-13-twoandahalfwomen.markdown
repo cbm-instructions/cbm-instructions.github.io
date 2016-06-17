@@ -18,7 +18,6 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Milchglasfolie
   - 2x Holz
   - 1x Raspberry Pi
-  - 1x HDMI-Kabel für Raspberry Pi
   - 1x Mini USB-Kabel für Raspberry Pi Stromversorgung
   - 1x Arduino
   - 1x Netzteil für Arduino
@@ -32,14 +31,17 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Verbindungen Pins
   - 1x Universalzylinderschloss
   - 1x 19 Zoll Monitor
-  - 
+  - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
 
 ### Werkzeuge:
   - Lötkolben
   - Lötzinn
   - Dremel
-  - Bohrer
+  - Aufsatz Dremel Schleifscheibe/Trennscheibe
+  - Aufsatz Dremel Minikreissägeblatt
   - Standbohrmaschine
+  - Bohrer klein(vorbohren)
+  - Bohrer für Löcher
   - Kleber
   - Schere
   - 
@@ -57,9 +59,10 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 ### Step 2: Kabel an Buzzer löten
 ### Step 3: Buttons und Buzzer miteinander verbinden
 ### Step 4: Buttons und Buzzer mit GPIO von Raspberry verbinden
-### Step 5: Neopixel mit GPIO Pin von Raspberry verbinden
-### Step 6: Neopixel mit Arduino verbinden
-### Step 7: Arduino und Raspberry verbinden
+### Step 5: Neopixel mit Arduino verbinden
+### Step 6: Arduino und Raspberry verbinden
+### Step 7: Raspberry und Monitor verbinden
+Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht mit Hilfe eines Adapterkabel HDMI auf DVI.
 
 
 Würfel:
@@ -83,6 +86,9 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 ### Step 9: Zylinderschloss befestigen
 
 ### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+
+### Step 11: Arduino und Raspberry an Holzplatte anbringen
+
 
 ## Programmierung:
 
