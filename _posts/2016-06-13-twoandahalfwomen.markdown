@@ -154,9 +154,9 @@ http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
 http://www.sqlalchemy.org/
 
 ### Entwicklung auf dem Arduino Uno
-#### Step 1:
-#### Step 2:
-#### Step 3:
+#### Step 1: Library runterladen
+#### Step 2: Quellcode öffnen
+#### Step 3:Quellcode auf den Arduino Uno laden
 
 ## Step 1: Grundlagen verstehen - Raspberry Pi und GPIO-Pins
 
