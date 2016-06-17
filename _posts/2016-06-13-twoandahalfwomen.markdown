@@ -16,20 +16,20 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 ### Materialien:
   - 4x Plexiglas (25cmx25cm)
   - Milchglasfolie
-  - 2x Holz
+  - 2x Holz ???? Welches
   - 1x Raspberry Pi 3 
   - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
-  - 1x USB oder Bluetooth Maus für den Raspberry Pi
-  - 1x USB oder Bluetooth Tastatur für den Raspberry Pi
+  - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
+  - 1x USB oder Bluetooth Tastatur für den Raspberry Pi 3
   - 1x Arduino Uno
-  - 1x Netzteil für Arduino Uno
+  - 1x Netzteil für Arduino Uno ????? Was für ein Netzteil
   - 1x Laptop/PC um den Arduino zu programmieren
   - 1x Breadboard
   - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
-  - Insulated Daisy Chain Harness with 32 Crimp Connections (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
+  - Insulated Daisy Chain Harness with 32 Crimp Connections [= Isolierter verketteter Kabelstrang mit 32 Crimpverbindungen] (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
   - Pins
   - Verbindungen Pins
   - 1x Universalzylinderschloss
@@ -38,7 +38,6 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 
 ### Werkzeuge:
   - Lötkolben
-  - Lötzinn
   - Dremel
   - Aufsatz Dremel Schleifscheibe/Trennscheibe
   - Aufsatz Dremel Minikreissägeblatt
@@ -47,7 +46,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Bohrer für Löcher
   - Kleber
   - Schere
-  - 
+  - Abisolierzange
   - 
   - 
   - ??
@@ -58,9 +57,17 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 
 ## Step-by-Step Guide
 
-### Step 1: Kabel an Buttons löten
-### Step 2: Kabel an Buzzer löten
-### Step 3: Buttons und Buzzer miteinander verbinden
+### Step 1: Kabel an Switchcontroller der Buttons löten
+Kabel anlöten, Kabelhülse, Kabel abisolieren an beiden Seiten, damit das Kabel iin einem weiteren Schritt verlängert werden kann.
+### Step 2: Kabel an Switchcontroller der Buzzer löten
+### Step 3: Kabel der Buttons und Buzzer verlängern
+Neues Kabel abisolieren und mit dem vorab isolierten und angebrachten Kabel miteinander verlöten und mit einer Kabelhülse oder Isolierband isolieren.
+Dieser Schritt wurde für aööe Buttons und Buzzer wiederholt. Auch für die LEDs der Buzzer muss wurde dieser Schritt durchgeführt.
+### Step 3: Kabel an die LED Leuchte der Buzzer anbringen
+### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang miteinander verbinden
+Mit Hilfe des Crimp Kabelstrangs werden die einzelnden Switchcontroller der Buttons und Buzzer verbunden. Hierfür werden 10 Steckverbindungen benötigt. Die letzte Verbindung wird abgetrennt und das Kabel mit einer Abisolierzange abisoliert, damit dieses verlängert werden kann.
+### Step 5: Insulated Daisy Chain Harness verlängern
+Wie schon erqähnt wird der Kabelstrang mit einem XX verlängert, damit dieses auch an einen der GPIO Pins am Raspberry angeschlossen werden kann. 
 ### Step 4: Buttons und Buzzer mit GPIO von Raspberry verbinden
 ### Step 5: Neopixel mit Arduino verbinden
 ### Step 6: Arduino und Raspberry verbinden
