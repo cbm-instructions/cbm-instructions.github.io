@@ -7,7 +7,8 @@ date:   2016-06-08 15:09:51 +0200
 <!-- Arbeitstitel, Regeln für "good title" auf intructables:
 Good title: How to make a ### to help you ### for less than $###.
 Good title: Improve your ### by ### and ###. -->
-# Unser Projekt
+
+## Unser Projekt
 
 Unser Projekt hilft euch dabei eure Freunde und Feinde zu begeistern indem ihr jeden eurer Schritte auf euerer Treppe erleuchtet. Mit etwas Technik, einem Arduino und ganz viel Magie bringt ihr eure Treppe zum leuchten.
 Im Rahmen des Kurses "Challange Based Making" an der Fakultät für Informatik der Hochschule Mannheim haben wir die Aufgabe bekommen die Räumlichkeiten der Informatik ansprechender und repräsentativer zu gestalten. Zusätzlich sollten wir für das Fach Informatik begeistern. Nach Gesprächen mit Fakultätsangehörigen und Gästen haben wir uns eine Perspektive gesucht aus der wir das Problem bearbeitet haben. Unser prototypischer Informatikstudent Alfred möchte "... POV EINFÜGEN!"
