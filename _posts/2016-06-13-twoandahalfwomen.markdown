@@ -42,8 +42,9 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Aufsatz Dremel Schleifscheibe/Trennscheibe
   - Aufsatz Dremel Minikreissägeblatt
   - Standbohrmaschine
-  - Bohrer klein(vorbohren)
-  - Bohrer für Löcher
+  - Lochfräse
+  - Bohrer klein (vorbohren)
+  - Bohrer für Zylinderschloss
   - Kleber
   - Schere
   - Abisolierzange
