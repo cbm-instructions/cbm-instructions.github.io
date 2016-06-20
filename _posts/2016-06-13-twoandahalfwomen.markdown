@@ -16,7 +16,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 ### Materialien:
   - 4x Plexiglas (25cmx25cm)
   - Milchglasfolie
-  - 2x Holz ???? Welches
+  - 1x MDF Platte schwarz (27cm x 30cm x 19mm) 
   - 1x Raspberry Pi 3 
   - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
   - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
@@ -45,26 +45,48 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Lochfräse
   - Bohrer klein (vorbohren)
   - Bohrer für Zylinderschloss
-  - Kleber
+  - Pattex Kleber
   - Schere
   - Abisolierzange
   - 
   - 
   - ??
 - Alles genau beschreiben (ID des Bauteils; genauer Name; auch für Kabel, ...)
-- Mengenangaben für alle Bauteile
 - Evtl. Links zu Shops und Datasheets
 
 
 ## Step-by-Step Guide
 
-### Step 1: Kabel an Switchcontroller der Buttons löten
-Kabel anlöten, Kabelhülse, Kabel abisolieren an beiden Seiten, damit das Kabel iin einem weiteren Schritt verlängert werden kann.
-### Step 2: Kabel an Switchcontroller der Buzzer löten
+### Step 1: Kabel an Switchcontroller der Buttons und Buzzer löten
+Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel (normal)
+
+Damit die Buttons verwendet werden können, müssen an den Switch Coontrollern der Buttons und der Buzzer Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
+
+Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Buttons und die 2 Buzzer genutzt:
+  1. Schneidet euch Kabel in ausreichnder Länge von ca.  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nimmt Kabel in den Farben der Buttons und Buzzer, um diese besser zu unterscheiden.
+  2. Isoliert jeweils beide Kabelenden mit einer Abisolierzange ab.
+  3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
+  4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
+  
+  Dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
+
 ### Step 3: Kabel der Buttons und Buzzer verlängern
-Neues Kabel abisolieren und mit dem vorab isolierten und angebrachten Kabel miteinander verlöten und mit einer Kabelhülse oder Isolierband isolieren.
-Dieser Schritt wurde für aööe Buttons und Buzzer wiederholt. Auch für die LEDs der Buzzer muss wurde dieser Schritt durchgeführt.
+Um Step 3 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
+
+Das in Step 1 verlötete Kabel solltet ihr noch mit einem Kabel (female-female) erweitern. Dieser Schritt ist notwendig, damit ihr die Buttons und Buzzer an die GPIO-PINS des Raspberry PI anschließen könnt.
+
+Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise entschieden:
+  1. Nehmt das Kabel (female-female) und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
+  2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
+  3. Nun nehmt ihr einen Button oder Buzzer, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolbens.
+  4. Danach solltet ihr die Lötstelle mit einer Kabelhülse oder einem Isolierband isolieren.
+
+Auch dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
+
 ### Step 3: Kabel an die LED Leuchte der Buzzer anbringen
+Für die LED der Buzzer muss ebenfalls Step 1 durchgeführt werden. AllerdingsAuch hier ist es ratsam verschiedenfarbige Kabel zu verwenden, um + und - zu unterscheiden.
+
+
 ### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang miteinander verbinden
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnden Switchcontroller der Buttons und Buzzer verbunden. Hierfür werden 10 Steckverbindungen benötigt. Die letzte Verbindung wird abgetrennt und das Kabel mit einer Abisolierzange abisoliert, damit dieses verlängert werden kann.
 ### Step 5: Insulated Daisy Chain Harness verlängern
