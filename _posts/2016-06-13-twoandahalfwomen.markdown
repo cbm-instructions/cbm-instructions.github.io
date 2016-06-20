@@ -23,7 +23,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
   - 1x USB oder Bluetooth Tastatur für den Raspberry Pi 3
   - 1x Arduino Uno
-  - 1x Netzteil für Arduino Uno ????? Was für ein Netzteil
+  - 1x Netzteil für Arduino Uno - Goobay 2798 - Universal Netzgerät 3-12 V (https://www.amazon.de/Goobay-2798-Universal-Netzger%C3%A4t-3-12/dp/B0038WU2Z0) 
   - 1x Laptop/PC um den Arduino zu programmieren
   - 1x Breadboard (https://www.conrad.de/de/steckplatine-selbstklebend-polzahl-gesamt-830-l-x-b-x-h-165-x-55-x-85-mm-eic-102-1-st-526835.html?sc.ref=Product%20Details)
   - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
@@ -38,6 +38,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
   - 2x Acryl Scharniere 64mm (https://www.amazon.de/gp/product/B00R0BCWNU/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
   - Tesa Power Strips (Foto Dinger)
+  - Neopixel 1 Meter
 
 ### Werkzeuge:
   - Lötkolben
@@ -55,7 +56,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Geodreieck
   - Kugelschreiber
 
-## Step-by-Step Guide
+## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
 ### Step 1: Kabel an Switchcontroller der Buttons und Buzzer löten
 Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel (normal)
@@ -63,15 +64,15 @@ Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kab
 Damit die Buttons verwendet werden können, müssen an den Switch Coontrollern der Buttons und der Buzzer Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
 Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Buttons und die 2 Buzzer genutzt:
-  1. Schneidet euch Kabel in ausreichnder Länge von ca.  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nimmt Kabel in den Farben der Buttons und Buzzer, um diese besser zu unterscheiden.
+  1. Schneidet euch ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nimmt Kabel in den Farben der Buttons und Buzzer, um diese besser zu unterscheiden.
   2. Isoliert jeweils beide Kabelenden mit einer Abisolierzange ab.
   3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
-  4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
+  4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
   
 Dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
 
-### Step 3: Kabel der Buttons und Buzzer verlängern
-Um Step 3 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
+### Step 2: Kabel der Buttons und Buzzer verlängern
+Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
 
 Das in Step 1 verlötete Kabel solltet ihr noch mit einem Kabel (female-female) erweitern. Dieser Schritt ist notwendig, damit ihr die Buttons und Buzzer an die GPIO-PINS des Raspberry PI anschließen könnt.
 
@@ -79,32 +80,100 @@ Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise en
   1. Nehmt das Verbindungskabel RB-CB3-25 und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
   2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
   3. Nun nehmt ihr einen Button oder Buzzer, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
-  4. Danach solltet ihr die Lötstelle mit einer Kabelhülse oder einem Isolierband isolieren.
+  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen 
+  5. Nun solltet ihr die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband isolieren.
 
 Auch dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
 
 ### Step 3: Kabel an die LED der Buzzer anbringen
-Für die LED der Buzzer muss ebenfalls Step 1 durchgeführt werden. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot in unserem Projekt zu verwenden, um - und + zu unterscheiden.
+Für die LED der Buzzer werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
 
 Hierfür geht ihr wie folgt vor:
-  1. Kabel mit Hilfe der Abisolierzange abisolieren
-  2. 
+  1. Schneidet euch zwei Kabel in ausreichnder Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Ihr solltet hierfür ein blaues und ein rotes Kabel zur beseseren Unterscheidung benutzen.
+  2. Isoliert jeweils beide Kabelenden des blauen und roten Kabels mit einer Abisolierzange ab.
+  3. Als nächstes nehmt ihr das Kabelende des blauen Kabel und lötet dies mit Hilfe des Lötkolben an den ?????? an.
+  4. Nun nehmt ihr eines der Kabelnenden des roten Kabel und lötet dies an die gegenüberliegende Seite an. 
+  4. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am ????? isolieren.
 
+### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang verbinden
+Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Switchcontroller der Buttons und der Buzzer verbunden. Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüße sollte hierbei keine Rolle spielen, da dies über das Programm gesteuert wird.
 
-### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang miteinander verbinden
-Mit Hilfe des Crimp Kabelstrangs werden die einzelnden Switchcontroller der Buttons und Buzzer verbunden. Hierfür werden 10 Steckverbindungen benötigt. Die letzte Verbindung wird abgetrennt und das Kabel mit einer Abisolierzange abisoliert, damit dieses verlängert werden kann.
+Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere
+
+Dazu gehen wir folgendermaßen vor:
+  1. Als erstes nehmt ihr den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an den den blauen Arcade Button.
+  2. Der zweite Crimp Stecker wird an den Switchcontroller des roten Arcade Button angeschlossen.
+  3. Der dritte und vierte Crimp Stecker an die Switchcontroller des gelben und grünen Arcade Button.
+  4. Danach wird der schwarze Arcade Button verbunden gefolgt von den Player Buttons.
+  5. Am achten und neunten Crimp Stecker müsst ihr die zwei Buzzer anschließen.
+  
+Bisher habt ihr 9 der 35 Stecker verwendet. Die Verbindung müsst ihr nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
+
 ### Step 5: Insulated Daisy Chain Harness verlängern
-Wie schon erqähnt wird der Kabelstrang mit einem XX verlängert, damit dieses auch an einen der GPIO Pins am Raspberry angeschlossen werden kann. 
+Wie schon erwähnt verbinden wir nun das Ende des Kabelstrangs mit einem Verbindungskabel RB-CB3-25, damit dieses auch an einen der GPIO Pins am Raspberry angeschlossen werden kann. 
 
-### Step 5: Kabel an Neopixel löten
-### Step 4: Buttons und Buzzer mit GPIO von Raspberry verbinden
-### Step 6: Neopixel mit Arduino verbinden
-### Step 6: Arduino und Raspberry verbinden
-### Step 7: Raspberry und Monitor verbinden
+Hierfür führt ihr folgende Steps aus:
+  1. Den zehnten Crimp Stecker trennen wir nun ebenfalls mit einer Schere.
+  2. Danach solltet ihr das Kabelende mit einer Abisolierzange abisolieren.
+  3. Nun nehmt ihr das Verbindungskabel RB-CB3-25, welches die gleiche Farbe wie der Kabelstrang haben sollte, zur Hand und schenidet eines der Female Stücke ab, sodass das Kabel ausreichend lang ist.
+  4. Auch dieses Kabel müsst ihr am abgeschnittenen Ende abisolieren.
+  5. Als nächstes verlötet ihr das Ende des Crimp Kabelstrangs mit dem zuvor isolierten Verbindungskabel.
+  6. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
+
+### Step 6: Kabel an Neopixelstreifen löten
+Hierfür benötigt ihr folgendes: Lötkolben, Abisolierzange,
+
+Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die ???put Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Prrojekt haben wir die Farben 
+  - weiß = 5V 
+  - schwarz = GND 
+  - rot = ??? 
+verwendet.
+
+Die folgenden Schritte solltet ihr dabei beachten:
+  1. Als erstes benötigt ihr 3 Kabel in den Farben rot, schwarz weiß. Die Kabel sollten eine Länge von ca. 15cm haben.
+  2. An allen drei Kabeln solltet ihr beide Kabelenden mit einer Abisolierzange absisolieren.
+  2. Nachdem ihr die Kabel abisoliert habt, nehmt ihr nun das schwarze Kabel und lötet dies an den Punkt des NEopixelstreifen welcher mit 5V markiert ist an. 
+  3. Das selbe macht ihr mit dem roten Kabel. Dies sollte allerdings an den Punkt, welcher mit GND markiert ist, gelötet werden.
+  4. Auch mit dem weißen Kabel verfahrt ihr wieder so. Hierbei müsst ihr auch auf den korrekten Punkt, welcher ... ist, achten.
+  5. Als letztes solltet ihr die gelöteten Stelle mit einem Isolierband isolieren
+
+Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
+
+### Step 7: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
+Auch der Neopixelstreifen benötigt eine Verlängerung mit den Verbindungskabeln, um diese später an die PINS des Raspberry bzw. Arduino anschließen zu können. Es werden drei Verbindungskabel benötigt, diese solltet ihr nach den entsprechenden Farben (weiß, schwarz, rot) wählen.
+
+Die Vorgehensweise lautet wie folgt:
+  1. Zu Beginn nehmen wir das Verbindungskabel RB-CB3-25 in der Farbe weiß und schneiden es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
+  2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
+  3. Nun nehmt das weiße Kabel welches in Step 6 an den Neopixelstreifen gelötet wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
+  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen. 
+  5. Nun isolieren wir die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband.
+
+### Step 8: Buttons und Buzzer mit GPIO von Raspberry verbinden
+In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
+Die Pinbelegung des Raspberry lautet wie folgt.
+
+Arcade Button Blau: PIN
+Arcade Button Gelb: PIN
+Arcade Button Grün: PIN
+Arcade Button Rot: PIN
+Arcade Button Schwarz: PIN
+Arcade Button Player 1: PIN
+Arcade Button Player 2: PIN
+Buzzer 1: PIN
+Buzzer 2: PIN
+
+### Step 9: Neopixelstreifen mit Arduino verbinden
+
+### Step 10: Arduino und Raspberry verbinden
+Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her.
+
+### Step 11: Raspberry und Monitor verbinden
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht mit Hilfe eines Adapterkabel HDMI auf DVI.
 
 
-Würfel:
+## Step-by-Step Guide - Würfel
+
 ### Step 1: Löcher für die Buttons und Buzzer bohren
 Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zunächst Löcher an den Scheiben gebohrt werden.  
 
@@ -118,15 +187,20 @@ Aufzeichnen, mit Dremel oder einer Laubsäge sägen, Kanten abschleifen
 ### Step 5: Milchglasfolie anbringen
 Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Nachdem die Folie auf die richtig Größe geschnitten wurde, muss diese im nächsten Schritt auf dem Plexiglas angebracht werden.
 
+### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+
 ### Step 7: Plexiglasscheiben miteinander verkleben
 
 ### Step 8: Buttons und Buzzer anbringen
 
 ### Step 9: Zylinderschloss befestigen
 
-### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+### Step 11: Neopixel befestigen
 
-### Step 11: Arduino und Raspberry an Holzplatte anbringen
+### Step 11: Breadboard an Holzplatte kleben
+
+### Step 11: Arduino && Raspberry an Holzplatte anbringen
+
 
 
 ## Programmierung:
