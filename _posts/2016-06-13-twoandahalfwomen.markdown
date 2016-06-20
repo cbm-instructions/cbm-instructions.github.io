@@ -60,35 +60,35 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 
 ## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
-### Step 1: Kabel an Switchcontroller der Buttons und Buzzer löten
+### Step 1: Kabel an Switchcontroller der Arcade Buttons und Push Dome Buttons löten
 Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel (normal)
 
-Damit die Buttons verwendet werden können, müssen an den Switch Coontrollern der Buttons und der Buzzer Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
+Damit die Arcade Buttons verwendet werden können, müssen an den Switch Coontrollern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
-Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Buttons und die 2 Buzzer genutzt:
-  1. Schneidet euch ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nimmt Kabel in den Farben der Buttons und Buzzer, um diese besser zu unterscheiden.
+Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade Buttons und die 2 Push Dome Buttons genutzt:
+  1. Schneidet euch ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nehmt Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
   2. Isoliert jeweils beide Kabelenden mit einer Abisolierzange ab.
   3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
   4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
   
-Dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
+Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
-### Step 2: Kabel der Buttons und Buzzer verlängern
+### Step 2: Kabel der Arcade Buttons und Push Dome Buttons verlängern
 Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
 
-Das in Step 1 verlötete Kabel solltet ihr noch mit einem Kabel (female-female) erweitern. Dieser Schritt ist notwendig, damit ihr die Buttons und Buzzer an die GPIO-PINS des Raspberry PI anschließen könnt.
+Das in Step 1 verlötete Kabel solltet ihr noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit ihr die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen könnt.
 
 Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise entschieden:
   1. Nehmt das Verbindungskabel RB-CB3-25 und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
   2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
-  3. Nun nehmt ihr einen Button oder Buzzer, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
+  3. Nun nehmt ihr einen Arcade Button oder Push Dome Button, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
   4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen 
   5. Nun solltet ihr die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband isolieren.
 
-Auch dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
+Auch dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
-### Step 3: Kabel an die LED der Buzzer anbringen
-Für die LED der Buzzer werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
+### Step 3: Kabel an die LED der Push Dome Buttons anbringen
+Für die LED der Push Dome Buttons werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
 
 Hierfür geht ihr wie folgt vor:
   1. Schneidet euch zwei Kabel in ausreichnder Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Ihr solltet hierfür ein blaues und ein rotes Kabel zur beseseren Unterscheidung benutzen.
@@ -97,7 +97,7 @@ Hierfür geht ihr wie folgt vor:
   4. Nun nehmt ihr eines der Kabelnenden des roten Kabel und lötet dies an die gegenüberliegende Seite an. 
   4. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am ????? isolieren.
 
-### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang verbinden
+### Step 4: Switchcontroller der Arcade Buttons und Push Dome Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Switchcontroller der Buttons und der Buzzer verbunden. Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüße sollte hierbei keine Rolle spielen, da dies über das Programm gesteuert wird.
 
 Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere
@@ -107,7 +107,7 @@ Dazu gehen wir folgendermaßen vor:
   2. Der zweite Crimp Stecker wird an den Switchcontroller des roten Arcade Button angeschlossen.
   3. Der dritte und vierte Crimp Stecker an die Switchcontroller des gelben und grünen Arcade Button.
   4. Danach wird der schwarze Arcade Button verbunden gefolgt von den Player Buttons.
-  5. Am achten und neunten Crimp Stecker müsst ihr die zwei Buzzer anschließen.
+  5. Am achten und neunten Crimp Stecker müsst ihr die zwei Push Dome Buttons anschließen.
   
 Bisher habt ihr 9 der 35 Stecker verwendet. Die Verbindung müsst ihr nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
 
@@ -151,9 +151,11 @@ Die Vorgehensweise lautet wie folgt:
   4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen. 
   5. Nun isolieren wir die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband.
 
-### Step 8: Buttons und Buzzer mit GPIO von Raspberry verbinden
+### Step 8: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry verbinden
 In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
 Die Pinbelegung des Raspberry lautet wie folgt.
+
+![GPIO](/images//twoandahalfwomen/????.jpg)
 
 Arcade Button Blau: PIN
 Arcade Button Gelb: PIN
@@ -162,8 +164,8 @@ Arcade Button Rot: PIN
 Arcade Button Schwarz: PIN
 Arcade Button Player 1: PIN
 Arcade Button Player 2: PIN
-Buzzer 1: PIN
-Buzzer 2: PIN
+Push Dome Button 1: PIN
+Push Dome Button 2: PIN
 
 ### Step 9: Neopixelstreifen mit Arduino verbinden
 
@@ -194,7 +196,7 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 
 ### Step 7: Plexiglasscheiben miteinander verkleben
 
-### Step 8: Buttons und Buzzer anbringen
+### Step 8: Arcade Buttons und Push Dome Buttons anbringen
 
 ### Step 9: Zylinderschloss befestigen
 
