@@ -1,0 +1,148 @@
+---
+title: "How to make your staircase light up to impress your friends and enemies - oder - Stairway to Heaven"
+categories: instructions
+layout: post
+date: 2016-06-08 15:09:51 +0200
+--- 
+<!-- Arbeitstitel, Regeln für "good title" auf intructables:
+Good title: How to make a ### to help you ### for less than $###.
+Good title: Improve your ### by ### and ###. -->
+
+Mit unserem Projekt werden ihr Freunde und Feinde begeistern indem ihr jeden eurer Schritte auf euerer Treppe erleuchtet. Mit etwas Technik, einem Arduino und ganz viel Magie bringt ihr eure Treppe zum strahlen.
+
+## Unser Projekt
+
+Im Rahmen des Kurses "Challange Based Making" an der Fakultät für Informatik der Hochschule Mannheim haben wir die Aufgabe bekommen die Räumlichkeiten der Informatik ansprechender und repräsentativer zu gestalten. Zusätzlich sollten wir für das Fach Informatik begeistern. Nach Gesprächen mit Fakultätsangehörigen und Gästen haben wir uns eine Perspektive gesucht aus der wir das Problem bearbeitet haben. Unser prototypischer Informatikstudent Alfred möchte, dass andere seine Leidenscahft nachvollziehen und respektieren, weil er sich mit dieser identifiziert und stolzer Informatiker ist.
+So kamen wir neben anderen Ideen auch auf die Idee die große Treppe im Eingangsbereich des Informatikgebäudes zu beleuchten. Aber nicht irgendwie zu beleuchten, sondern jeden einzelnen Schritt auf der Treppe in den Informatikhimmel. Jede der Treppen wird mit einem NeoPixel-LED-Streifen beleuchtet sobald eine Infrarot-Lichtschranke unterbrochen wird. Ein Einplatinencomputer, Arduino Uno, steuert die Lichtschranke und die Beleuchtung. Zudem können in Zukunft Umwelteinflüsse berücksichtigt werden. Bei schlechtem Wetter werden wärmere Farben zur Beleuchtung gewählt bei warmem Wetter kühle Farben. Außerdem ist ein "Bildschirmschoner" denkbar, der auch abends das Interesse von außen weckt.
+Mit Hilfe dieser Anleitung werden wir euch Schritt für Schritt erklären wie man eine Stufe mit einem Arudino dynamisch beleuchtet. Zudem zeigen wir euch wie man dies auf mehrere Stufen skalieren kann und worauf zu achten ist. Gerade bei der Skalierung wird aber ein wenig Experimentierfreude von nöten sein, da je nach Treppengröße andere Materialien nötig sind. Auch beim Verbauen der Materialien an der Treppe können wir nur unser Beispiel zeigen und Tipps geben, die bei eurer ganz individuellen Treppe hilfreich sein können.
+
+<!--BILD ODER VIDEO/GIF DER FERTIGEN TREPPE -->
+
+## Grundlagen für dieses Projekt
+
+Für diese Anleitung sind Lötkenntnisse ([kurzes Tutorial](https://www.youtube.com/watch?v=T5v3illPk8I "Kurzes Löttutorial"), [langes Tutorial](https://www.youtube.com/watch?v=Arj34uQoLdM "Mehrteiliges Löttutorial")) und Kenntnisse im Umgang mit dem Arudiuno ([deutsches Tutorial](http://www.arduino-tutorial.de/ "Deutsches Tutorial"), [englisches Tutorial](https://www.arduino.cc/en/Guide/HomePage "Englisches Tutorial")) nötig.
+
+## Schritt 1: Benötigte Materialien und Werkzeuge
+
+<!--Bild aller Materialien -> Collage* -->
+
+Wir brauchen für eine Stufe:
+* Material:
+    * [Arduino Uno] (http://www.elv.de/franzis-arduino-uno-platine-r3-dil.html)
+    * Ausgemustertes PC Netzteil
+    * [Projektbox 72 x 50 x 28 mm für die Steuerung der Lichtschranke](https://www.conrad.de/de/universal-gehaeuse-72-x-50-x-28-kunststoff-schwarz-kemo-g026-1-st-530805.html)
+    * [Projektbox 50 x 35 x 20 cm für den Ifrarotemitter](https://www.conrad.de/de/universal-gehaeuse-50-x-35-x-20-abs-schwarz-hammond-electronics-1551grbk-1-st-459367.html)
+    * [10 Meter Litze zur Verkabelung](https://www.conrad.de/de/litze-liy-z-2-x-04-mm-rot-rot-schwarz-conrad-sh1998c506-10-m-1078796.html?sc.queryFromSuggest=true)
+    * [5 Meter NeoPixel-LED-Streifen](https://www.adafruit.com/product/1138)
+    * [5 Meter Klebematerial](http://www.bueroshop24.de/UgsProductView?lkz=237722&gclid=CLbZwtj-tM0CFY8y0wodQYICbQ&itemSelected=true&articleNumber=351189) oder zwei Packungen [Patafix](https://www.office-profishop.com/product_info.php?info=p24687&rt=7&vx=4&gclid=CMTGgff-tM0CFUqeGwodXpQNfQ)
+    * [Ein IR-Emitter](https://www.conrad.de/de/ir-emitter-950-nm-5-5-mm-radial-bedrahtet-osram-components-sfh-4545-525218.html)
+    * [Ein IR-Empfänger](https://www.conrad.de/de/ir-empfaenger-sonderform-axial-bedrahtet-38-khz-950-nm-vishay-tsop4838-171115.html?sc.queryFromSuggest=true)
+	* [Kohlewiderstand 330 Ohm](https://www.conrad.de/de/kohleschicht-widerstand-330-axial-bedrahtet-0207-025-w-yageo-cfr-25jt-52-330r-1-st-1417730.html?sc.queryFromSuggest=true)
+	* [Kohlewiderstand 220 Ohm](https://www.reichelt.de/1-4W-5-100-Ohm-910-Ohm/1-4W-220/3/index.html?ACTION=3&GROUPID=3064&ARTICLE=1382)
+	* [Kohlewiderstand 30 Ohm] (https://www.reichelt.de/1-4W-5-10-Ohm-91-Ohm/1-4W-30/3/index.html?ACTION=3&GROUPID=3063&ARTICLE=1405)
+	* [Transistor TIP120](https://www.conrad.de/de/darlington-leistungstransistor-stmicroelectronics-tip120-npn-gehaeuseart-to-220-i-c-5-a-emitter-sperrspannung-u-ceo-60-v-150872.html?sc.queryFromSuggest=true)
+	* [Kondensator 1000 µF 6.3 V](https://www.conrad.de/de/elektrolyt-kondensator-smd-1000-f-63-v-20-x-h-10-mm-x-8-mm-nichicon-pcg0j102mcl1gs-1-st-402390.html)
+    * [Tantal-Kondensator 2.2 µF 35V](https://www.conrad.de/de/tantal-kondensator-radial-bedrahtet-25-mm-22-f-35-vdc-10-1-st-481688.html)
+	* [Kondensator 10nF Kdpu](http://www.voelkner.de/products/35056/Kondensator-10nF-Kdpu-2-54mm.html)
+	* Lötzinn
+    * [Platine aus Hartpapier](https://www.conrad.de/de/platine-hartpapier-l-x-b-160-mm-x-100-mm-35-m-rastermass-254-mm-wr-rademacher-wr-typ-715-5-inhalt-1-st-521140.html)
+* Werkzeuge:
+    * Laptop
+    * Lötkolben oder Lötstation
+	* Lötunterlage
+    * Abisolierzange
+    * Nasser Schwamm/ Lötschwamm
+	* Bohrmaschine oder Akkuschrauber
+	* Borher 5 mm
+    * Schere
+	* Teppichmesser
+    * Maßband
+    * Stift und Papier
+    * Taschenrechner
+* Software:
+    * Arduino Studio
+	* [Ardafruit NeoPixel Library](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
+	* [IR-Bibliothek]()
+
+> Anmerkung: Material abgestimmt auf eine große 5 Meterstufe mit temporärer Befästigung. Bei kleineren Stufen entsprechend schwächeres Netzteil möglich, kleinere Dioden usw. Außerdem ist ggf. eine dauerhafte Anbringung möglich. Darauf gehen wir bei jedem Schritt noch ein.
+
+## Schritt 2: Ausmessen der Treppe und Planung des Projekts
+
+### Schritt 2.1: Die Treppe ausmessen und Verbauung planen
+
+_Für diesen Schritt brauchen wir: Maßband, Stift und Papier, Kreativität._
+<!--Bild unserer Treppe* -->
+Zunächst solltet ihr euch klar werden welche Treppen ihr beleuchten möchtet. So könnt ihr das benötigte Material planen und austüfteln, wie ihr die Beleuchtung verbauen möchtet. Die von uns eingesetzten LED-Streifen sind recht robust, so dass es beim Verbauen kaum Probleme geben sollte. Am einfachsten ist es, wenn eure Trppenstufen einen kleinen Sockel haben. Dann kann man die LED-Streifen bequem von unten an der Treppe befestigen. Sollte kein Sockel vorhanden sein müsst ihr ggf. über zusätzlichen Schutz für die Streifen bzw. auch über eine eventuelle Stolpergefahr nachdenken.
+Ihr messt also die breite der Stufen von links nach rechts. Das sind bei uns fünf Meter und wir haben vier Stufen zu beleuchten. Eine Treppe daheim ist in der Regel deutlich schmaler, was auch die Stromversorgung vereinfacht, aber dazu später mehr.
+Wenn ihr die Treppe ausgemessen habt wisst ihr auch wie viel Litze und LED-Streifen ihr benötigt.
+
+Um am Ende alles an der Treppe zu verbauen gibt es auch verschiedene Möglichkeiten. Die von uns empfohlenen LED-Streifen sind bereits in einen Kunststoffschlauch integriert, so dass ihr diese einfach verarbeiten könnt. Am einfachsten könnt ihr diese mit einem [starken, doppelseitigen Klebeband] (http://www.bueroshop24.de/UgsProductView?lkz=237722&gclid=CLbZwtj-tM0CFY8y0wodQYICbQ&itemSelected=true&articleNumber=351189) befestigen. Damit kann man den Streifen auch permanent befestigen. Wir haben uns entschieden [Patafix](https://www.office-profishop.com/product_info.php?info=p24687&rt=7&vx=4&gclid=CMTGgff-tM0CFUqeGwodXpQNfQ) zu nutzen, da wir die Beleuchtung auch wieder abbauen müssen.
+Um die Steuereinheit und die Lichtschranke zu verbauen haben wir uns für Projektboxen entschieden, da bei uns die Boxen gut am Sockel zu verstecken sind. Wenn die Verbauung subtiler geschechen muss bietet es sich an hier kreativ zu werden udn eine andere Art der Aufbewahrung zu wählen. Denkbar wären Holzkästen oder passendfarbige Plastikboxen. Wichtig ist hier, dass Empfänger und Emitter gut geschützt sind, da dies empfindliche Bauteile sind.
+
+Macht euch hier zunächst auf jeden Fall einen Plan und recerchiert auch im Internet entsprechende Möglichkeiten eure Bauteile zu verbauen.
+
+### Schritt 2.1: Stromversorgung planen
+
+_Für diesen Schritt brauchen wir: Ein wenig Mathematik, Stift, Papier_
+
+Dieser Schritt ist vor allem bei sehr breiten Treppen wichtig. Die von uns genutzten LED-Streifen enthalten sehr viele LEDs pro Meter und sind damit auch sehr hell. Dadurch brauchen sie aber auch vergleisweise viel Strom. Bei Treppen mit einer Breite von bis zu zwei Metern sollte die Stromversorgung kein Problem darstellen und starke, Handelsübliche 5V-Netzteile sollten ihren Diens tun. Damit ihr jedoch auf Nummer sicher gehen könnt und lange Spaß an eurem Projekt habt zeigen wir euch hier wie ihr eine professionelle Stromversorgung plant.
+Zunächst braucht ihr in der Nähe der Treppe einen Steckdose. Ist keine in der Nähe so müsst ihr euch über eine Verlängerung Gedanken machen. Bei mehreren Stufen benötigt ihr ggf. auch mehrere  Steckdosen. Auch diese wollen um ein ansehnliches Ergebnis zu erzielen versteckt werdne. Bedenkt das also bei der Planung eurer Verbauung.
+
+<!-- Rechnung für LED-Streifen aufmachen!-->
+
+## Schritt 3: Die Hardware
+
+In diesem Schritt zeigen wir euch wie ihr die Hardwarekomponenten erstellt. Zunächst erstellen wir die Lichtschranke, danach schließen wir die Neopixel an. Das Gesamtsystem wird schematisch am Ende wie folgt aussehen:
+
+<!-- Schaltplan Gesamtsystem! -->
+
+### Schritt 3.1: Aufbau der Lichtschranke
+
+#### Die Steuereinheit
+
+_Für diesen Schritt brauchen wir:Arudino, große Projektbox, Platine, Transistor,_
+
+Zunächst kümmern wir uns um die zentrale Steuereinheit des Systems. Hier läuft am Ende alles zusammen. Die Empfängerdaten werden hier ankommen und die Neopixel von hieraus gesteuert. Für unsere Treppe haben wir uns entschieden den IR-Empfänger mit der Steuereinheit zu verbauen und an der Treppe anzubringen. Bei anderen Treppen, die weniger Platz bieten ist es sicherlich sinnvoll die Steuereinheit und den IR-Emitter zu trennen.
+
+Zuschneiden Platine. Ausmassen und an antsprechende Stelle einritzen und dann an Tischkante brechen.
+
+* Arduino verbauen
+* Schaltplan
+* Bauanleitung, Lötanleitung
+* Housing
+* Wichtigkeit Leistung IR-Diode
+* Alternative: Ultraschall, Laser
+
+Test zum Schutz vor Kurzschlüssen
+Kleine Litze zur Verbindung von einzelnen Komponenten
+
+Kondensator umbiegen
+
+Platine 32 * 55 mm zum aufsetzen auf Arduino
+
+Platine 5 * 30 mm für Emitter Für Sensor.
+
+#### Der IR-Emitter
+
+_Für diesen Schritt brauchen wir:_
+* Verlöten
+* Verkabeln
+* Housen
+
+Platine 5 * 30 mm für Emitter
+
+#### Der Code
+
+_Für diesen Schritt brauchen wir:_
+
+Installation Libraries in Arduino Studio
+
+## Schritt 4: Anschluss der Neopixel
+
+_Für diesen Schritt brauchen wir:_
+
+### Der Code
+
+## Schritt 5: Verbauen an der Treppe
+
+_Für diesen Schritt brauchen wir:_
