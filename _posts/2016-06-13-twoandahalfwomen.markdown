@@ -14,9 +14,10 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 ## Verwendete Materialien und Werkzeuge:
 
 ### Materialien:
-  - 4x Plexiglas (25cmx25cm)
+  - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm)
+  - 1 x Plexiglas (24,05cm x 25,25cm x 0,04cm) 
   - Milchglasfolie
-  - 1x MDF Platte schwarz (27cm x 30cm x 19mm) 
+  - 1x MDF Platte schwarz (27cm x 30cm x 0,19cm) 
   - 1x Raspberry Pi 3 
   - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
   - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
@@ -24,17 +25,19 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 1x Arduino Uno
   - 1x Netzteil für Arduino Uno ????? Was für ein Netzteil
   - 1x Laptop/PC um den Arduino zu programmieren
-  - 1x Breadboard
+  - 1x Breadboard (https://www.conrad.de/de/steckplatine-selbstklebend-polzahl-gesamt-830-l-x-b-x-h-165-x-55-x-85-mm-eic-102-1-st-526835.html?sc.ref=Product%20Details)
   - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
   - Insulated Daisy Chain Harness with 32 Crimp Connections [= Isolierter verketteter Kabelstrang mit 32 Crimpverbindungen] (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
-  - Pins
-  - Verbindungen Pins
+  - Verbindungskabel RB-CB3-25 (https://www.conrad.de/de/raspberry-pi-verbindungskabel-rb-cb3-25-1182193.html)
+  - Pins für Verbindungskabel
   - 1x Universalzylinderschloss
   - 1x 19 Zoll Monitor
   - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
+  - 2x Acryl Scharniere 64mm (https://www.amazon.de/gp/product/B00R0BCWNU/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
+  - Tesa Power Strips (Foto Dinger)
 
 ### Werkzeuge:
   - Lötkolben
@@ -42,18 +45,15 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Aufsatz Dremel Schleifscheibe/Trennscheibe
   - Aufsatz Dremel Minikreissägeblatt
   - Standbohrmaschine
-  - Lochfräse
-  - Bohrer klein (vorbohren)
-  - Bohrer für Zylinderschloss
+  - Lochsäge Ø25mm
+  - 6er Bohrer  
+  - Forstner Bohrer Ø??mm für Zylinderschloss
   - Pattex Kleber
   - Schere
   - Abisolierzange
-  - 
-  - 
-  - ??
-- Alles genau beschreiben (ID des Bauteils; genauer Name; auch für Kabel, ...)
-- Evtl. Links zu Shops und Datasheets
-
+  - Cutter Messer
+  - Geodreieck
+  - Kugelschreiber
 
 ## Step-by-Step Guide
 
@@ -68,7 +68,7 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Button
   3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
   4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
   
-  Dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
+Dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
 
 ### Step 3: Kabel der Buttons und Buzzer verlängern
 Um Step 3 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
@@ -76,23 +76,29 @@ Um Step 3 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kab
 Das in Step 1 verlötete Kabel solltet ihr noch mit einem Kabel (female-female) erweitern. Dieser Schritt ist notwendig, damit ihr die Buttons und Buzzer an die GPIO-PINS des Raspberry PI anschließen könnt.
 
 Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise entschieden:
-  1. Nehmt das Kabel (female-female) und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
+  1. Nehmt das Verbindungskabel RB-CB3-25 und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
   2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
-  3. Nun nehmt ihr einen Button oder Buzzer, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolbens.
+  3. Nun nehmt ihr einen Button oder Buzzer, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
   4. Danach solltet ihr die Lötstelle mit einer Kabelhülse oder einem Isolierband isolieren.
 
 Auch dieses Vorgehen wurde für alle Buttons und Buzzer dieses Projektes angewandt.
 
-### Step 3: Kabel an die LED Leuchte der Buzzer anbringen
-Für die LED der Buzzer muss ebenfalls Step 1 durchgeführt werden. AllerdingsAuch hier ist es ratsam verschiedenfarbige Kabel zu verwenden, um + und - zu unterscheiden.
+### Step 3: Kabel an die LED der Buzzer anbringen
+Für die LED der Buzzer muss ebenfalls Step 1 durchgeführt werden. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot in unserem Projekt zu verwenden, um - und + zu unterscheiden.
+
+Hierfür geht ihr wie folgt vor:
+  1. Kabel mit Hilfe der Abisolierzange abisolieren
+  2. 
 
 
 ### Step 4: Switchcontroller der Buttons und Buzzer mit dem Insulated Daisy Chain Kabelstrang miteinander verbinden
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnden Switchcontroller der Buttons und Buzzer verbunden. Hierfür werden 10 Steckverbindungen benötigt. Die letzte Verbindung wird abgetrennt und das Kabel mit einer Abisolierzange abisoliert, damit dieses verlängert werden kann.
 ### Step 5: Insulated Daisy Chain Harness verlängern
 Wie schon erqähnt wird der Kabelstrang mit einem XX verlängert, damit dieses auch an einen der GPIO Pins am Raspberry angeschlossen werden kann. 
+
+### Step 5: Kabel an Neopixel löten
 ### Step 4: Buttons und Buzzer mit GPIO von Raspberry verbinden
-### Step 5: Neopixel mit Arduino verbinden
+### Step 6: Neopixel mit Arduino verbinden
 ### Step 6: Arduino und Raspberry verbinden
 ### Step 7: Raspberry und Monitor verbinden
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht mit Hilfe eines Adapterkabel HDMI auf DVI.
