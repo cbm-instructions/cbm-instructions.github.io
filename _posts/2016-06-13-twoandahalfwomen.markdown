@@ -56,6 +56,8 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Geodreieck
   - Kugelschreiber
 
+
+
 ## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
 ### Step 1: Kabel an Switchcontroller der Buttons und Buzzer löten
@@ -170,6 +172,7 @@ Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her.
 
 ### Step 11: Raspberry und Monitor verbinden
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht mit Hilfe eines Adapterkabel HDMI auf DVI.
+
 
 
 ## Step-by-Step Guide - Würfel
