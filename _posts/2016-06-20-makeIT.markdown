@@ -14,7 +14,11 @@ Nach Gesprächen mit Fakultätsangehörigen und Gästen haben wir uns eine Persp
 
 
 So kamen wir neben anderen Ideen auch auf die Idee, die große Treppe im Eingangsbereich des Informatikgebäudes zu beleuchten. Aber nicht irgendwie zu beleuchten, sondern jeden einzelnen Schritt auf der Treppe in den Informatikhimmel. Jede der Treppen wird mit einem NeoPixel-LED-Streifen beleuchtet sobald eine Infrarot-Lichtschranke unterbrochen wird. Ein Einplatinencomputer, Arduino Uno, steuert die Lichtschranke und die Beleuchtung.
+
+
 Zudem können in Zukunft Umwelteinflüsse berücksichtigt werden. Bei schlechtem Wetter werden wärmere Farben zur Beleuchtung gewählt bei warmem Wetter kühle Farben. Außerdem ist ein "Bildschirmschoner" denkbar, der auch abends das Interesse von außen weckt.
+
+
 Mit Hilfe dieser Anleitung werden wir euch Schritt für Schritt erklären, wie man eine Stufe mit einem Arduino dynamisch beleuchtet. Zudem zeigen wir euch, wie man dies auf mehrere Stufen skalieren kann und worauf zu achten ist. Gerade bei der Skalierung wird aber ein wenig Experimentierfreude vonnöten sein, da je nach Treppengröße andere Materialien nötig sind.
 Auch beim Verbauen der Materialien an der Treppe können wir nur unser Beispiel zeigen und Tipps geben, die bei eurer ganz individuellen Treppe hilfreich sein können.
 
