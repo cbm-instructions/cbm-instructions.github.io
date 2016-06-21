@@ -21,47 +21,49 @@ Für diese Anleitung sind Lötkenntnisse ([kurzes Tutorial](https://www.youtube.
 
 ## Schritt 1: Benötigte Materialien und Werkzeuge
 
-![Bauteile](/images/makeit/ÜbersichtBauteile.jpg)
+![Bauteile](/images/makeit/ÜbersichtBauteile.JPG)
 
 Wir brauchen für eine Stufe:
-* Material:
-    * [Arduino Uno] (http://www.elv.de/franzis-arduino-uno-platine-r3-dil.html)
-    * Ausgemustertes PC Netzteil
-    * [Projektbox 72 x 50 x 28 mm für die Steuerung der Lichtschranke](https://www.conrad.de/de/universal-gehaeuse-72-x-50-x-28-kunststoff-schwarz-kemo-g026-1-st-530805.html)
-    * [Projektbox 50 x 35 x 20 cm für den Ifrarotemitter](https://www.conrad.de/de/universal-gehaeuse-50-x-35-x-20-abs-schwarz-hammond-electronics-1551grbk-1-st-459367.html)
-    * [10 Meter Litze zur Verkabelung](https://www.conrad.de/de/litze-liy-z-2-x-04-mm-rot-rot-schwarz-conrad-sh1998c506-10-m-1078796.html?sc.queryFromSuggest=true)
-    * [5 Meter NeoPixel-LED-Streifen](https://www.adafruit.com/product/1138)
-    * [5 Meter Klebematerial](http://www.bueroshop24.de/UgsProductView?lkz=237722&gclid=CLbZwtj-tM0CFY8y0wodQYICbQ&itemSelected=true&articleNumber=351189) oder zwei Packungen [Patafix](https://www.office-profishop.com/product_info.php?info=p24687&rt=7&vx=4&gclid=CMTGgff-tM0CFUqeGwodXpQNfQ)
-    * [Stiftleiste](https://www.conrad.de/de/stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-36-fci-77311-102-36lf-1-st-1401716.html)
-	* [Ein IR-Emitter](https://www.conrad.de/de/ir-emitter-950-nm-5-5-mm-radial-bedrahtet-osram-components-sfh-4545-525218.html)
-    * [Ein IR-Empfänger](https://www.conrad.de/de/ir-empfaenger-sonderform-axial-bedrahtet-38-khz-950-nm-vishay-tsop4838-171115.html?sc.queryFromSuggest=true)
-	* [Kohlewiderstand 330 Ohm](https://www.conrad.de/de/kohleschicht-widerstand-330-axial-bedrahtet-0207-025-w-yageo-cfr-25jt-52-330r-1-st-1417730.html?sc.queryFromSuggest=true)
-	* [Kohlewiderstand 220 Ohm](https://www.reichelt.de/1-4W-5-100-Ohm-910-Ohm/1-4W-220/3/index.html?ACTION=3&GROUPID=3064&ARTICLE=1382)
-	* [Kohlewiderstand 30 Ohm] (https://www.reichelt.de/1-4W-5-10-Ohm-91-Ohm/1-4W-30/3/index.html?ACTION=3&GROUPID=3063&ARTICLE=1405)
-	* [Transistor TIP120](https://www.conrad.de/de/darlington-leistungstransistor-stmicroelectronics-tip120-npn-gehaeuseart-to-220-i-c-5-a-emitter-sperrspannung-u-ceo-60-v-150872.html?sc.queryFromSuggest=true)
-	* [Kondensator 1000 µF 6.3 V](https://www.conrad.de/de/elektrolyt-kondensator-smd-1000-f-63-v-20-x-h-10-mm-x-8-mm-nichicon-pcg0j102mcl1gs-1-st-402390.html)
-    * [Tantal-Kondensator 2.2 µF 35V](https://www.conrad.de/de/tantal-kondensator-radial-bedrahtet-25-mm-22-f-35-vdc-10-1-st-481688.html)
-	* [Kondensator 10nF Kdpu](http://www.voelkner.de/products/35056/Kondensator-10nF-Kdpu-2-54mm.html)
-	* Lötzinn
-    * [Platine aus Hartpapier](https://www.conrad.de/de/platine-hartpapier-l-x-b-160-mm-x-100-mm-35-m-rastermass-254-mm-wr-rademacher-wr-typ-715-5-inhalt-1-st-521140.html)
-* Werkzeuge:
-    * Laptop
-    * Lötkolben oder Lötstation
-	* Lötunterlage
-    * Abisolierzange
-	* Kneifzange
-    * Nasser Schwamm/ Lötschwamm
-	* Bohrmaschine oder Akkuschrauber
-	* Borher 5 mm
-    * Schere
-	* Teppichmesser
-    * Maßband
-    * Stift und Papier
-    * Taschenrechner
-	* Kreuzschraubenzieher 3mm
-* Software:
-    * Arduino IDE, z.B. [PlatformIO](http://platformio.org/platformio-ide)
-	* [Ardafruit NeoPixel Library](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
-	* [IR-Library](https://github.com/z3t0/Arduino-IRremote)
+
+- Material:
+    - [Arduino Uno] (http://www.elv.de/franzis-arduino-uno-platine-r3-dil.html)
+    - Ausgemustertes PC Netzteil
+    - [Projektbox 72 * 50 * 28 mm für die Steuerung der Lichtschranke](https://www.conrad.de/de/universal-gehaeuse-72-x-50-x-28-kunststoff-schwarz-kemo-g026-1-st-530805.html)
+    - [Projektbox 50 * 35 * 20 cm für den Ifrarotemitter](https://www.conrad.de/de/universal-gehaeuse-50-x-35-x-20-abs-schwarz-hammond-electronics-1551grbk-1-st-459367.html)
+    - [10 Meter Litze zur Verkabelung](https://www.conrad.de/de/litze-liy-z-2-x-04-mm-rot-rot-schwarz-conrad-sh1998c506-10-m-1078796.html?sc.queryFromSuggest=true)
+    - [5 Meter NeoPixel-LED-Streifen](https://www.adafruit.com/product/1138)
+    - [5 Meter Klebematerial](http://www.bueroshop24.de/UgsProductView?lkz=237722&gclid=CLbZwtj-tM0CFY8y0wodQYICbQ&itemSelected=true&articleNumber=351189) oder zwei Packungen [Patafix](https://www.office-profishop.com/product_info.php?info=p24687&rt=7&vx=4&gclid=CMTGgff-tM0CFUqeGwodXpQNfQ)
+    - [Stiftleiste](https://www.conrad.de/de/stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-36-fci-77311-102-36lf-1-st-1401716.html)
+	- [Ein IR-Emitter](https://www.conrad.de/de/ir-emitter-950-nm-5-5-mm-radial-bedrahtet-osram-components-sfh-4545-525218.html)
+    - [Ein IR-Empfänger](https://www.conrad.de/de/ir-empfaenger-sonderform-axial-bedrahtet-38-khz-950-nm-vishay-tsop4838-171115.html?sc.queryFromSuggest=true)
+	- [Kohlewiderstand 330 Ohm](https://www.conrad.de/de/kohleschicht-widerstand-330-axial-bedrahtet-0207-025-w-yageo-cfr-25jt-52-330r-1-st-1417730.html?sc.queryFromSuggest=true)
+	- [Kohlewiderstand 220 Ohm](https://www.reichelt.de/1-4W-5-100-Ohm-910-Ohm/1-4W-220/3/index.html?ACTION=3&GROUPID=3064&ARTICLE=1382)
+	- [Kohlewiderstand 30 Ohm] (https://www.reichelt.de/1-4W-5-10-Ohm-91-Ohm/1-4W-30/3/index.html?ACTION=3&GROUPID=3063&ARTICLE=1405)
+	- [Transistor TIP120](https://www.conrad.de/de/darlington-leistungstransistor-stmicroelectronics-tip120-npn-gehaeuseart-to-220-i-c-5-a-emitter-sperrspannung-u-ceo-60-v-150872.html?sc.queryFromSuggest=true)
+	- [Kondensator 1000 µF 6.3 V](https://www.conrad.de/de/elektrolyt-kondensator-smd-1000-f-63-v-20-x-h-10-mm-x-8-mm-nichicon-pcg0j102mcl1gs-1-st-402390.html)
+    - [Tantal-Kondensator 2.2 µF 35V](https://www.conrad.de/de/tantal-kondensator-radial-bedrahtet-25-mm-22-f-35-vdc-10-1-st-481688.html)
+	- [Kondensator 10nF Kdpu](http://www.voelkner.de/products/35056/Kondensator-10nF-Kdpu-2-54mm.html)
+	- Lötzinn
+    - [Platine aus Hartpapier](https://www.conrad.de/de/platine-hartpapier-l-x-b-160-mm-x-100-mm-35-m-rastermass-254-mm-wr-rademacher-wr-typ-715-5-inhalt-1-st-521140.html)
+- Werkzeuge:
+    - Laptop
+    - Lötkolben oder Lötstation
+	- Lötunterlage
+    - Abisolierzange
+	- Kneifzange
+    - Nasser Schwamm/ Lötschwamm
+	- Bohrmaschine oder Akkuschrauber
+	- Borher 5 mm
+    - Schere
+	- Teppichmesser
+    - Maßband
+    - Stift und Papier
+    - Taschenrechner
+	- Kreuzschraubenzieher 3mm
+- Software:
+    - Arduino IDE, z.B. [PlatformIO](http://platformio.org/platformio-ide)
+	- [Ardafruit NeoPixel Library](https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation)
+	- [IR-Library](https://github.com/z3t0/Arduino-IRremote)
 
 > Anmerkung: Das oben aufelistete Material ist abgestimmt auf eine große Stufe mit einer breite von fünf Metern und mit temporärer Befästigung. Bei kleineren Stufen kann auch ein entsprechend schwächeres Netzteil genutzt werden.
+
