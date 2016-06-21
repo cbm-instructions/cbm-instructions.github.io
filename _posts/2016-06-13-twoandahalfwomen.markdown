@@ -230,7 +230,8 @@ Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Librarie
 5. `$ sudo apt-get install python3-sqlalchemy` 
 6. `$ sudo apt-get install python3-pyqt4`
 7. `$ sudo apt-get install qt4-designer`
-8. `$ git clone https://github.com/cbm-instructions/two-and-a-half-women.git`
+9. `$ sudo apt-get install python3-serial`
+10. `$ git clone https://github.com/cbm-instructions/two-and-a-half-women.git`
 
 Wenn man nur die Software installieren will ohne eigene Modifikationen an der GUI vorzunehmen muss Schritt 7 nicht ausgeführt werden.
 Der Qt4 Designer wird nur benötigt um die GUI zu erstellen bzw. zu modifizieren.
