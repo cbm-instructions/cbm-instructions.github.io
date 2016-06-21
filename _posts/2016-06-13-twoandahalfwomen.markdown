@@ -169,27 +169,61 @@ Push Dome Button 2: PIN
 
 ### Step 9: Neopixelstreifen mit Arduino verbinden
 
+Wenn an der einen Seite des LED Streifens noch keine Verbindungskabel angebracht sind müssen diese zuerst angelötet werden bevor der LED Streifen benutzt werden kann.
+
+Beim Anlöten darauf achten, dass die INPUT Seite des Streifens verwendet wird. Diese erkennst du an dem Pfeil der in das Innere des Streifens zeigt. 
+
+Danach sollte dies so aussehen wie auf dem folgenden Bild:
+
+//neopixel bild mit angelöteten Pins
+
+Danach kannst du den GROUND und den 5V Pin an den GROUND sowie 5V Pin des Arduinos stecken. Das letzte Verbindungskabel kommt an PIN Nummer 6 des Arduinos.
+
 ### Step 10: Arduino und Raspberry verbinden
-Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her.
+Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten.
 
 ### Step 11: Raspberry und Monitor verbinden
-Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht mit Hilfe eines Adapterkabel HDMI auf DVI.
+Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
 
 
 
 ## Step-by-Step Guide - Würfel
 
 ### Step 1: Löcher für die Buttons und Buzzer bohren
-Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zunächst Löcher an den Scheiben gebohrt werden.  
+Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zunächst Löcher an den Scheiben gebohrt werden.
 
-### Step 2: Loch für das Zylinderschloss bohren
+Auf der oberen Platte müssen vier Löcher für die farbigen Buttons und zwei Löcher für die Buzzer gebohrt werden mit jeweils einem Durchmesser von 28mm bzw. 24mm.
 
-### Step 3: Schlitz für Zylinderschloss schneiden
+Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt bevor dann mit der Lochfräse (25mm) die Löcher gebohrt werden können.
 
-### Step 4: Aussparrung für Raspberry und Arduino sägen
+Am besten spannt man die Lochfräse in einen Standbohrer um die nötige Stabilität zu bekommen.
+
+Beim Bohren darf nicht mit zu hohen Umdrehungen gebohrt werden, da ansonsten die Platten zu schmelzen beginnen. Dies erkennt man an einem immer stärker werdenden beißenden Geruch.
+
+Da das Schmelzen nicht komplett verhindert werden kann müssen die Löcher bzw. die Schmelzrückstände an den Löchern mit einem Dremel weggeschliffen werden.
+
+Da die 25mm für die farbigen Buttons zu klein sind muss mit einem Dremel mit passendem Schleifaufsatz nach geholfen werden, damit die Buttons passen.
+
+Im Falle der Buzzer müssen die Löcher nur noch von den Schmelzrückständen entfernt werden und dann passen die Buzzer in die Löcher.
+Die Buzzer sitzen sehr locker in den gebohrten Löcher aber das ist nicht weiter schlimm da die Buzzer zustätlich befestigt werden können.
+
+Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen.
+
+//Bild mit fertigen Löchern zeigen
+
+Auf der Vorderseite (die zukünftige Vorderseite des Würfeln) müssen noch drei weitere Löcher angebracht werden. Zwei Löcher für jeweils den Ein - und Zweispielerbutton sowie ein Loch für den Navigationsbutton.
+
+Um die Löcher zu bohren musst du genauso vorgehen wie zuvor.
+
+### Step 2: Loch und Schlitz für das Zylinderschloss bohren
+
+Um die Sicherheit des Qubes zu erhöhen bzw. zu verhindern, dass nichts geklaut wird ist es sinnvoll noch zusätzlich ein Schloss anzubringen.
+
+Aus ästhetischen Gründen wird das Schloss an der Rückwand angebracht.
+### Step 3: Aussparrung für Raspberry und Arduino sägen
 Aufzeichnen, mit Dremel oder einer Laubsäge sägen, Kanten abschleifen
 
-### Step 5: Milchglasfolie anbringen
+### Step 4: Milchglasfolie anbringen
 Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Nachdem die Folie auf die richtig Größe geschnitten wurde, muss diese im nächsten Schritt auf dem Plexiglas angebracht werden.
 
 ### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
