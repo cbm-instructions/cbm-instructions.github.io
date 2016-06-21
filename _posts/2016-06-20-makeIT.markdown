@@ -26,7 +26,7 @@ Für diese Anleitung sind Lötkenntnisse ([kurzes Tutorial](https://www.youtube.
 Wir brauchen für eine Stufe:
 
 - Material:
-    - [Arduino Uno] (http://www.elv.de/franzis-arduino-uno-platine-r3-dil.html)
+    - [Arduino Uno](http://www.elv.de/franzis-arduino-uno-platine-r3-dil.html)
     - Ausgemustertes PC Netzteil
     - [Projektbox 72 * 50 * 28 mm für die Steuerung der Lichtschranke](https://www.conrad.de/de/universal-gehaeuse-72-x-50-x-28-kunststoff-schwarz-kemo-g026-1-st-530805.html)
     - [Projektbox 50 * 35 * 20 cm für den Ifrarotemitter](https://www.conrad.de/de/universal-gehaeuse-50-x-35-x-20-abs-schwarz-hammond-electronics-1551grbk-1-st-459367.html)
@@ -38,7 +38,7 @@ Wir brauchen für eine Stufe:
     - [Ein IR-Empfänger](https://www.conrad.de/de/ir-empfaenger-sonderform-axial-bedrahtet-38-khz-950-nm-vishay-tsop4838-171115.html?sc.queryFromSuggest=true)
 	- [Kohlewiderstand 330 Ohm](https://www.conrad.de/de/kohleschicht-widerstand-330-axial-bedrahtet-0207-025-w-yageo-cfr-25jt-52-330r-1-st-1417730.html?sc.queryFromSuggest=true)
 	- [Kohlewiderstand 220 Ohm](https://www.reichelt.de/1-4W-5-100-Ohm-910-Ohm/1-4W-220/3/index.html?ACTION=3&GROUPID=3064&ARTICLE=1382)
-	- [Kohlewiderstand 30 Ohm] (https://www.reichelt.de/1-4W-5-10-Ohm-91-Ohm/1-4W-30/3/index.html?ACTION=3&GROUPID=3063&ARTICLE=1405)
+	- [Kohlewiderstand 30 Ohm](https://www.reichelt.de/1-4W-5-10-Ohm-91-Ohm/1-4W-30/3/index.html?ACTION=3&GROUPID=3063&ARTICLE=1405)
 	- [Transistor TIP120](https://www.conrad.de/de/darlington-leistungstransistor-stmicroelectronics-tip120-npn-gehaeuseart-to-220-i-c-5-a-emitter-sperrspannung-u-ceo-60-v-150872.html?sc.queryFromSuggest=true)
 	- [Kondensator 1000 µF 6.3 V](https://www.conrad.de/de/elektrolyt-kondensator-smd-1000-f-63-v-20-x-h-10-mm-x-8-mm-nichicon-pcg0j102mcl1gs-1-st-402390.html)
     - [Tantal-Kondensator 2.2 µF 35V](https://www.conrad.de/de/tantal-kondensator-radial-bedrahtet-25-mm-22-f-35-vdc-10-1-st-481688.html)
@@ -101,7 +101,7 @@ Somit benötigt Ihr pro Meter bei voller Helligkeit ganze 3 Ampere. Jedoch werde
 
 In diesem Schritt zeigen wir Euch, wie Ihr die Hardwarekomponenten erstellt. Zunächst erstellen wir die Lichtschranke, danach schließen wir die Neopixel an. Das Gesamtsystem wird schematisch am Ende wie folgt aussehen:
 
-![Bauteile](/images/makeit/Schaltplan.JPG)
+![Schaltplan](/images/makeit/Schaltplan.JPG)
 
 __Die  Steuereinheit__
 
@@ -110,7 +110,7 @@ _Für diesen Schritt brauchen wir: Platine, Teppichmesser, Arduino, Stiftleiste,
 Zunächst kümmern wir uns um die zentrale Steuereinheit des Systems. Hier läuft am Ende alles zusammen. Die Empfängerdaten werden hier ankommen und die Neopixel von hieraus gesteuert. Für unsere Treppe haben wir uns entschieden den IR-Empfänger mit der Steuereinheit zu verbauen und an der Treppe anzubringen. Bei anderen Treppen, die weniger Platz bieten ist es sicherlich sinnvoll die Steuereinheit und den IR-Emitter zu trennen.
 Am Ende wird die Steuereinheit wie folgt aussehen:
 
-![Bauteile](/images/makeit/Steuereinheit.JPG)
+![Steuereinheit](/images/makeit/Steuereinheit.JPG)
 
 Achtet dabei auf unsere Bilder und die Farbgebung der Kabel und auf die Lötstellen, dann könnt Ihr folgenden Schritten einfach folgen.
 
@@ -120,56 +120,56 @@ Achtet dabei auf unsere Bilder und die Farbgebung der Kabel und auf die Lötstel
 Am Einfachsten schneidet Ihr die Platine mit Hilfe eines Teppichmessers. Ritzt an den entsprechenden Stellen mit viel Kraft die Platte an und brecht sie dann über der Tischkante durch.
 2. Nun benötigen wir sieben Pins von der Stiftleiste. Diese Pins nun mit dem langen Ende in die folgenden Anschlüsse am Arduino stecken: 5V, GND, GND, Vin, 2, 3, 6. Danach kann man die Platine von oben auflegen und die Pins verlöten. Das Ergebnis sieht dann wie folgt aus:
 
-![Bauteile](/images/makeit/LötstellenPins.JPG)
+![LötstellenPins](/images/makeit/LötstellenPins.JPG)
 
-![Bauteile](/images/makeit/PinsDigi.JPG)
+![PinsDigi](/images/makeit/PinsDigi.JPG)
 
-![Bauteile](/images/makeit/PinsStrom.JPG)
+![PinsStrom](/images/makeit/PinsStrom.JPG)
 
 
 Nun könnt Ihr die Platine wieder herunternehmen.
 3. Nun können wir die weiteren Bauteile verlöten. Dazu verlöten wir Widerstand 330 Ohm, Widerstand 220 Ohm, Widerstand 30 Ohm, Transistor TIP120, Kondensator 1000 µF 6.3 V und ein kurze Stück Litze auf der Platine. Orientiert Euch dazu an folgenden Bildern und am Schaltplan.
 
-![Bauteile](/images/makeit/PlatineOben.JPG)
+![PlatineOben](/images/makeit/PlatineOben.JPG)
 
-![Bauteile](/images/makeit/PlatineUnten.JPG)
+![PlatineUnten](/images/makeit/PlatineUnten.JPG)
 
 Die nach außen führenden Kabel verlöten wir im nächsten Schritt. Wie Ihr auf den Bildern seht, sind der Kondensator und der Transistor um 90 Grad geknickt und auf die Platine gedrückt. Das ist sehr wichtig, dass die Platine später auch wieder auf den Arduino passt und am Ende in das Gehäuse für unsere Schalteinheit. Um dabei Kurschlüsse zu vermeiden, könnt Ihr ein Stückchen Tesaband an die Stellen kleben auf denen die Teile, nach dem Umbiegen, aufliegen werden. Zum Verbiegen steckt Ihr die Teile am besten erst durch die Platine, verbiegt die Beinchen und lötet die Teile erst dann fest. So könnt Ihr noch etwas anpassen, falls etwas nicht funktioniert.
 4. Nun benötigt Ihr 5,5 Meter Kabel, um den Anschluss der Emitterdiode zu ermöglichen. Wenn Ihr die Platinen auf unsere Maße geschnitten habt, dann könnt Ihr Euch bei der Positionierung aller Kabel und Lötstellen auch am Loch- und Reihenraster der Platine orientieren.
 
-![Bauteile](/images/makeit/AnschlussEmitter.JPG)
+![AnschlussEmitter](/images/makeit/AnschlussEmitter.JPG)
 
 Am anderen Ende wird später der Emitter befestigt.
 5. Befestigt nun zwei etwa 20 cm lange Kabel an der Platine. An der Platine wird dann das IR-Empfängermodul angeschlossen. Lötet dazu drei Kabel auf die Platine. Im folgenden Bild sind es die drei Kabel, die weiter rechts angelötet sind.
 
-![Bauteile](/images/makeit/AnschlussEmpfänger.JPG)
+![AnschlussEmpfänger](/images/makeit/AnschlussEmpfänger.JPG)
 
 6. Am anderen Ende befestigt Ihr nun entsprechend den folgenden Fotos die kleine Platine und darauf die folgenden Bauteile: Tantal-Kondensator 2.2 µF 35V, Kondensator 10nF Kdpu, IR-Empfänger. Achtet dabei darauf, dass die Vorderseite des Empfängers mit der kleinen, schwarzen Halbkugel weg von den anderen Bauteilen zeigt, welches das Verbauen vereinfachen wird.
 
-![Bauteile](/images/makeit/EmpfängerOben.JPG)
+![EmpfängerOben](/images/makeit/EmpfängerOben.JPG)
 
-![Bauteile](/images/makeit/EmpfängerUnten.JPG)
+![EmpfängerUnten](/images/makeit/EmpfängerUnten.JPG)
 
 7. Jetzt wollen wir die Kabel für die Stromversorgung vom Netzteil anlöten. Stellt hierzu das Netzteil an die Stelle, an der es stehen soll und messt den Abstand zur Treppe aus. Plant ruhig noch etwas mehr Strecke ein. Nun lötet Ihr zwei Kabel dieser Länge an Eure Platine.
 7. Nun verlötet Ihr auch die Stromkabel der Neopixel (rotes und schwarzes Kabel) mit Eurer Platine. Achtet dabei darauf, dass Ihr die Kabel auf den Streifen auf der Platine verlötet, auf denen auch die Stromversorgung liegt. Achtet zudem darauf das richtige Ende des NeoPixel-Streifens zu verwenden. Auf dem Streifen findet Ihr einen Pfeil. Wenn dieser von der Platine weg zeigt, dann ist alles richtig. 
 
-![Bauteile](/images/makeit/NeoPixelPfeil.JPG)
+![NeoPixelPfeil](/images/makeit/NeoPixelPfeil.JPG)
 
 8. Lötet nun das weiße Kabel des NeoPixel-Streifens an der Stelle an, an der auch der Pin verlötet ist, der am Arduino an Platz 6 steckt. Diese Leitung steuert Eure LEDs.
 9. Jetzt wird die Stromversorgung verbunden. Findet dazu eine 5V Leitung an Eurem Netzteil. Das ist in der Regel ein rotes Kabel und ein schwarzes Kabel (Masse). Trennt diese Kabel mit der Kneifzange vom Stecker ab und verlötet jeweils das entsprechende Ende mit den Kabeln der Stromversorgung. Lötet dabei das rot-schwarze Kabel an schwarz und das rote Kabel an rot, wenn Ihr euch an unseren Bildern orientiert.
 
-![Bauteile](/images/makeit/AbschnittNT.JPG)
+![AbschnittNT](/images/makeit/AbschnittNT.JPG)
 
 10. Verseht nun die große Projektbox mit zwei Löchern. Bohrt dazu miz dem 5 mm Bohrer einmal in die Seite und einmal in oben in die Box. Das Loch oben sollte oben links liegen, denn dort wird die Diode herausschauen. Das Loch an der Seite könnt Ihr frei positionieren. Durch dieses Loch treten die Kabel nach außen.
 
-![Bauteile](/images/makeit/Oben.JPG)
+![Oben](/images/makeit/Oben.JPG)
 
-![Bauteile](/images/makeit/Seite.JPG)
+![Seite](/images/makeit/Seite.JPG)
 
 11. Steckt nun die Platine wieder auf Euren Arduino, sodass die vier nebeneinander liegenden Pins in den Stromanschlüssen des Arduino stecken und die drei Pins auf der gegenüberliegenden Seite in den Ports 2, 3 und 6.
 12. Verbaut nun alles im Arduino. Mit ein wenig Tesaband befestigt Ihr zunächst das Empfängermodul auf der kleinen Extraplatine so, dass es aus dem Loch auf der Vorderseite schaut. Den Arduino könnt Ihr danach einfach auflegen. Schließt die Box nicht, da am Ende noch der Code auf den Arduino geladen werden muss. 
 
-![Bauteile](/images/makeit/EmpfängerBefestigung.JPG)
+![EmpfängerBefestigung](/images/makeit/EmpfängerBefestigung.JPG)
 
 Legt nun zunächst alles zur Seite. Im nächsten Schritt bauen wir den IR-Emitter und verkabeln ihn mit der Steuereinheit.
 
@@ -182,19 +182,19 @@ _Für diesen Schritt brauchen wir: Platine, Teppichmesser, IR-Emitter, Abisolier
 3. Jetzt verlöten wir das Ende des langen Kabels der Steuereinheit, das noch frei ist mit der Platine. Bedenkt dabei, dass das Kabel, dass am Strom hängt (rot) mit der Kathode verbunden wird und das andere mit der Anode.
 4. Nehmt nun die kleine Projektbox und schraubt eine der beigelegten Schrauben hinein. Bohrt dann an einer der langen Seiten ein Loch hinein.
 
-![Bauteile](/images/makeit/KleinSeite.JPG)
+![KleinSeite](/images/makeit/KleinSeite.JPG)
 
 6. Bohrt nun auch ein Loch mittig auf die Vorderseite.
 
-![Bauteile](/images/makeit/KleinVorn.JPG)
+![KleinVorn](/images/makeit/KleinVorn.JPG)
 
 7. Öffnet die Box wieder und klebt ein Stück Patafix vor das seitliche Loch und verdeckt dabei nicht das Loch in der Mitte. Klebt nun die Platine mit der Diode so auf, dass der Emitter aus dem Loch schaut und das Kabel seitlich hinausläuft.
 
-![Bauteile](/images/makeit/HousingEmitter.JPG)
+![HousingEmitter](/images/makeit/HousingEmitter.JPG)
 
 8. Verschließt nun die Projektbox mit Hilfe der Schrauben.
 
-![Bauteile](/images/makeit/EmitterOben.JPG)
+![EmitterOben](/images/makeit/EmitterOben.JPG)
 
 ## Schritt 4: Der Code
 
