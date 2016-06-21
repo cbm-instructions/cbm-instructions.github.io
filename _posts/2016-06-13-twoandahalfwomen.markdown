@@ -217,7 +217,7 @@ Mit dem Python Framework PyQT4 kann man dann die erstellte Oberfläche einbinden
 Der komplette Quellcode wurde mit Version 3 von Python realisiert.
 Um die Resourcen des Raspberry's zu schonen wurde auf eine MySQL Datenbank verzichtet und eine SQLite3 Datenbank eingesetzt.
 Um CRUD Operationen auf die Datenbank zu vereinfachen kommt das Python Toolkit und ORM SQLAlchemy zum Einsatz.
-Um die Kommunikation zwischen dem Raspberry Pi und dem Arduino zu ermöglichen ist die Bibliothek python3-serial zum Einsatz.
+Um die Kommunikation zwischen dem Raspberry Pi und dem Arduino zu ermöglichen wird die Bibliothek python3-serial verwendet.
 
 ### Step 2: Raspbian installieren.
 Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
