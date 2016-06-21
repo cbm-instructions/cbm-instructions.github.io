@@ -210,18 +210,28 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 
 ## Programmierung:
 
-### Entwicklung auf dem Raspberry Pi 3
-####Grundvorraussetzungen
+### Step 1: Entwicklung auf dem Raspberry Pi 3
+
+Die grafische Oberfläche des Qube wurde mit dem QT4 Designer realisiert. Dies ist ein Tool um die GUI per Drag & Drop zu erstellen.
+Mit dem Python Framework PyQT4 kann man dann die erstellte Oberfläche einbinden und die dazugehörige Logik implementieren.
+Der komplette Quellcode wurde mit Version 3 von Python realisiert.
+Um die Resourcen des Raspberry's zu schonen wurde auf eine MySQL Datenbank verzichtet und eine SQLite3 Datenbank eingesetzt.
+Um CRUD Operationen auf die Datenbank zu vereinfachen kommt das Python Toolkit und ORM SQLAlchemy zum Einsatz.
+Um die Kommunikation zwischen dem Raspberry Pi und dem Arduino zu ermöglichen ist die Bibliothek python3-serial zum Einsatz.
+
+### Step 2: Raspbian installieren.
+Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
+Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
+
+### Step 3: Benötigte Libraries installieren
 
 > :warning:
   Die folgende Kommandos funktionieren NUR unter LINUX. Falls ein anderes Betriebssystem verwendet wird (z.B.: Windows 10 IoT) müssen diese entsprechend angepasst werden
   
-##### Step 1:
-Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
-Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
+Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Libraries und den dazugehörigen Quellcode zu installieren.
+Nachfolgendes Bild zeigt den LX Terminal und wo du ihn findest:
 
-##### Step 2:
-Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Libraries und den dazugehörigen Quellcode zu installieren
+//lxTerminal.jpg
 
 1. `$ sudo apt-get update`
 2. `$ sudo apt-get upgrade`
@@ -233,13 +243,31 @@ Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Librarie
 9. `$ sudo apt-get install python3-serial`
 10. `$ git clone https://github.com/cbm-instructions/two-and-a-half-women.git`
 
-Wenn man nur die Software installieren will ohne eigene Modifikationen an der GUI vorzunehmen muss Schritt 7 nicht ausgeführt werden.
+Wenn du nur die Software installieren will ohne eigene Modifikationen an der GUI vorzunehmen muss Schritt 7 nicht ausgeführt werden.
 Der Qt4 Designer wird nur benötigt um die GUI zu erstellen bzw. zu modifizieren.
 
-##### Step 3:
-1. `$ cd src/qube`
-2. `$ python3 Qube.py` or `$ python3 QubeHub.py`
-3. Viel Spaß!
+### Step 4: Entwicklung für den Arduino Uno
+Der Programmcode für den Arduino hast du mit Schritt 10 (siehe oben) schonn geladen sie befindet sich in src/arduino/arduino2pi/.
+Du kannst auf deinem Raspberry Pi die Arduino IDE herunterladen und dann den Quellcode auf den Arduino hochladen. Dafür musst du die IDE mit dem Kommand `$ sudo apt-get install arduino`. Diese findest du dann unter Start->Elektronik->Arduino IDE.
+Leider führte dies in unserem Fall zu erheblichem Problemen und wir entschieden uns dafür den Arduino an einen Windows PC/ Mac anzuschließen und den Quellcode von dort hochzuladen.
+Die Arduino IDE bekommst du [Hier](https://www.arduino.cc/en/Main/Software).
+
+### Step 5: Quellcode auf den Arduino laden
+Sobal die IDE installiert wurde kannst du die Datei arduin2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
+
+Mit einem einfachen Klick auf "Hochladen" wird das Programm auf den Arduino geladen. Dieser bestätigt das erfolgreiche Hochladen mit einem Blinken der eingebauten LED.
+
+Es kann sein, dass der USB Port bzw. der Arduino an dem USB Port nicht richtigt erkannt wird. In diesem Fall muss der Port manuell geändert werden. Dies kannst du unter Werkzeuge->Port einstellen.
+
+Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind kann deine erste Runde mit Qube erfolgen.
+
+### Step 6: Jetzt geht's los. QUBE starten.
+1. Gehe mit dem Terminal in das Verzeichnis in dem die Datei Qube.py liegt.
+2. `$ python3 Qube.py`
+3. Alternativ kannst du auch mit IDLE (Der Python IDE von Raspian) enweder Qube.py oder QubeHub.py öffnen und F5 drücken.
+
+###Herzlichen Glückwunsch!!!
+Du hast dir deinen eigenen Qube gebaut, benutze jetzt das Skript QubeHub.py um neue Fragen zu erstellen. Dies kannst du auf die gleiche Weise starten wie in Schritt 6 beschrieben.
 
 #### nützliche Quellen
 
@@ -269,10 +297,11 @@ http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
 
 http://www.sqlalchemy.org/
 
-### Entwicklung auf dem Arduino Uno
-#### Step 1: Library runterladen
-#### Step 2: Quellcode öffnen
-#### Step 3:Quellcode auf den Arduino Uno laden
+Verbindung zwischen dem Raspberry und Arduino herstellen
+
+https://oscarliang.com/connect-raspberry-pi-and-arduino-usb-cable/
+
+http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-verbinden
 
 ## Step 1: Grundlagen verstehen - Raspberry Pi und GPIO-Pins
 
