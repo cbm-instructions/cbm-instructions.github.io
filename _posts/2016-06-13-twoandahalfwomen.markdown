@@ -56,8 +56,6 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Geodreieck
   - Kugelschreiber
 
-
-
 ## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
 ### Step 1: Kabel an Switchcontroller der Arcade Buttons und Push Dome Buttons löten
@@ -185,8 +183,6 @@ Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. 
 ### Step 11: Raspberry und Monitor verbinden
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
 
-
-
 ## Step-by-Step Guide - Würfel
 
 ### Step 1: Löcher für die Buttons und Buzzer bohren
@@ -217,18 +213,41 @@ Um die Löcher zu bohren musst du genauso vorgehen wie zuvor.
 
 ### Step 2: Loch und Schlitz für das Zylinderschloss bohren
 
-Um die Sicherheit des Qubes zu erhöhen bzw. zu verhindern, dass nichts geklaut wird ist es sinnvoll noch zusätzlich ein Schloss anzubringen.
+Um die Sicherheit des Qubes zu erhöhen bzw. zu verhindern, dass nichts geklaut wird ist es sinnvoll noch zusätzlich ein Schloss anzubringen. Zusätzlich zu diesem Schloss werden noch Scharniere an die Rückplatte angebracht damit sich diese leicht öffnen lässt.
+Diese Scharniere werden mit Pattex Kraftkleber an der Bodenplatte angebracht. Das ankleben der Scharniere wird erst in Schritt ??? erfolgen sollte aber an dieser Stelle schonmal erwähnt werden.
 
-Aus ästhetischen Gründen wird das Schloss an der Rückwand angebracht.
+Um das Loch für das Schloss zu bohren wird zuerst die Mitte der Platte festgelegt und mit einem Abstand zur oberen Kante von ???mm eine Markierung gesetzt. Mit Hilfe dieser Markierung wird zuerst wieder ein Loch vorgebohrt bevor dann mit einem ??? ein Loch mit einem Durchmesser von ??? gebohrt werden kann.
+
+Um den Schließmechanismus des Schlosses zu vervollständigen muss zusätzlich ein Schlitz für den ??? an der Oberseite des Würfels (die Platte mit den meisten Löächern die in Schritt 1 gefertigt wurde) eingefräst werden.
+
+Um den Schlitz zu bohren nimmst du einen speziellen Mini Sägen Aufsatz für den Dremel. In dem nachfolgenden Bild wird die Mini Säge dargestellt.
+
+//Mini Säge bild
+
 ### Step 3: Aussparrung für Raspberry und Arduino sägen
+Damit der HDMI Eingang sowie die Eingänge für die Netzteile für das Raspberry und den Arduino zugänglich sind muss am unteren Ende der Rückplatte eine Aussparung gefräst werden.
+
+Neben der Aussparrung für die Kabel muss rechts und links noch Platz gelassen werden für die Scharniere damit die Rückwand geöffnet werden kann.
+Abzüglich der Breite der zwei Scharniere bleibt für die Aussparung eine Breite von ca. ???mm übrig. Dies passt genau um direkt dahinter den Raspberry anzubringen und damit ein wenig Luft bleibt für die externe Stromzufuhr des Arduinos.
+
 Aufzeichnen, mit Dremel oder einer Laubsäge sägen, Kanten abschleifen
 
 ### Step 4: Milchglasfolie anbringen
-Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Nachdem die Folie auf die richtig Größe geschnitten wurde, muss diese im nächsten Schritt auf dem Plexiglas angebracht werden.
 
-### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+Uns war es wichtig, dass Nutzer des Qubes in den Würfel hinein blicken konnetn und so die Elektronik sehen können. Deswegen haben wir uns dafür entschieden nur die zwei Seitenplatten sowie die Oberplatte mit Michglasfolie zu bekleben.
+
+Damit der spätere Lichteffekt des LED Streifens besser zur Geltung kommt kann aber auch der komplette Würfel mit Folie beklebt werden.
+
+Um die Milchglasfolie auf die Platten anzubringen ist es das einfachste wenn die Klebeseite der Milchglasfolie zuerst freigelegt und dann die Folie mit der Klebeseite nach oben flach auf einem Tisch ausgebreitet wird dann kann man die Klebefolie entlang der Kanten abschneiden.
+Danach muss die Klebefolie sofort mit dem Schaber des Klebefolien Befestigungsset glatt gestrichen werden um die entstandenen Luftblässchen zu entfernen.
+
+Da du jetzt alle gebohrte Löcher mit der Klebefolie beklebt hast musst du nun die Löcher wieder ausschneiden. Dies funktioniert am besten mit einem Cutter Messer.
+
+Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
 ### Step 7: Plexiglasscheiben miteinander verkleben
+
+### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
 
 ### Step 8: Arcade Buttons und Push Dome Buttons anbringen
 
@@ -236,9 +255,9 @@ Zuerst muss die Milchglasfolie für die jeweilige Seite zugeschnitten werden. Na
 
 ### Step 11: Neopixel befestigen
 
-### Step 11: Breadboard an Holzplatte kleben
+### Step 11: Würfel an Holzplatte kleben
 
-### Step 11: Arduino && Raspberry an Holzplatte anbringen
+### Step 11: Arduino && Raspberry an Würfel anbringen
 
 
 
