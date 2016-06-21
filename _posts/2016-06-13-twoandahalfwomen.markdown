@@ -14,31 +14,31 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 ## Verwendete Materialien und Werkzeuge:
 
 ### Materialien:
-  - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm)
-  - 1 x Plexiglas (24,05cm x 25,25cm x 0,04cm) 
-  - Milchglasfolie
-  - 1x MDF Platte schwarz (27cm x 30cm x 0,19cm) 
-  - 1x Raspberry Pi 3 
-  - 1x Mini USB-Kabel für Raspberry Pi 3 Stromversorgung
+  - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm) | ca. 12€
+  - 1 x Plexiglas (24,05cm x 25,25cm x 0,04cm) | ca. 2€
+  - Milchglasfolie (gibt es im Bauhaus von d-c-fix) | ca. 6€
+  - 1x MDF Platte schwarz (27cm x 30cm x 0,19cm) | ca. 3€
+  - 1x Raspberry Pi 3 (https://www.amazon.de/Raspberry-Pi-3-Model-B/dp/B01CEFWQFA)
+  - 1x Mini USB-Kabel Ladegerät für Raspberry Pi 3 Stromversorgung (https://www.amazon.de/Raspberry-Pi-Micro-USB-Netzteil/dp/B00SVALHXU)
   - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
   - 1x USB oder Bluetooth Tastatur für den Raspberry Pi 3
-  - 1x Arduino Uno
-  - 1x Netzteil für Arduino Uno - Goobay 2798 - Universal Netzgerät 3-12 V (https://www.amazon.de/Goobay-2798-Universal-Netzger%C3%A4t-3-12/dp/B0038WU2Z0) 
+  - 1x Arduino Uno (https://www.amazon.de/Arduino-Uno-Rev-3-Mikrocontroller-Board/dp/B008GRTSV6/ref=sr_1_1?ie=UTF8&qid=1466531263&sr=8-1&keywords=Arduino+uno)
+  - 1x Netzteil für Arduino Uno - Goobay 2798 - Universal Netzgerät 3-12 V (https://www.amazon.de/Goobay-2798-Universal-Netzgerät-3-12/dp/B0038WU2Z0) (https://www.amazon.de/Goobay-2798-Universal-Netzger%C3%A4t-3-12/dp/B0038WU2Z0) 
   - 1x Laptop/PC um den Arduino zu programmieren
   - 1x Breadboard (https://www.conrad.de/de/steckplatine-selbstklebend-polzahl-gesamt-830-l-x-b-x-h-165-x-55-x-85-mm-eic-102-1-st-526835.html?sc.ref=Product%20Details)
   - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
-  - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz)
+  - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz) (http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=Einbautaster&x=0&y=0)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
   - Insulated Daisy Chain Harness with 32 Crimp Connections [= Isolierter verketteter Kabelstrang mit 32 Crimpverbindungen] (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
   - Verbindungskabel RB-CB3-25 (https://www.conrad.de/de/raspberry-pi-verbindungskabel-rb-cb3-25-1182193.html)
   - Pins für Verbindungskabel
-  - 1x Universalzylinderschloss
+  - 1x Universalzylinderschloss (https://www.bauundhobby.ch/maschinen-%2B-werkstatt/sicherheit/schlösser-%2B-zylinder/univ.zylinderschloss-zs-77-sb/C041202/P3191726/de)
   - 1x 19 Zoll Monitor
   - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
   - 2x Acryl Scharniere 64mm (https://www.amazon.de/gp/product/B00R0BCWNU/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
-  - Tesa Power Strips (Foto Dinger)
-  - Neopixel 1 Meter
+  - Tesa Power Strips Small (https://www.amazon.de/tesa-Powerstrips-Strips-SMALL-Packung/dp/B000KJR2ES/)
+  - Neopixel 1 Meter (https://www.adafruit.com/product/1460)
 
 ### Werkzeuge:
   - Lötkolben
