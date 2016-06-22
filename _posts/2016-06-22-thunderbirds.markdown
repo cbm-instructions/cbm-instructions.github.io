@@ -150,97 +150,97 @@ Kontinente mit der Spraydose schwarz matt lackieren.
 Die getrockneten Kontinente werden auf die befestigten Kontinente gelegt und es wird „zentral“ ein Loch, dass durch alle 3 Platten geht. Für die Bohrung wird eine Bohrmaschine mit einem Holz Bohraufsatz verwendet.
 
 ![Bohraufsätze](/images/thunderbirds/Bild_40.png)
-![Gebohrtes Loch](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_12.png)
+![Gebohrtes Loch](/images/thunderbirds/Bild_12.png)
 
 ### 13. Schritt:
 Nun kann das LED Strip an den Kontinenten befestigt werden. Das LED Strip wird an den markierten Stellen geschnitten und gelötet. Das LED Strip wird mit Sekundenkleber befestigt.
 
-![LED kleben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_13.png)
-![LED Weg](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_14.png)
+![LED kleben](/images/thunderbirds/Bild_13.png)
+![LED Weg](/images/thunderbirds/Bild_14.png)
 
 ### 14. Schritt:
 Die dünnen schwarzen Kontinente werden mit dem Kleber („kleben statt bohren“) auf die Kontinente geklebt.
 
-![Dünne Kontinente geklebt](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_15.png)
+![Dünne Kontinente geklebt](/images/thunderbirds/Bild_15.png)
 
 ### 15. Schritt:
 Die Cremetuben werden einmal bis zum Deckel geschnitten. Anschließend mit dem Kleber „kleben statt bohren“ bestrichen und von hinten in die Löcher der Kontinente geschoben und mit einem Edding von vorne ausgebreitet.
 Tipp: Sollte die Tube nicht perfekt kleben, einfach nochmal mit Sekundenkleber nachhelfen und erneut mit dem Edding ausgebreitet.
 
-![Tube](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_16.png)
-![Tube von oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_17.png)
-![Tube Schnitt](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_18.png)
+![Tube](/images/thunderbirds/Bild_16.png)
+![Tube von oben](/images/thunderbirds/Bild_17.png)
+![Tube Schnitt](/images/thunderbirds/Bild_18.png)
 
 ### 16. Schritt:
 Um die kleinen Inseln befestigen zu können wurden Schrauben in die Basis Holzplatte geschraubt und mit dem Kleber „kleben statt bohren“ festgeklebt.
 
-![Insel](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_19.png)
-![Insel Seite](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_20.png)
+![Insel](/images/thunderbirds/Bild_19.png)
+![Insel Seite](/images/thunderbirds/Bild_20.png)
 
 ### 17. Schritt:
 An die Photoresistoren werden Kabel dran gelötet und eins der Beinchen des Photoresistors wird mit Isolierband abgeklebt. Anschließend werden die Photoresistoren in die Cremetuben gesteckt.
 
-![Photoresistor](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_21.png)
-![Isolierung](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_22.png)
+![Photoresistor](/images/thunderbirds/Bild_21.png)
+![Isolierung](/images/thunderbirds/Bild_22.png)
 
 ### 18. Schritt:
 Als nächstes wird der Satellit gebaut. Dafür wird erneut das dünne Holz verwendet. Es werden 5 Quadrate mit den Maßen 8cm x 8cm zugeschnitten.
 
-![Satellit_oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_23.png)
-![Satellit_unten](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_24.png)
-![Satellit_Seite](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_25.png)
-![Satellit_komplett](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_26.png)
+![Satellit_oben](/images/thunderbirds/Bild_23.png)
+![Satellit_unten](/images/thunderbirds/Bild_24.png)
+![Satellit_Seite](/images/thunderbirds/Bild_25.png)
+![Satellit_komplett](/images/thunderbirds/Bild_26.png)
 
 ### 19. Schritt:
 Es wird das Glas einer Taschenlampe auf das erste Servo geklebt. Darauf kommt das zweite Servo. Zum Schluss wird die Laseriode auf das zweite Servo geklebt.
 
-![Servo_unten](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_27.png)
-![Servo_seite](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_28.png)
-![Servo_laser](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_29.png)
+![Servo_unten](/images/thunderbirds/Bild_27.png)
+![Servo_seite](/images/thunderbirds/Bild_28.png)
+![Servo_laser](/images/thunderbirds/Bild_29.png)
 
 ### 20. Schritt:
 Es werden 3 Plexiglas Platten (100cm x 7cm x 2mm) geschnitten. Diese müssen anschließend mit Heißkleber zusammen geklebt werden.
 
-![Plexi](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_30.png)
-![Plexi_kleben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_31.png)
-![Plexi_komplett](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_32.png)
+![Plexi](/images/thunderbirds/Bild_30.png)
+![Plexi_kleben](/images/thunderbirds/Bild_31.png)
+![Plexi_komplett](/images/thunderbirds/Bild_32.png)
 
 ### 21. Schritt:
 Das Zusammengeklebte Plexiglas wird mit schwarzem transparenten Spray lackiert.
 
-![Plexiglas schwarz](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_37.png)
+![Plexiglas schwarz](/images/thunderbirds/Bild_37.png)
 
 ### 22. Schritt:
 Es wird ein Stück Holz an der Basis Holzplatte mit dem Kleber "kleben statt kleben" befestigt.
 
-![kleines Holz](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_38.png)
+![kleines Holz](/images/thunderbirds/Bild_38.png)
 
 
 ### 23. Schritt:
 Ein Holzstab wird an zwei Eckseiten abgefeilt, an das kleine Stück Holz mit zwei Schrauben befestigt und in das Plexiglas Dreieck geschoben.
 
-![Holzstab](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_33.png)
-![Holzstab geschraubt](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_39.png)
-![Plexi_Holzstab](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_34.png)
+![Holzstab](/images/thunderbirds/Bild_33.png)
+![Holzstab geschraubt](/images/thunderbirds/Bild_39.png)
+![Plexi_Holzstab](/images/thunderbirds/Bild_34.png)
 
 ### 24. Schritt:
 Die Kabel werden durch das Plexiglas Dreieck gezogen und der Satellit mit dem Kleber "kleben statt bohren" an der Spitze befestigt.
 
-![Satellit und Kabel](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_41.png)
+![Satellit und Kabel](/images/thunderbirds/Bild_41.png)
 
 
 ### 24. Schritt:
 Zum Schluss werden die Kabel auf eine Platine (10cm x 10cm) gelötet.
 Die genaue Verlötung sieht man auf dem Schaltplan.
 
-![Platine](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_35.png)
-![Platine_löten](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_36.png)
+![Platine](/images/thunderbirds/Bild_35.png)
+![Platine_löten](/images/thunderbirds/Bild_36.png)
 
 ### 25. Schritt:
 Sollte keine Platine verwendet werden kann auch ein Board verwendet werden und nach folgendem Schaltplan gesteckt werden.
 
-![Schaltplan Licht](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Thunderbirds_Schaltplan_Board.png)
-![Schaltplan Joystick](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Thunderbirds_Schaltplan_Joystick_Board.png)
+![Schaltplan Licht](/images/thunderbirds/Thunderbirds_Schaltplan_Board.png)
+![Schaltplan Joystick](/images/thunderbirds/Thunderbirds_Schaltplan_Joystick_Board.png)
 
 ---
 
