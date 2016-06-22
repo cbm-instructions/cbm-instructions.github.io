@@ -73,15 +73,15 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
   1. Schneide dir ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten du nimmst Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
   2. Isoliere jeweils beide Kabelenden mit einer Abisolierzange ab.
   
-  ![Kabel]/image/taahw/01.JPG
+  ![Kabel](/image/taahw/01.JPG)
 
   3. Als nächstes nimmst du eines der Kabelenden und lötest dies mit Hilfe des Lötkolben an den Microswitchcontroller eines Buttons/Buzzers.
 
-  ![Kabel_Button]/images/taahw/02.jpg
+  ![Kabel_Button](/images/taahw/02.jpg)
 
   4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
   
-  ![Kabelhülse]/images/taahw/03.jpg
+  ![Kabelhülse](/images/taahw/03.jpg)
 
   5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
   
