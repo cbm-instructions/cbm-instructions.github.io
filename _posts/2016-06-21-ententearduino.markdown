@@ -81,6 +81,7 @@ Snake
 
 
 ## Schritt 1
+
 ### Schritt 1.1 - Bibliotheken zum Schreiben der Programme für den Arduino
 
 Programm SNAKE
