@@ -15,6 +15,7 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
 
 ### Materialien:
   - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm) | ca. 12€
+  - 4x Plexiglas (25,25cm x 25,25cm x 0,4cm) | ca. 5€
   - 1 x Plexiglas (24,05cm x 25,25cm x 0,04cm) | ca. 2€
   - Milchglasfolie (gibt es im Bauhaus von d-c-fix) | ca. 6€
   - 1x MDF Platte schwarz (27cm x 30cm x 0,19cm) | ca. 3€
@@ -25,14 +26,15 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 1x Arduino Uno (https://www.amazon.de/Arduino-Uno-Rev-3-Mikrocontroller-Board/dp/B008GRTSV6/ref=sr_1_1?ie=UTF8&qid=1466531263&sr=8-1&keywords=Arduino+uno)
   - 1x Netzteil für Arduino Uno - Goobay 2798 - Universal Netzgerät 3-12 V (https://www.amazon.de/Goobay-2798-Universal-Netzgerät-3-12/dp/B0038WU2Z0) (https://www.amazon.de/Goobay-2798-Universal-Netzger%C3%A4t-3-12/dp/B0038WU2Z0) 
   - 1x Laptop/PC um den Arduino zu programmieren
-  - 1x Breadboard (https://www.conrad.de/de/steckplatine-selbstklebend-polzahl-gesamt-830-l-x-b-x-h-165-x-55-x-85-mm-eic-102-1-st-526835.html?sc.ref=Product%20Details)
   - 2 x Push Dome Buttons blau (https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
   - 5 x Happ Standard Arcade Button (blau, gelb, rot, grün, schwarz) (http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=Einbautaster&x=0&y=0)
   - 2x Black IL Concave Arcade Start Button (http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
   - Insulated Daisy Chain Harness with 32 Crimp Connections [= Isolierter verketteter Kabelstrang mit 32 Crimpverbindungen] (http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
   - Verbindungskabel RB-CB3-25 (https://www.conrad.de/de/raspberry-pi-verbindungskabel-rb-cb3-25-1182193.html)
-  - Pins für Verbindungskabel
+  - Pins (Male) für Verbindungskabel
+  - Kabelhülsen
+  - Isolierband
   - 1x Universalzylinderschloss (https://www.bauundhobby.ch/maschinen-%2B-werkstatt/sicherheit/schlösser-%2B-zylinder/univ.zylinderschloss-zs-77-sb/C041202/P3191726/de)
   - 1x 19 Zoll Monitor
   - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
@@ -55,11 +57,12 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - Cutter Messer
   - Geodreieck
   - Kugelschreiber
+  - Feuerzeug / Heißluftfön
 
 ## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
 ### Step 1: Kabel an Switchcontroller der Arcade Buttons und Push Dome Buttons löten
-Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel (normal)
+Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel, Feuerzeug, Schere
 
 Damit die Arcade Buttons verwendet werden können, müssen an den Switch Coontrollern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
@@ -68,11 +71,12 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
   2. Isoliert jeweils beide Kabelenden mit einer Abisolierzange ab.
   3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
   4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
+  5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
   
 Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
 ### Step 2: Kabel der Arcade Buttons und Push Dome Buttons verlängern
-Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Kabel (female-female)
+Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Verbindungskabel RB-CB3-25, Feuerzeug
 
 Das in Step 1 verlötete Kabel solltet ihr noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit ihr die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen könnt.
 
@@ -82,34 +86,51 @@ Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise en
   3. Nun nehmt ihr einen Arcade Button oder Push Dome Button, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
   4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen 
   5. Nun solltet ihr die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband isolieren.
+  6. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
 Auch dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
 ### Step 3: Kabel an die LED der Push Dome Buttons anbringen
+Benötigte Materialien: Schere, Abisolierzange, Lötkolben, Kabel, Kabelhülse, Feuerzeug
+
 Für die LED der Push Dome Buttons werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
 
 Hierfür geht ihr wie folgt vor:
   1. Schneidet euch zwei Kabel in ausreichnder Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Ihr solltet hierfür ein blaues und ein rotes Kabel zur beseseren Unterscheidung benutzen.
   2. Isoliert jeweils beide Kabelenden des blauen und roten Kabels mit einer Abisolierzange ab.
-  3. Als nächstes nehmt ihr das Kabelende des blauen Kabel und lötet dies mit Hilfe des Lötkolben an den ?????? an.
+  3. Als nächstes nehmt ihr das Kabelende des blauen Kabel und lötet dies mit Hilfe des Lötkolben an den Minuspol an.
   4. Nun nehmt ihr eines der Kabelnenden des roten Kabel und lötet dies an die gegenüberliegende Seite an. 
-  4. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am ????? isolieren.
+  4. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am Minus- und Pluspol isolieren.
+  5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
 ### Step 4: Switchcontroller der Arcade Buttons und Push Dome Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
+Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere, Alle Buttons
+
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Switchcontroller der Buttons und der Buzzer verbunden. Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüße sollte hierbei keine Rolle spielen, da dies über das Programm gesteuert wird.
 
-Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere
+In unserem Projekt haben wir die Verbindungen zwischen den Komponenten in der Reihenfolge
+  - Arcade Button rot
+  - Arcade Button blau
+  - Arcade Button gelb
+  - Push Dome Button 1
+  - Push Dome Button 2
+  - Arcade Button schwarz
+  - Arcade Button geün
+  - Arcade Button (1 Player)
+  - Arcade Button (2 Player)
+gewählt.
 
 Dazu gehen wir folgendermaßen vor:
-  1. Als erstes nehmt ihr den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an den den blauen Arcade Button.
-  2. Der zweite Crimp Stecker wird an den Switchcontroller des roten Arcade Button angeschlossen.
-  3. Der dritte und vierte Crimp Stecker an die Switchcontroller des gelben und grünen Arcade Button.
+  1. Als erstes nehmt ihr den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an den den Switchcontroller com Anschluss des blauen Arcade Button.
+  2. Der zweite Crimp Stecker wird an den Switchcontroller com Anschluss des roten Arcade Button angeschlossen.
+  3. Der dritte und vierte Crimp Stecker an die Switchcontroller com Ports des gelben und grünen Arcade Button.
   4. Danach wird der schwarze Arcade Button verbunden gefolgt von den Player Buttons.
   5. Am achten und neunten Crimp Stecker müsst ihr die zwei Push Dome Buttons anschließen.
-  
-Bisher habt ihr 9 der 35 Stecker verwendet. Die Verbindung müsst ihr nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
+  6. Bisher habt ihr 9 der 35 Stecker verwendet. Die Verbindung müsst ihr nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
 
 ### Step 5: Insulated Daisy Chain Harness verlängern
+Wir benötigen: Verbindungskabel RB-CB3-25, Schere, Kabelhülse, Lötkolbe, Kabelstrang
+
 Wie schon erwähnt verbinden wir nun das Ende des Kabelstrangs mit einem Verbindungskabel RB-CB3-25, damit dieses auch an einen der GPIO Pins am Raspberry angeschlossen werden kann. 
 
 Hierfür führt ihr folgende Steps aus:
@@ -119,80 +140,131 @@ Hierfür führt ihr folgende Steps aus:
   4. Auch dieses Kabel müsst ihr am abgeschnittenen Ende abisolieren.
   5. Als nächstes verlötet ihr das Ende des Crimp Kabelstrangs mit dem zuvor isolierten Verbindungskabel.
   6. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
+  7. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
-### Step 6: Kabel an Neopixelstreifen löten
-Hierfür benötigt ihr folgendes: Lötkolben, Abisolierzange,
+### Step 6: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry verbinden
 
-Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die ???put Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Prrojekt haben wir die Farben 
-  - weiß = 5V 
-  - schwarz = GND 
-  - rot = ??? 
+In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
+Die Pinbelegung des Raspberry lautet wie folgt:
+
+![GPIO](/images//twoandahalfwomen/????.jpg)
+
+Hinweis: Um die Pins korrekt lesen zu können, sollten die USB-Anschlüssen des Raspberry nach unten zeigen.
+
+!RASPBERRY/images/twoandahalfwomen/???.jpg
+
+Arcade Button Blau: PIN 22
+Arcade Button Gelb: PIN 29
+Arcade Button Grün: PIN 16
+Arcade Button Rot: PIN 18
+Arcade Button Schwarz: PIN 13
+Arcade Button Player 1: PIN 12
+Arcade Button Player 2: PIN 11
+Push Dome Button 1: PIN 15
+Push Dome Button 2: PIN 31
+
+Auch das Kabelende des oben verwendeten Kabelstrangs aus Stepp 5 solltet ihr an einen GPIO Pin anschließen, so benötigt ihr kein Breadboard und habt später mehr Platz im Würfel.
+
+Button mit Kabelstrang-Ende: PIN 6
+
+### Step 7: Push Dome Button LED an Arduino anschließen
+Hierfür benötigen wir: Push Dome Button LED, Arduino, Pins (Male)
+
+Vorgehensweise:
+  1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, müsst ihr auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
+  2. Das blaue Kabel wird an GND angeschlossen.
+  3. Das rote solltet ihr an Pin 13 anschließen
+  4. Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
+  5. Blaues Kabel an GND anschließen
+  6. Rotes Kabel an Pin 12 anschließen
+  
+/images/twoandahalfwomen/??.jpg
+
+
+### Step 8: Kabel an Neopixelstreifen löten
+Hierfür benötigt ihr folgendes: Lötkolben, Abisolierzange, Neopixelstreifen, Isolierband
+
+Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die Input Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Prrojekt haben wir die Farben 
+  - rot = 5V 
+  - gelb = Dh (Mitte) 
+  - grau = GND 
 verwendet.
 
-Die folgenden Schritte solltet ihr dabei beachten:
-  1. Als erstes benötigt ihr 3 Kabel in den Farben rot, schwarz weiß. Die Kabel sollten eine Länge von ca. 15cm haben.
-  2. An allen drei Kabeln solltet ihr beide Kabelenden mit einer Abisolierzange absisolieren.
-  2. Nachdem ihr die Kabel abisoliert habt, nehmt ihr nun das schwarze Kabel und lötet dies an den Punkt des NEopixelstreifen welcher mit 5V markiert ist an. 
-  3. Das selbe macht ihr mit dem roten Kabel. Dies sollte allerdings an den Punkt, welcher mit GND markiert ist, gelötet werden.
-  4. Auch mit dem weißen Kabel verfahrt ihr wieder so. Hierbei müsst ihr auch auf den korrekten Punkt, welcher ... ist, achten.
-  5. Als letztes solltet ihr die gelöteten Stelle mit einem Isolierband isolieren
+!Neopixel(images/twoandahalfwomen/???.jpg)
 
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
-### Step 7: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
+Die folgenden Schritte solltet ihr dabei beachten:
+  1. Als erstes benötigt ihr 3 Kabel in den Farben rot, gelb und grau (Im Normalfall werden rot, weiß und schwarz verwendet). Die Kabel sollten eine Länge von ca. 15cm haben.
+  2. An allen drei Kabeln solltet ihr beide Kabelenden mit einer Abisolierzange absisolieren.
+  2. Nachdem ihr die Kabel abisoliert habt, nehmt ihr nun das rote Kabel und lötet dies an den Punkt des Neopixelstreifen welcher mit 5V markiert ist an. 
+  3. Das selbe macht ihr mit dem grauen Kabel. Dies sollte allerdings an den Punkt, welcher mit GND markiert ist, gelötet werden.
+  4. Auch mit dem gelben Kabel verfahrt ihr wieder so. Hierbei müsst ihr auch auf den korrekten Punkt, welcher Dh ist, achten.
+  5. Als letztes solltet ihr die gelöteten Stelle mit einem Isolierband isolieren.
+
+### Step 9: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
+Bnötigt werden: Verbindungskabel, Schere, Kabelhülse, Lötkolben, Feuerzeug
+
 Auch der Neopixelstreifen benötigt eine Verlängerung mit den Verbindungskabeln, um diese später an die PINS des Raspberry bzw. Arduino anschließen zu können. Es werden drei Verbindungskabel benötigt, diese solltet ihr nach den entsprechenden Farben (weiß, schwarz, rot) wählen.
 
 Die Vorgehensweise lautet wie folgt:
   1. Zu Beginn nehmen wir das Verbindungskabel RB-CB3-25 in der Farbe weiß und schneiden es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
   2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
-  3. Nun nehmt das weiße Kabel welches in Step 6 an den Neopixelstreifen gelötet wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
-  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen. 
-  5. Nun isolieren wir die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband.
+  3. Nun nehmt das weiße Kabel welches in Step 7 an den Neopixelstreifen gelötet wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
+  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel bis zur Lötstelle ziehen. 
+  5. Nun isolieren wir die Lötstelle mit der überzogenen Kabelhülse.
+  6. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
-### Step 8: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry verbinden
-In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
-Die Pinbelegung des Raspberry lautet wie folgt.
+### Step 10: Neopixelstreifen mit Arduino verbinden
+Benötigte Materialien: Neopixel LED Streifen, Arduino Uno
 
-![GPIO](/images//twoandahalfwomen/????.jpg)
+Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben.
 
-Arcade Button Blau: PIN
-Arcade Button Gelb: PIN
-Arcade Button Grün: PIN
-Arcade Button Rot: PIN
-Arcade Button Schwarz: PIN
-Arcade Button Player 1: PIN
-Arcade Button Player 2: PIN
-Push Dome Button 1: PIN
-Push Dome Button 2: PIN
+/images/twoandahalfwomen/???.jpg
 
-### Step 9: Neopixelstreifen mit Arduino verbinden
+grau (GND): PIN GND
+gelb (Dh): PIN 6
+rot (5V): PIN 5V
 
-Wenn an der einen Seite des LED Streifens noch keine Verbindungskabel angebracht sind müssen diese zuerst angelötet werden bevor der LED Streifen benutzt werden kann.
+Vorgehensweise:
+  1. Das graue Kabel an den GROUND Pin des Arduinos anschließen
+  2. Das rote Kabel schließt ihr an den 5V Pin des Arduinos an. 
+  3. Das letzte Verbindungskabel (gelb) kommt an PIN Nummer 6 des Arduinos.
 
-Beim Anlöten darauf achten, dass die INPUT Seite des Streifens verwendet wird. Diese erkennst du an dem Pfeil der in das Innere des Streifens zeigt. 
+### Step 11: Arduino und Raspberry verbinden
 
-Danach sollte dies so aussehen wie auf dem folgenden Bild:
+Benötigte Materialien: Raspberry Pi 3, Arduino Uno, USB Kabel
 
-//neopixel bild mit angelöteten Pins
-
-Danach kannst du den GROUND und den 5V Pin an den GROUND sowie 5V Pin des Arduinos stecken. Das letzte Verbindungskabel kommt an PIN Nummer 6 des Arduinos.
-
-### Step 10: Arduino und Raspberry verbinden
 Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten.
 
-### Step 11: Raspberry und Monitor verbinden
+/images/twoandahalfwomen/??.jpg
+
+### Step 12: Raspberry und Monitor verbinden
+Benötigte Materialien: Monitor, Raspberry Pi 3, HDMI Kabel oder -Adapter
+
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
+
+/images/twoandahalfwomen/??.jpg
 
 ## Step-by-Step Guide - Würfel
 
 ### Step 1: Löcher für die Buttons und Buzzer bohren
+
+Benötigte Materialien:
+1. Oberplatte (24,75 x 24,75cm)
+2. Vorderplatte (25,25 x 25,25cm)
+2. Lochfräse
+3. 6er Bohrer zum vorbohren
+4. Dremel
+5. Standbohrer
+
 Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zunächst Löcher an den Scheiben gebohrt werden.
 
 Auf der oberen Platte müssen vier Löcher für die farbigen Buttons und zwei Löcher für die Buzzer gebohrt werden mit jeweils einem Durchmesser von 28mm bzw. 24mm.
 
 Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt bevor dann mit der Lochfräse (25mm) die Löcher gebohrt werden können.
 
-Am besten spannt man die Lochfräse in einen Standbohrer um die nötige Stabilität zu bekommen.
+Am besten spannt man die Lochfräse in einen Standbohrer, um die nötige Stabilität zu bekommen.
 
 Beim Bohren darf nicht mit zu hohen Umdrehungen gebohrt werden, da ansonsten die Platten zu schmelzen beginnen. Dies erkennt man an einem immer stärker werdenden beißenden Geruch.
 
@@ -209,9 +281,15 @@ Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen.
 
 Auf der Vorderseite (die zukünftige Vorderseite des Würfeln) müssen noch drei weitere Löcher angebracht werden. Zwei Löcher für jeweils den Ein - und Zweispielerbutton sowie ein Loch für den Navigationsbutton.
 
-Um die Löcher zu bohren musst du genauso vorgehen wie zuvor.
+Um die Löcher zu bohren musst du genauso vorgehen wie zuvor auch.
 
 ### Step 2: Loch und Schlitz für das Zylinderschloss bohren
+
+Benötigte Materialien:
+1. Rückplatte (24,05cm x 25,25cm x 0,04cm)
+2. Dremel mit Mini Sägen Aufsatz
+3. 6er Bohrer zum vorbohren
+4. Dremel
 
 Um die Sicherheit des Qubes zu erhöhen bzw. zu verhindern, dass nichts geklaut wird ist es sinnvoll noch zusätzlich ein Schloss anzubringen. Zusätzlich zu diesem Schloss werden noch Scharniere an die Rückplatte angebracht damit sich diese leicht öffnen lässt.
 Diese Scharniere werden mit Pattex Kraftkleber an der Bodenplatte angebracht. Das ankleben der Scharniere wird erst in Schritt ??? erfolgen sollte aber an dieser Stelle schonmal erwähnt werden.
@@ -225,6 +303,13 @@ Um den Schlitz zu bohren nimmst du einen speziellen Mini Sägen Aufsatz für den
 //Mini Säge bild
 
 ### Step 3: Aussparrung für Raspberry und Arduino sägen
+
+Benötigte Materialien:
+1. Rückplatte (24,05cm x 25,25cm x 0,04cm)
+2. Laubsäge
+3. Schleife
+4. Dremel
+
 Damit der HDMI Eingang sowie die Eingänge für die Netzteile für das Raspberry und den Arduino zugänglich sind muss am unteren Ende der Rückplatte eine Aussparung gefräst werden.
 
 Neben der Aussparrung für die Kabel muss rechts und links noch Platz gelassen werden für die Scharniere damit die Rückwand geöffnet werden kann.
@@ -234,18 +319,53 @@ Aufzeichnen, mit Dremel oder einer Laubsäge sägen, Kanten abschleifen
 
 ### Step 4: Milchglasfolie anbringen
 
-Uns war es wichtig, dass Nutzer des Qubes in den Würfel hinein blicken konnetn und so die Elektronik sehen können. Deswegen haben wir uns dafür entschieden nur die zwei Seitenplatten sowie die Oberplatte mit Michglasfolie zu bekleben.
+Benötigte Materialien:
+1. Milchglasfolie
+2. alle Platten, die beklebt werden sollen
+3. Klebefolien Befestigungsset
+4. Cutter Messer
+
+Uns war es wichtig, dass Nutzer des Qubes in den Würfel hinein blicken konnten und so die Elektronik sehen können. Deswegen haben wir uns dafür entschieden nur die zwei Seitenplatten sowie die Oberplatte mit Michglasfolie zu bekleben.
 
 Damit der spätere Lichteffekt des LED Streifens besser zur Geltung kommt kann aber auch der komplette Würfel mit Folie beklebt werden.
 
-Um die Milchglasfolie auf die Platten anzubringen ist es das einfachste wenn die Klebeseite der Milchglasfolie zuerst freigelegt und dann die Folie mit der Klebeseite nach oben flach auf einem Tisch ausgebreitet wird dann kann man die Klebefolie entlang der Kanten abschneiden.
-Danach muss die Klebefolie sofort mit dem Schaber des Klebefolien Befestigungsset glatt gestrichen werden um die entstandenen Luftblässchen zu entfernen.
+Um die Milchglasfolie auf die Platten anzubringen ist es das einfachste wenn die Klebeseite der Milchglasfolie zuerst freigelegt und dann die Folie mit der Klebeseite nach oben flach auf einem Tisch ausgebreitet wird, dann kann man die Klebefolie entlang der Kanten abschneiden.
+Danach muss die Klebefolie sofort mit dem Schaber des Klebefolien Befestigungssets glatt gestrichen, werden um die entstandenen Luftblässchen zu entfernen.
 
-Da du jetzt alle gebohrte Löcher mit der Klebefolie beklebt hast musst du nun die Löcher wieder ausschneiden. Dies funktioniert am besten mit einem Cutter Messer.
+Da du jetzt alle gebohrten Löcher mit der Klebefolie beklebt hast, musst du nun die Löcher wieder ausschneiden. Dies funktioniert am besten mit einem Cutter Messer.
 
 Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
 ### Step 7: Plexiglasscheiben miteinander verkleben
+
+Benötigte Materialien:
+1. Alle Plexiglas Platten (außer die für die Rückwand da die zur Klapptür umgebaut wird)
+2. Pattex Kraftkleber
+3. alter Pinsel
+4. Cutter Messer
+5. Behälter für den Kleber
+6. großes Geodreieck
+
+Wenn alle Platten gebohrt und mit Milchlasfolie versehen wurden kann nun das Zusammenkleben der Platten erfolgen.
+
+Damit der Würfel auch wirklich quadratisch wird müssen die vier kleinen Platten (24,75 x 24,75cm) in einer ganz bestimmten Anordnung miteinander verklebt werden.
+
+Dies ist auf nachfolgender Zeichnung zu erkennen:
+
+//Patric Bild
+Damit die Platten bestmöglichst aufeinander kleben empfiehlt es sich auf der vorgesehenen Klebefläche (4mm breit) die zuvor angebrachte Michglasfolie zu entfernen. Das machst du am indem man die Folie vorsichtig mit dem Cutter Messer einschneidet (sodass die Platte nicht beschädigt wird) und dann abzieht.
+
+Wenn du das erledigt hast kann wirklich mit dem Bekleben begonnen werden.
+
+Zum Bekleben fülle ein biscchen von dem Patex Kraftkleber in ein Behälter. Jetzt kannst du mit Hilfe des alten Pinsels den Kleber auf die Klebefläche aufbringen. Wichtig ist, dass nicht nur eine Seite sondern beide Seiten die verklebt werden sollen mit dem Kleber versehen werden. Anschließend kannst du den Kleber leicht antrocknen lassen und stark zusammenpressen.
+
+Damit die inneren Winkel auch hundertprozentig rechtwinklig werden kann ein Geodreieck, zur Unterstützung,  zwischen die Platten gelegt werden. 
+
+Sobald die ersten Vier Platten verklebt worden sind wird zum Schluss die Vorderplatte (die mit den drei Löcher) angeklebt.
+Es hat sich Bewährt, dass den Kleber ein paar Stunden trocknen lässt bevor die Frontplatte aufgeklebt wird. 
+
+
+
 
 ### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
 
