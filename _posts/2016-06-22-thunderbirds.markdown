@@ -1,6 +1,6 @@
 # Thunderbirds und die Internetversorgung aus dem All
 
-![Startbild](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Startbild.gif)
+![Startbild](/images/thunderbirds/Startbild.gif)
 
 
 
@@ -96,7 +96,7 @@ Die Unterteilung dieses Projekts erfolgte in 2 Phasen.
 ### 1. Schritt: 
 Eine Holzspanplatte der Größe 50cm x 50cm dient als die Grundfläche für die Karte. Das Holz ist weiß.
 
-![Dicke Basis Holzplatte](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_1.png)
+![Dicke Basis Holzplatte](/images/thunderbirds/Bild_1.png)
 
 ### 2. Schritt: 
 Eine weitere dicke (2 cm) Holzplatte für den unteren Zuschnitt der Kontinente. An die zugeschnittenen Kontinente wird das LED Strip geklet
@@ -104,13 +104,13 @@ Eine weitere dicke (2 cm) Holzplatte für den unteren Zuschnitt der Kontinente. 
 ### 3. Schritt: 
 Dünnes Holz (Rückenwand eines Schranks) für das detaillierte Zuschneiden der Kontinente.
 
-![Dünne Holzplatte](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_2.png)
+![Dünne Holzplatte](/images/thunderbirds/Bild_2.png)
 
 ### 4. Schritt:
 Die Kontinente werden auf die Spanplatte unter Verwendung einer Vorlage gezeichnet.
 
-![Vorlage](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_3.png)
-![Dicke Holzplatte mit Konturen](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_4.png)
+![Vorlage](/images/thunderbirds/Bild_3.png)
+![Dicke Holzplatte mit Konturen](/images/thunderbirds/Bild_4.png)
 
 ### 5. Schritt:
 Die vorgezeichneten Kontinente werden anschließend mit der Bandsäge und Stichsäge ausgeschnitten.
