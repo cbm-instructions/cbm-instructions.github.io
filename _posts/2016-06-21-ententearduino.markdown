@@ -21,12 +21,14 @@ Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern a
 ### Material
 
 Allgemein
+
 * 2x Arduino Uno 
 * Diverse Kabel
   * 1 USB (Typ A auf B)
   * 10m Kabel (Litzen) bunt
 
 LaZer Computer
+
 * Holzbrett (120cmx60cmx0,4cm)
 * Plexiglas (60cmx60cmx0,4cm)
 * PC Bauteile (Netzteil, Lüfter, RAM, Festplatte, CPU, Grafikkarte)
@@ -44,6 +46,7 @@ LaZer Computer
 * Relais
 
 Snake
+
 * LED-Matrix (2x)
 * Joystick ( 4 oder 8 Richtungen und 1 Select-Button )
 * 2x neoPixel Matrix
@@ -53,6 +56,7 @@ Snake
 * 7x male to male wire for the matrix and thumb-joystick
 
 ### Werkzeuge
+
 * Akkubohrmaschine
 * Lochsäge
 * Säge (Metall und Holz)
