@@ -4,10 +4,10 @@ categories: instructions
 layout: post
 date: 2016-06-08 15:09:51 +0200
 --- 
-
 Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer". 
 
-##  Unser Projekt
+## Unser Projekt
+
 Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und innovativer zu gestalten. 
 
 Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern auskennen zu zeigen aus welchen Bauteilen ein Computer besteht. Spielerisch kann man die einzelnen Bauteile mit Strom versorgen indem man sie mit einem Laserstrahl anleuchtet. Wenn alle Teile miteinander verbunden sind kann der Nutzer das Spiel Snake spielen.
@@ -17,15 +17,17 @@ Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern a
 > Informatiker und Nicht-Informatiker möchten sich mehr mit Technik auseinandersetzen und durch direkte Interaktion darüber etwas lernen.
 
 ## Material und Werkzeug
-### Material
+#### Material
 
 Allgemein
+
 * 2x Arduino Uno 
 * Diverse Kabel
   * 1 USB (Typ A auf B)
   * 10m Kabel (Litzen) bunt
 
 LaZer Computer
+
 * Holzbrett (120cmx60cmx0,4cm)
 * Plexiglas (60cmx60cmx0,4cm)
 * PC Bauteile (Netzteil, Lüfter, RAM, Festplatte, CPU, Grafikkarte)
@@ -43,6 +45,7 @@ LaZer Computer
 * Relais
 
 Snake
+
 * LED-Matrix (2x)
 * Joystick ( 4 oder 8 Richtungen und 1 Select-Button )
 * 2x neoPixel Matrix
@@ -51,7 +54,6 @@ Snake
 * 1x femail to femail wire to connect the two matrix
 * 7x male to male wire for the matrix and thumb-joystick
 
- 
 ### Werkzeuge
 * Akkubohrmaschine
 * Lochsäge
@@ -75,19 +77,23 @@ Snake
   * Grundkenntnisse erforderlich
   * Bibliotheken, Guides und Beispiele (Sketchbook) in Arduino IDE
 
-
 ## Step-by-Step Guide
 ###Schritt 1
 ####Schritt 1.1 - Bibliotheken zum Schreiben der Programme für den Arduino
 
 Programm SNAKE
+
 * Adafruit_GFX
   *	Die Kern Grafik Bibliothek für alle Anzeigen. Stellt basis Grafik-Elemente (points, lines, circles)
+  
 * Adafruit_NeoMatrix
   * Steuert Controls NeoPixel Anzeigen. Benötigt Adafruit_NeoPixel und Adafruit_GFX libraries.	
+  
 * Adafruit_NeoPixel
+
 * JoystickLib
-  * Stellt API bereit zum lesen eines oder mehrerer Joysticks die an einem Arduino angeschlossen sind.
+  * Stellt API bereit zum lesen eines oder mehrerer Joysticks die an einem Arduino angeschlossen sind
+  
 * NewPing
 
 Programm Laz-Photodioden-LED Steuerung
