@@ -319,6 +319,8 @@ Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt 
 
 Am besten spannt man die Lochfräse in einen Standbohrer, um die nötige Stabilität zu bekommen.
 
+![Standbohrer](images/taahw/bohrer/stand.jpg
+
 Beim Bohren darf nicht mit zu hohen Umdrehungen gebohrt werden, da ansonsten die Platten zu schmelzen beginnen. Dies erkennt man an einem immer stärker werdenden beißenden Geruch.
 
 Da das Schmelzen nicht komplett verhindert werden kann müssen die Löcher bzw. die Schmelzrückstände an den Löchern mit einem Dremel weggeschliffen werden.
@@ -434,44 +436,45 @@ Vorgehensweise:
 Benötigte Materialien: Zylinderschloss, hintere Plexiglasscheibe
 
 Vorgehensweise:
-  1. Zuerst nehmt ihr das Zylinderschloss zur Hand und schraubt dieses auf, sodass ihr es an der hinteren Plexiglasseite einsetzen könnt.
-  2. Als nächstes setzt ihr das Zylinderschloss ein und schraubt es fest.
-  3. Nun richtet ihr es so aus, dass der Würfel mit der oberen Seite abschließbar ist.
+  1. Zuerst nimmst du das Zylinderschloss zur Hand und schraubt dieses auf, sodass du es an der hinteren Plexiglasseite einsetzen kannst.
+  2. Als nächstes setzt du das Zylinderschloss ein und schraubst es fest.
+  3. Nun richtest du es so aus, dass der Würfel mit der oberen Seite abschließbar ist.
+ ![Zylinderschloss](images/taahw/22.jpeg)
 
 ### Step 9: Würfel an Holzplatte kleben
 Benötigte Materialien: Würfel, MDF Platte, Kleber, Bleistift, Geodreieck, Pinsel
 
 Vorgehensweise:
-  1. Als erstes nehmt ihr die MDF Platte zur Hand und markiert, wo ihr den Würfel anbringen möchtet.
-  2. Dazu zeichnet ihr ein Quadrat mit den entsprechenden Maßen.
-  3. Nun verteilt ihr den Kleber mit einem Pinsel in dem eben gezeichneten Quadrat.
-  4. Als nächstes nehmt ihr den Würfel und drückt diesen auf die MDF Platte.
-  5. Zum Schluß solltet ihr in eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
+  1. Als erstes nimmst du die MDF Platte zur Hand und markierst, wo du den Würfel anbringen möchtest.
+  2. Dazu zeichnest du ein Quadrat mit den entsprechenden Maßen.
+  3. Nun verteilst du den Kleber mit einem Pinsel in dem eben gezeichneten Quadrat.
+  4. Als nächstes nimmst du den Würfel und drückt diesen auf die MDF Platte.
+  5. Zum Schluß solltest du ihn eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
 ### Step 10: Raspberry an Würfel anbringen
 Benötigte Materialien: Raspberrymit Gehäuse, Würfel, Tesa Powerbond, Schere
 
 Vorgehensweise:
-  1. Als erstes schneidet ihr euch zwei Streifen Tesa Powerbond zurecht.
-  2. Diese klebt ihr jeweils rechts und links an die Unterseite des Raspberry Gehäuse.
-  3. Entfernt nun das Schutzpapier und drückt das Gehäuse an den Boden des Würfels.
-  4. Hierbei solltet ihr darauf achten, dass in der Aussparrung der hinterseite des Würfels genug Platz für das Stromkabel des Arduinos vorhanden ist.
+  1. Als erstes schneidest du dir zwei Streifen Tesa Powerbond zurecht.
+  2. Diese klebst du jeweils rechts und links an die Unterseite des Raspberry Gehäuse.
+  3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
+  4. Hierbei solltest du darauf achten, dass in der Aussparrung der hinterseite des Würfels genug Platz für das Stromkabel des Arduinos vorhanden ist.
   
-/images/taahw/w
+![Aussparrung](/images/taahw/23.jpeg)
 
 ### Step 11: Arduino an Würfel anbringen
 Benötigte Materialien: Arduino mit Gehäuse, Würfel, Tesa Powerbond, Schere
 
 Vorgehensweise:
-  1. Als erstes schneidet ihr euch zwei Streifen Tesa Powerbond zurecht.
-  2. Diese klebt ihr jeweils rechts und links an die Unterseite des Arduino Gehäuse.
-  3. Entfernt nun das Schutzpapier und drückt das Gehäuse an den Boden des Würfels.
-  4. Den Arduino solltet ihr im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
+  1. Als erstes schneidest du dir zwei Streifen Tesa Powerbond zurecht.
+  2. Diese klebst du jeweils rechts und links an die Unterseite des Arduino Gehäuse.
+  3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
+  4. Den Arduino solltest du im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
 
 ### Step 12: Kabelsalat aufräumen
 Verwendete Materialien: Kabelbinder
 
-Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltet ihr hierzu Kabelbnder verwenden. Mit Hilfe der Kabelbinder lassen sich mehrere Kabel zusammenschnüren.
+Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltest du hierzu Kabelbnder verwenden. Mit Hilfe der Kabelbinder lassen sich mehrere Kabel zusammenschnüren.
 
 ## Programmierung:
 
