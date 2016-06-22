@@ -80,7 +80,6 @@ Snake
 
 
 ## Schritt 1
-
 ### Schritt 1.1 - Bibliotheken zum Schreiben der Programme für den Arduino
 
 Programm SNAKE
@@ -136,7 +135,6 @@ Die Halterung für die Spiegel sind 5 gleichseitige Dreiecke je 5 mm die miteina
 
 Als Ergebnis sollte man nun folgendes haben.
 Die Gewindestange von Unten nach Oben betrachtet.
-
 * Zwei Muttern
 * Rückwand
 * Zwei Muttern
