@@ -6,13 +6,13 @@ date: 2016-06-08 15:09:51 +0200
 --- 
 
 # Entente Arduino - LaZor Computer
-<img src="images/ententearduino/01.jpg" width="500">
+
 ##  Unser Projekt
 Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer". 
 Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und innovativer zu gestalten. 
 
 Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern auskennen zu zeigen aus welchen Bauteilen ein Computer besteht. Spielerisch kann man die einzelnen Bauteile mit Strom versorgen indem man sie mit einem Laserstrahl anleuchtet. Wenn alle Teile miteinander verbunden sind kann der Nutzer das Spiel Snake spielen.
-
+![lazor Computer](/images/ententearduino/01.jpg)
 ## Point of View
 
 > Informatiker und Nicht-Informatiker möchten sich mehr mit Technik auseinandersetzen und durch direkte Interaktion darüber etwas lernen.
@@ -96,7 +96,7 @@ Programm Laz-Photodioden-LED Steuerung
 ####Schritt 1.2 - Bauen des Schaukastens und Bauelemente bearbeiten
 #####Rückwand
 Die Rückwand wird je nach Bedarf zurecht geschnitten. Wir empfehlen eine quadratische Form von mindestens 120x120 cm. Die stärke des Holzes sollte 4 mm nicht unterschreiten. Wir hatten schichtverleihmtes Pappel-Holz verwendet, wobei Fichte oder härters Holz zu empfehlen ist. Da es der Stabiliät der Konstruktion äußerst zuträglich ist, da an der Rückwand alle Computerbauteile befestigt werden. Aufgrund dieser Materialart haben wir uns dazu entschlossen es mit einem Teppischmesser statt einer Säge zu zerschneiden. Hierbei empfiehlt es sich das Holz ein zu spannen und ein stabiles Stück Holz entlang der Trennmarkieren zu fixieren. Das Stück Holz sichert den Schnittverlauf des Teppischmessers und dient zusätzlich als Orientierungshilfe. Da Teppischmesser bzw. der Benutzer schneidet das Holz dann in mehreren Zügen.
-<img src="images/ententearduino/02.jpg" width="500">
+![lazor Computer](/images/ententearduino/02.jpg)
 
 #####Löcher bohren
 Die Rückwand auf eine feste Unterlage, am besten ein entbehrliches Holzbrett, legen. Den Weg des Lasers, also die Positionen von Lasermodulen, Fotowiderständen und LEDs, sowie die Griffe und zugehörigen PC Bauteile auf das Holzbrett skizzieren. Die PC Bauteile werden zusätzlich auf Schrauben gestellt, damit sie erhöht sind und der Laser darunter durch leuchten kann. Dann die passenden Holzbohrer ( 5er und 7er) verwenden. Wir hatten eine Nummer kleiner verwenden, da nachträgliches Vergrößern der Bohrung ohne Probleme möglich ist. Eine Akku-Bohrmaschine mit den Bohrern bestücken und die Löcher bohren.
@@ -106,7 +106,7 @@ Das Loch für den Kabelbaum und den Lüfter sollte mit einer Lochsäge angeferti
 #####Seitenwände
 Für die 4 Seiten gilt das gleiche wie für die Rückwand, wobei man darauf achten sollte, dass zwei Seiten, die gegenüberliegen, etwas kürzer sein sollten. Die Stärke des Holzes sollte abgezogen werden, damit kein Brett übersteht und der Kasten auch wirklich quadratisch ist. Anschließend sollten alle Teile zusammengesetzt und verleimt werden bevor man weiter macht. 
 
-<img src="images/ententearduino/03.jpg" width="500">
+![lazor Computer](/images/ententearduino/03.jpg)
 
 #####Verleimen
 Hierbei die Kontaktfächen dünn mit Holzleim bestreichen und kurz (~1min) antrocknen lassen und zusammenfügen. Die Kontaktflächen können zuvor etwas angeraut werden, damit die Oberfläche vergrößert und die Klebewirkung verstärkt wird. Unter leichtem Druck je Seite 5 min. halten. Am besten alles über Nacht stehen lassen. 
@@ -131,7 +131,7 @@ Die Gewindestange von Unten nach Oben betrachtet.
 * Eine Mutter
 * Griff und eingelassene Mutter
 
-<img src="images/ententearduino/11.jpg" width="500">
+![lazor Computer](/images/ententearduino/11.jpg)
 
 #####Linsen sägen
 Damit der Lserstrahl auf dem Boden sichtbar wird, muss man ihn auffächern. Dies geht am besten mit einer durchsichtigen Acrylstange, wie z.B. eine Gardinenstange. Diese wird in kleine, ca. 1cm lange, Teile gesägt. Beim Sägen muss darauf geachtet werden, dass man nicht zu viel Druck ausübt und nicht zu schnell sägt, da der Kunststoff sonst wieder zusammenklebt.
@@ -144,7 +144,7 @@ Die Griffe kann man nach belieben farblich gestalten.
 #####Joystick Box erstellen
 Mithilfe der Webseite makercase.com ein Box für den Joystick erstellen, sägen und kleben. Der Joystick sollte zwei analoge Anschlüsse für die X und Y Axen, 5V und Ground haben. 
 
-<img src="images/ententearduino/06.jpg" width="500">
+![lazor Computer](/images/ententearduino/06.jpg)
 
 #####Snake Display
 Für das LED-Pixel Display für das Spiel "Snake" sollte noch eine weiß transparente Plexiglasplatte zugeschnitten werden, damit man nicht direkt in die hellen LEDs schaut.
@@ -161,8 +161,8 @@ Farben der Kabel:
 * Plus = rot
 * Minus = blau
 
-<img src="images/ententearduino/04.jpg" width="500">
-<img src="images/ententearduino/05.jpg" width="500">
+![lazor Computer](/images/ententearduino/04.jpg)
+![lazor Computer](/images/ententearduino/05.jpg)
 
 ####Joystick
 Die Schnittstellen-Kabel des Joysticks wurden ebenfalls mit Kabel verlängert. Zu den Schnittstellen gehören die Inputs Plus-, Minus- und Select-Button-Kabel und die Outputs X-Koordiante, Y-Koordinate.
@@ -200,24 +200,24 @@ Dazu gehören:
 * Fotowiderstände
 * Displays
 
-<img src="images/ententearduino/12.jpg" width="500">
+![lazor Computer](/images/ententearduino/12.jpg)
 
 Die PC Bauteile werden auf Schrauben geschraubt, um dem Laser freien Platz auf dem Boden zu lassen. Die Lasermodule und die  dazu gehörigen Linsen werden auf kleine Holzklötze für einen besseren Halt geklebt, die wiederum in den Kasten geklebt werden. Die LEDs und Fotowiderstände kommen in die vorgesehenen Löcher. Anschließend werden die LED Matrix Displays eingebaut und die kleine Plexiglasplatte daraufgeschraubt.
 Damit die Lasermodule die Fotowiderstände richtig treffen, werden diese am besten mit Alu-Folie etwas abgeschirmt, sodass an diesen Stellen das Licht etwas gebündelt wird.
 
-<img src="images/ententearduino/14.jpg" width="500">
+![lazor Computer](/images/ententearduino/14.jpg)
 
 Optional können noch kleine Bauteile eines Mainboards (z.B. Kondensatoren) hinein geklebt werden. 
 Wenn alle Elemente im Kasten sind, kann die große Plexiglasplatte und die Griffe montiert werden. 
 
 ###Schritt 4 - Schaltplan
-<img src="images/ententearduino/09.jpg" width="500">
+![lazor Computer](/images/ententearduino/09.jpg)
 
 Die Kabel des LaZer Computers können entweder auf ein Breadboard gesteckt werden oder auf eine Platine gelötet werden.
 Für den Arduino der Steuerung haben wir eine Platine geätzt und für den Arduino für Snake haben wir eine Lochrasterplatine verwendet.
 
-<img src="images/ententearduino/07.jpg" width="500">
-<img src="images/ententearduino/08.jpg" width="500">
+![lazor Computer](/images/ententearduino/07.jpg)
+![lazor Computer](/images/ententearduino/08.jpg)
 ###Schritt 5 - Code
 Code für Arduino herunterladen und auf die zwei Arduinos laden
 * laZer_pc_driver für die Steuerung der Laser, Wiederstände und Komponenten
