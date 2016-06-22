@@ -40,7 +40,10 @@ Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hil
   - 1x Adapterkabel HDMI auf DVI (z.B. https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
   - 2x Acryl Scharniere 64mm (https://www.amazon.de/gp/product/B00R0BCWNU/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
   - Tesa Power Strips Small (https://www.amazon.de/tesa-Powerstrips-Strips-SMALL-Packung/dp/B000KJR2ES/)
+  - Tesa Powerbond
   - Neopixel 1 Meter (https://www.adafruit.com/product/1460)
+  - 1x Styroporkugel Ø8cm
+  - 5x Kabelbinder
 
 ### Werkzeuge:
   - Lötkolben
@@ -336,7 +339,7 @@ Da du jetzt alle gebohrten Löcher mit der Klebefolie beklebt hast, musst du nun
 
 Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
-### Step 7: Plexiglasscheiben miteinander verkleben
+### Step 5: Plexiglasscheiben miteinander verkleben
 
 Benötigte Materialien:
 1. Alle Plexiglas Platten (außer die für die Rückwand da die zur Klapptür umgebaut wird)
@@ -364,22 +367,72 @@ Damit die inneren Winkel auch hundertprozentig rechtwinklig werden kann ein Geod
 Sobald die ersten Vier Platten verklebt worden sind wird zum Schluss die Vorderplatte (die mit den drei Löcher) angeklebt.
 Es hat sich Bewährt, dass den Kleber ein paar Stunden trocknen lässt bevor die Frontplatte aufgeklebt wird. 
 
+### Step 6: Scharniere an Holzplatte/Plexiglas verkleben
+Benötigte Materialien: Scharniere, Pattex Kraftkleber, hintere Seite Plexiglas, MDF Platte
 
+Vorgehensweise:
+  1. Als erstes solltet ihr euch eine kleine Markierung jeweils rechts und links an der unteren Seite des Plexiglases machen, damit ihr ungefähr wisst wo es anzubringen ist.
+  2. Den selben Schritt führt ihr auch auf der hinteren Seite des Würfels durch, da diese zwei Seiten miteinander verbunden werden
+  3. Danach verteilt ihr den Kleber auf einer Seite eines Scharnieres und drückt dieses nun fest an die untere Seite des Würfels.
+  3. Nun solltet ihr das Scharnier eine Weile trocknen lassen bis es fest ist.
+  4. Schritt 3 wiederholt ihr für die hintere Seite des Würfels und lasst das Scharnier ebenfalls trocknen.
+  5. Die Schritte 1-4 sind auch für das zweite Scharnier durchzuführen.
 
+### Step 7: Arcade Buttons und Push Dome Buttons anbringen
 
-### Step 10: Scharniere an Holzplatte/Plexiglas verkleben
+### Step 8: Zylinderschloss befestigen
+Benötigte Materialien: Zylinderschloss, hintere Plexiglasscheibe
 
-### Step 8: Arcade Buttons und Push Dome Buttons anbringen
+Vorgehensweise:
+  1. Zuerst nehmt ihr das Zylinderschloss zur Hand und schraubt dieses auf, sodass ihr es an der hinteren Plexiglasseite einsetzen könnt.
+  2. Als nächstes setzt ihr das Zylinderschloss ein und schraubt es fest.
+  3. Nun richtet ihr es so aus, dass der Würfel mit der oberen Seite abschließbar ist.
 
-### Step 9: Zylinderschloss befestigen
+### Step 9: Neopixel an Styroporkugel befestigen
+Verwendete Materialien: Styroporkugel, Neopixel, Nylonschnurr, ???
 
-### Step 11: Neopixel befestigen
+Vorgehensweise:
+  1. ???
+  2. ???
+  3. ???
+  4. ???
+  5. ???
+  6. ??
 
-### Step 11: Würfel an Holzplatte kleben
+### Step 10: Würfel an Holzplatte kleben
+Benötigte Materialien: Würfel, MDF Platte, Kleber, Bleistift, Geodreieck, Pinsel
 
-### Step 11: Arduino && Raspberry an Würfel anbringen
+Vorgehensweise:
+  1. Als erstes nehmt ihr die MDF Platte zur Hand und markiert, wo ihr den Würfel anbringen möchtet.
+  2. Dazu zeichnet ihr ein Quadrat mit den entsprechenden Maßen.
+  3. Nun verteilt ihr den Kleber mit einem Pinsel in dem eben gezeichneten Quadrat.
+  4. Als nächstes nehmt ihr den Würfel und drückt diesen auf die MDF Platte.
+  5. Zum Schluß solltet ihr in eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
+### Step 11: Raspberry an Würfel anbringen
+Benötigte Materialien: Raspberrymit Gehäuse, Würfel, Tesa Powerbond, Schere
 
+Vorgehensweise:
+  1. Als erstes schneidet ihr euch zwei Streifen Tesa Powerbond zurecht.
+  2. Diese klebt ihr jeweils rechts und links an die Unterseite des Raspberry Gehäuse.
+  3. Entfernt nun das Schutzpapier und drückt das Gehäuse an den Boden des Würfels.
+  4. Hierbei solltet ihr darauf achten, dass in der Aussparrung der hinterseite des Würfels genug Platz für das Stromkabel des Arduinos vorhanden ist.
+  
+/images/taahw/w
+
+### Step 12: Arduino an Würfel anbringen
+Benötigte Materialien: Arduino mit Gehäuse, Würfel, Tesa Powerbond, Schere
+
+Vorgehensweise:
+  1. Als erstes schneidet ihr euch zwei Streifen Tesa Powerbond zurecht.
+  2. Diese klebt ihr jeweils rechts und links an die Unterseite des Arduino Gehäuse.
+  3. Entfernt nun das Schutzpapier und drückt das Gehäuse an den Boden des Würfels.
+  4. Den Arduino solltet ihr im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
+
+### Step 13: Kabelsalat aufräumen
+Verwendete Materialien: Kabelbinder
+
+Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltet ihr hierzu Kabelbnder verwenden. Mit Hilfe der Kabelbinder lassen sich mehrere Kabel zusammenschnüren.
 
 ## Programmierung:
 
