@@ -21,14 +21,12 @@ Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern a
 ### Material
 
 Allgemein
-
 * 2x Arduino Uno 
 * Diverse Kabel
   * 1 USB (Typ A auf B)
   * 10m Kabel (Litzen) bunt
 
 LaZer Computer
-
 * Holzbrett (120cmx60cmx0,4cm)
 * Plexiglas (60cmx60cmx0,4cm)
 * PC Bauteile (Netzteil, Lüfter, RAM, Festplatte, CPU, Grafikkarte)
@@ -46,7 +44,6 @@ LaZer Computer
 * Relais
 
 Snake
-
 * LED-Matrix (2x)
 * Joystick ( 4 oder 8 Richtungen und 1 Select-Button )
 * 2x neoPixel Matrix
@@ -86,15 +83,11 @@ Programm SNAKE
 
 * Adafruit_GFX
   *	Die Kern Grafik Bibliothek für alle Anzeigen. Stellt basis Grafik-Elemente (points, lines, circles)
-  
 * Adafruit_NeoMatrix
   * Steuert Controls NeoPixel Anzeigen. Benötigt Adafruit_NeoPixel und Adafruit_GFX libraries.	
-  
 * Adafruit_NeoPixel
-
 * JoystickLib
   * Stellt API bereit zum lesen eines oder mehrerer Joysticks die an einem Arduino angeschlossen sind
-  
 * NewPing
 
 Programm Lazer-Photodioden-LED Steuerung
