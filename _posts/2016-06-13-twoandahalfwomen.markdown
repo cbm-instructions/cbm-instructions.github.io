@@ -388,18 +388,7 @@ Vorgehensweise:
   2. Als nächstes setzt ihr das Zylinderschloss ein und schraubt es fest.
   3. Nun richtet ihr es so aus, dass der Würfel mit der oberen Seite abschließbar ist.
 
-### Step 9: Neopixel an Styroporkugel befestigen
-Verwendete Materialien: Styroporkugel, Neopixel, Nylonschnurr, ???
-
-Vorgehensweise:
-  1. ???
-  2. ???
-  3. ???
-  4. ???
-  5. ???
-  6. ??
-
-### Step 10: Würfel an Holzplatte kleben
+### Step 9: Würfel an Holzplatte kleben
 Benötigte Materialien: Würfel, MDF Platte, Kleber, Bleistift, Geodreieck, Pinsel
 
 Vorgehensweise:
@@ -409,7 +398,7 @@ Vorgehensweise:
   4. Als nächstes nehmt ihr den Würfel und drückt diesen auf die MDF Platte.
   5. Zum Schluß solltet ihr in eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
-### Step 11: Raspberry an Würfel anbringen
+### Step 10: Raspberry an Würfel anbringen
 Benötigte Materialien: Raspberrymit Gehäuse, Würfel, Tesa Powerbond, Schere
 
 Vorgehensweise:
@@ -420,7 +409,7 @@ Vorgehensweise:
   
 /images/taahw/w
 
-### Step 12: Arduino an Würfel anbringen
+### Step 11: Arduino an Würfel anbringen
 Benötigte Materialien: Arduino mit Gehäuse, Würfel, Tesa Powerbond, Schere
 
 Vorgehensweise:
@@ -429,7 +418,7 @@ Vorgehensweise:
   3. Entfernt nun das Schutzpapier und drückt das Gehäuse an den Boden des Würfels.
   4. Den Arduino solltet ihr im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
 
-### Step 13: Kabelsalat aufräumen
+### Step 12: Kabelsalat aufräumen
 Verwendete Materialien: Kabelbinder
 
 Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltet ihr hierzu Kabelbnder verwenden. Mit Hilfe der Kabelbinder lassen sich mehrere Kabel zusammenschnüren.
