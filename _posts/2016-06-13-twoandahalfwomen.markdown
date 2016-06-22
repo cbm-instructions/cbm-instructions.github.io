@@ -79,26 +79,39 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
 
   ![Kabel_Button](/images/taahw/02.jpg)
 
-  4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
+  4. Nun musst du das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
   
   ![Kabelhülse](/images/taahw/03.jpg)
 
-  5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
+  5. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
+  
+![Kabelhülse](images/taahw/04.jpg)
   
 Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
 ### Step 2: Kabel der Arcade Buttons und Push Dome Buttons verlängern
 Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Verbindungskabel RB-CB3-25, Feuerzeug
 
-Das in Step 1 verlötete Kabel solltet ihr noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit ihr die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen könnt.
+Das in Step 1 verlötete Kabel solltest du noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit du die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen kannst.
 
 Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise entschieden:
   1. Nehmt das Verbindungskabel RB-CB3-25 und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
-  2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
-  3. Nun nehmt ihr einen Arcade Button oder Push Dome Button, an dem Step 1 bereits durchgeführt wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
-  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen 
-  5. Nun solltet ihr die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband isolieren.
-  6. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+  2. Danach solltest du es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
+
+  ![Verbindungskabel](/images/taahw/05.JPG)
+
+  3. Nun nimmst du einen Arcade Button oder Push Dome Button, an dem Step 1 bereits durchgeführt wurde und verbinde die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
+
+![Verbindung](/images/taahw/06.JPG)  
+
+  4. Danach solltest du die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen 
+  
+![Kabelhülse](/images/taahw/07.jpg)
+
+  5. Nun solltet du die Lötstelle mit der überzogenen Kabelhülse oder einem Isolierband isolieren.
+  6. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+  
+![Verbindungskabel](/images/taahw/08.jpg)
 
 Auch dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
@@ -107,18 +120,22 @@ Benötigte Materialien: Schere, Abisolierzange, Lötkolben, Kabel, Kabelhülse, 
 
 Für die LED der Push Dome Buttons werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
 
-Hierfür geht ihr wie folgt vor:
-  1. Schneidet euch zwei Kabel in ausreichnder Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Ihr solltet hierfür ein blaues und ein rotes Kabel zur beseseren Unterscheidung benutzen.
-  2. Isoliert jeweils beide Kabelenden des blauen und roten Kabels mit einer Abisolierzange ab.
-  3. Als nächstes nehmt ihr das Kabelende des blauen Kabel und lötet dies mit Hilfe des Lötkolben an den Minuspol an.
-  4. Nun nehmt ihr eines der Kabelnenden des roten Kabel und lötet dies an die gegenüberliegende Seite an. 
-  4. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am Minus- und Pluspol isolieren.
-  5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+Hierfür gehst du wie folgt vor:
+  1. Schneide dir zwei Kabel in ausreichnder Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Du solltest hierfür ein blaues und ein rotes Kabel zur beseseren Unterscheidung benutzen.
+  2. Isoliere jeweils beide Kabelenden des blauen und roten Kabels mit einer Abisolierzange ab.
+  3. Als nächstes nimmst du das Kabelende des blauen Kabel und lötest dies mit Hilfe des Lötkolben an den Minuspol an.
+  4. Nun nimmst du eines der Kabelnenden des roten Kabel und lötest dies an die gegenüberliegende Seite an. 
+  4. Nun musst du die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband am Minus- und Pluspol isolieren.
+  5. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+  
+![Push Dome Button](/images/taahw/09.jpg)
 
 ### Step 4: Switchcontroller der Arcade Buttons und Push Dome Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
 Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere, Alle Buttons
 
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Switchcontroller der Buttons und der Buzzer verbunden. Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüße sollte hierbei keine Rolle spielen, da dies über das Programm gesteuert wird.
+
+![Kabelstrang](/images/taahw/10.jpg)
 
 In unserem Projekt haben wir die Verbindungen zwischen den Komponenten in der Reihenfolge
   - Arcade Button rot
@@ -133,12 +150,17 @@ In unserem Projekt haben wir die Verbindungen zwischen den Komponenten in der Re
 gewählt.
 
 Dazu gehen wir folgendermaßen vor:
-  1. Als erstes nehmt ihr den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an den den Switchcontroller com Anschluss des blauen Arcade Button.
+  1. Als erstes nimmst du den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an den den Switchcontroller com Anschluss des blauen Arcade Button.
+  
+  ![Verbindungskabel](/images/taahw/11.jpg)
+  ![Verbindungskabel](/images/taahw/11_1.jpg)
+  ![Verbindungskabel](/images/taahw/11_2.jpg)
+
   2. Der zweite Crimp Stecker wird an den Switchcontroller com Anschluss des roten Arcade Button angeschlossen.
   3. Der dritte und vierte Crimp Stecker an die Switchcontroller com Ports des gelben und grünen Arcade Button.
   4. Danach wird der schwarze Arcade Button verbunden gefolgt von den Player Buttons.
-  5. Am achten und neunten Crimp Stecker müsst ihr die zwei Push Dome Buttons anschließen.
-  6. Bisher habt ihr 9 der 35 Stecker verwendet. Die Verbindung müsst ihr nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
+  5. Am achten und neunten Crimp Stecker musst du die zwei Push Dome Buttons anschließen.
+  6. Bisher hast du 9 der 35 Stecker verwendet. Die Verbindung musst du nach dem zenhten Crimp Stecker mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern.
 
 ### Step 5: Insulated Daisy Chain Harness verlängern
 Wir benötigen: Verbindungskabel RB-CB3-25, Schere, Kabelhülse, Lötkolbe, Kabelstrang
@@ -147,23 +169,34 @@ Wie schon erwähnt verbinden wir nun das Ende des Kabelstrangs mit einem Verbind
 
 Hierfür führt ihr folgende Steps aus:
   1. Den zehnten Crimp Stecker trennen wir nun ebenfalls mit einer Schere.
+  
+![Verbindungskabel](/images/taahw/12.jpg)
+
   2. Danach solltet ihr das Kabelende mit einer Abisolierzange abisolieren.
-  3. Nun nehmt ihr das Verbindungskabel RB-CB3-25, welches die gleiche Farbe wie der Kabelstrang haben sollte, zur Hand und schenidet eines der Female Stücke ab, sodass das Kabel ausreichend lang ist.
-  4. Auch dieses Kabel müsst ihr am abgeschnittenen Ende abisolieren.
-  5. Als nächstes verlötet ihr das Ende des Crimp Kabelstrangs mit dem zuvor isolierten Verbindungskabel.
-  6. Nun müsst ihr die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
-  7. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+
+![Verbindungskabel](/images/taahw/13.jpg)  
+
+  3. Nun nimmst du das Verbindungskabel RB-CB3-25, welches die gleiche Farbe wie der Kabelstrang haben sollte, zur Hand und schenidet eines der Female Stücke ab, sodass das Kabel ausreichend lang ist.
+  
+![Verbindungskabel](/images/taahw/05.jpg)
+
+  4. Auch dieses Kabel musst du am abgeschnittenen Ende abisolieren.
+  5. Als nächstes verlötest du das Ende des Crimp Kabelstrangs mit dem zuvor isolierten Verbindungskabel.
+  6. Nun musst du die verlöteten Kabel mit einer Kabelhülse oder einem Isolierband isolieren.
+  ![Verbindungskabel](/images/taahw/07.jpg)
+  7. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+  ![Verbindungskabel](/images/taahw/08.jpg)
 
 ### Step 6: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry verbinden
 
 In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
 Die Pinbelegung des Raspberry lautet wie folgt:
 
-![GPIO](/images/twoandahalfwomen/????.jpg)
+![GPIO](/images/taahw/14.png)
 
 Hinweis: Um die Pins korrekt lesen zu können, sollten die USB-Anschlüssen des Raspberry nach unten zeigen.
 
-!RASPBERRY/images/twoandahalfwomen/???.jpg
+![GPIO]/images/taahw/15.jpg
 
 Arcade Button Blau: PIN 22
 Arcade Button Gelb: PIN 29
@@ -175,22 +208,27 @@ Arcade Button Player 2: PIN 11
 Push Dome Button 1: PIN 15
 Push Dome Button 2: PIN 31
 
-Auch das Kabelende des oben verwendeten Kabelstrangs aus Stepp 5 solltet ihr an einen GPIO Pin anschließen, so benötigt ihr kein Breadboard und habt später mehr Platz im Würfel.
+Auch das Kabelende des oben verwendeten Kabelstrangs aus Stepp 5 solltest du an einen GPIO Pin anschließen, so benötigst du kein Breadboard und habt später mehr Platz im Würfel.
 
 Button mit Kabelstrang-Ende: PIN 6
+
+![GPIO](/images/taahw/16.jpg)
 
 ### Step 7: Push Dome Button LED an Arduino anschließen
 Hierfür benötigen wir: Push Dome Button LED, Arduino, Pins (Male)
 
 Vorgehensweise:
-  1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, müsst ihr auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
+  1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, musst du auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
+  
+![LED Push Dome Button](/images/taahw/17.jpg)
+
   2. Das blaue Kabel wird an GND angeschlossen.
   3. Das rote solltet ihr an Pin 13 anschließen
   4. Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
   5. Blaues Kabel an GND anschließen
   6. Rotes Kabel an Pin 12 anschließen
   
-/images/twoandahalfwomen/??.jpg
+/images/taahw/18.jpg
 
 
 ### Step 8: Kabel an Neopixelstreifen löten
@@ -207,12 +245,17 @@ verwendet.
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
 Die folgenden Schritte solltet ihr dabei beachten:
-  1. Als erstes benötigt ihr 3 Kabel in den Farben rot, gelb und grau (Im Normalfall werden rot, weiß und schwarz verwendet). Die Kabel sollten eine Länge von ca. 15cm haben.
-  2. An allen drei Kabeln solltet ihr beide Kabelenden mit einer Abisolierzange absisolieren.
-  2. Nachdem ihr die Kabel abisoliert habt, nehmt ihr nun das rote Kabel und lötet dies an den Punkt des Neopixelstreifen welcher mit 5V markiert ist an. 
-  3. Das selbe macht ihr mit dem grauen Kabel. Dies sollte allerdings an den Punkt, welcher mit GND markiert ist, gelötet werden.
-  4. Auch mit dem gelben Kabel verfahrt ihr wieder so. Hierbei müsst ihr auch auf den korrekten Punkt, welcher Dh ist, achten.
-  5. Als letztes solltet ihr die gelöteten Stelle mit einem Isolierband isolieren.
+  1. Als erstes benötisgt du 3 Kabel in den Farben rot, gelb und grau (Im Normalfall werden rot, weiß und schwarz verwendet). Die Kabel sollten eine Länge von ca. 15cm haben.
+  2. An allen drei Kabeln solltest du beide Kabelenden mit einer Abisolierzange absisolieren.
+  2. Nachdem du die Kabel abisoliert hast, nimmst du nun das rote Kabel und lötet dies an den Punkt des Neopixelstreifen welcher mit 5V markiert ist an. 
+  3. Das selbe machst du mit dem grauen Kabel. Dies sollte allerdings an den Punkt, welcher mit GND markiert ist, gelötet werden.
+  4. Auch mit dem gelben Kabel verfahrst du wieder so. Hierbei musst du auch auf den korrekten Punkt, welcher Dh ist, achten.
+  
+![Neopixel](/images/taahw/19.jpg)
+
+  5. Als letztes solltest du die gelöteten Stelle mit einem Isolierband isolieren.
+  
+![Neopixel](/images/taahw/20.jpg)
 
 ### Step 9: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
 Bnötigt werden: Verbindungskabel, Schere, Kabelhülse, Lötkolben, Feuerzeug
@@ -220,19 +263,17 @@ Bnötigt werden: Verbindungskabel, Schere, Kabelhülse, Lötkolben, Feuerzeug
 Auch der Neopixelstreifen benötigt eine Verlängerung mit den Verbindungskabeln, um diese später an die PINS des Raspberry bzw. Arduino anschließen zu können. Es werden drei Verbindungskabel benötigt, diese solltet ihr nach den entsprechenden Farben (weiß, schwarz, rot) wählen.
 
 Die Vorgehensweise lautet wie folgt:
-  1. Zu Beginn nehmen wir das Verbindungskabel RB-CB3-25 in der Farbe weiß und schneiden es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
-  2. Danach solltet ihr es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
-  3. Nun nehmt das weiße Kabel welches in Step 7 an den Neopixelstreifen gelötet wurde und verbindet die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
-  4. Danach solltet ihr die Kabelhülse über das Ende des Verbindungskabel bis zur Lötstelle ziehen. 
-  5. Nun isolieren wir die Lötstelle mit der überzogenen Kabelhülse.
-  6. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
+  1. Zu Beginn nimmst du das Verbindungskabel RB-CB3-25 in der Farbe weiß und schneiden es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
+  2. Danach solltest du es an der abgeschnittenen Seite mit einer Abisolierzange abisolieren.
+  3. Nun nimmst du das weiße Kabel welches in Step 7 an den Neopixelstreifen gelötet wurde und verbindest die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolben.
+  4. Danach solltest du die Kabelhülse über das Ende des Verbindungskabel bis zur Lötstelle ziehen. 
+  5. Nun isolierst du die Lötstelle mit der überzogenen Kabelhülse.
+  6. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
 ### Step 10: Neopixelstreifen mit Arduino verbinden
 Benötigte Materialien: Neopixel LED Streifen, Arduino Uno
 
 Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben.
-
-/images/twoandahalfwomen/???.jpg
 
 grau (GND): PIN GND
 gelb (Dh): PIN 6
@@ -240,7 +281,7 @@ rot (5V): PIN 5V
 
 Vorgehensweise:
   1. Das graue Kabel an den GROUND Pin des Arduinos anschließen
-  2. Das rote Kabel schließt ihr an den 5V Pin des Arduinos an. 
+  2. Das rote Kabel schließt du an den 5V Pin des Arduinos an. 
   3. Das letzte Verbindungskabel (gelb) kommt an PIN Nummer 6 des Arduinos.
 
 ### Step 11: Arduino und Raspberry verbinden
@@ -249,7 +290,7 @@ Benötigte Materialien: Raspberry Pi 3, Arduino Uno, USB Kabel
 
 Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten.
 
-/images/twoandahalfwomen/??.jpg
+/images/twoandahalfwomen/21.jpg
 
 ### Step 12: Raspberry und Monitor verbinden
 Benötigte Materialien: Monitor, Raspberry Pi 3, HDMI Kabel oder -Adapter
