@@ -6,7 +6,7 @@ date:   2016-04-29 15:09:51 +0200
 ---
 
 ## Ziel/POV:
-Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine  freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten. 
+Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine  freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten und w. 
 
 ## Projektbeschreibung:
 Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hilfe eines Raspberry Pi und einem Arduino realisiert wurde. Das Projekt ist in der Form eines Würfels dargestellt, an welchem die verwendeten Bauteile angebracht sind. Den Spielern ist es möglich einen Einspieler- oder auch Zweispielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich. 
@@ -70,10 +70,19 @@ Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kab
 Damit die Arcade Buttons verwendet werden können, müssen an den Switch Coontrollern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
 Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade Buttons und die 2 Push Dome Buttons genutzt:
-  1. Schneidet euch ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten ihr nehmt Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
-  2. Isoliert jeweils beide Kabelenden mit einer Abisolierzange ab.
-  3. Als nächstes nehmt ihr eines der Kabelenden und lötet dies mit Hilfe des Lötkolben an den Microswitchcontroller (WELCHE SEITE) eines Buttons/Buzzers.
+  1. Schneide dir ein Kabel in ausreichnder Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten du nimmst Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
+  2. Isoliere jeweils beide Kabelenden mit einer Abisolierzange ab.
+  
+  ![Kabel]/image/taahw/01.JPG
+
+  3. Als nächstes nimmst du eines der Kabelenden und lötest dies mit Hilfe des Lötkolben an den Microswitchcontroller eines Buttons/Buzzers.
+
+  ![Kabel_Button]/images/taahw/02.jpg
+
   4. Nun müsst ihr das verlötete Kabel mit einer Kabelhülse oder einem Isolierband am Switchcontroller isolieren.
+  
+  ![Kabelhülse]/images/taahw/03.jpg
+
   5. Die Kabelhülse müsst ihr mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
   
 Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
@@ -150,7 +159,7 @@ Hierfür führt ihr folgende Steps aus:
 In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry PI anschließen.
 Die Pinbelegung des Raspberry lautet wie folgt:
 
-![GPIO](/images//twoandahalfwomen/????.jpg)
+![GPIO](/images/twoandahalfwomen/????.jpg)
 
 Hinweis: Um die Pins korrekt lesen zu können, sollten die USB-Anschlüssen des Raspberry nach unten zeigen.
 
