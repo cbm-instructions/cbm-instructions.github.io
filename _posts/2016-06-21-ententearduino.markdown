@@ -1,5 +1,5 @@
 ---
-title: "LaZor Computer"
+title: "Learn How to Computer - with LASERS"
 categories: instructions
 layout: post
 date: 2016-06-08 15:09:51 +0200
@@ -11,7 +11,8 @@ Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer".
 Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und innovativer zu gestalten. 
 
 Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern auskennen zu zeigen aus welchen Bauteilen ein Computer besteht. Spielerisch kann man die einzelnen Bauteile mit Strom versorgen indem man sie mit einem Laserstrahl anleuchtet. Wenn alle Teile miteinander verbunden sind kann der Nutzer das Spiel Snake spielen.
-![lazor Computer](/images/ententearduino/01.jpg)
+
+[![LaZor Computer](https://img.youtube.com/vi/kzdtTKLQS0o/0.jpg)](https://www.youtube.com/watch?v=kzdtTKLQS0o)
 
 ## Point of View
 > Informatiker und Nicht-Informatiker möchten sich mehr mit Technik auseinandersetzen und durch direkte Interaktion darüber etwas lernen.
