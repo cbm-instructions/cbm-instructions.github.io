@@ -5,10 +5,9 @@ layout: post
 date: 2016-06-08 15:09:51 +0200
 --- 
 
-# Entente Arduino - LaZor Computer
+Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer". 
 
 ##  Unser Projekt
-Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer". 
 Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und innovativer zu gestalten. 
 
 Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern auskennen zu zeigen aus welchen Bauteilen ein Computer besteht. Spielerisch kann man die einzelnen Bauteile mit Strom versorgen indem man sie mit einem Laserstrahl anleuchtet. Wenn alle Teile miteinander verbunden sind kann der Nutzer das Spiel Snake spielen.
@@ -18,7 +17,7 @@ Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern a
 > Informatiker und Nicht-Informatiker möchten sich mehr mit Technik auseinandersetzen und durch direkte Interaktion darüber etwas lernen.
 
 ## Material und Werkzeug
-#### Material
+### Material
 
 Allgemein
 * 2x Arduino Uno 
@@ -53,7 +52,7 @@ Snake
 * 7x male to male wire for the matrix and thumb-joystick
 
  
-#### Werkzeuge
+### Werkzeuge
 * Akkubohrmaschine
 * Lochsäge
 * Säge (Metall und Holz)
