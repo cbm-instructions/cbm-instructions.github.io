@@ -119,8 +119,8 @@ Die vorgezeichneten Kontinente werden anschließend mit der Bandsäge und Stichs
 Die ausgeschnittenen Kontinente werden mit Hilfe einer Feile verwendet.
 Tipp: Die Kontinente müssen nicht detailliert ausgeschnitten werden. 
 
-![Ausgeschnittene Grund Kontinente](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_5.png)
-![Kontinent](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_6.png)
+![Ausgeschnittene Grund Kontinente](/images/thunderbirds/Bild_5.png)
+![Kontinent](/images/thunderbirds/Bild_6.png)
 
 ### 7. Schritt:
 Die zugeschnittenen Kontinente werden auf die Basis Spanplatte (100cm x 60cm x 2cm) gelegt. 
@@ -128,28 +128,28 @@ Die zugeschnittenen Kontinente werden auf die Basis Spanplatte (100cm x 60cm x 2
 ### 8. Schritt:
 Die Konturen der zugeschnittenen Kontinente werden mit einem Stift gezeichnet damit eine Befestigung erfolgen kann.
 
-![Kontinente auf der Basis Holzplatte](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_7.png)
+![Kontinente auf der Basis Holzplatte](/images/thunderbirds/Bild_7.png)
 
 ### 9. Schritt:
 Die Kontinente werden nun mit Schrauben von hinten befestigt. Der Akkubohrer reicht in diesem Fall aus.
 
-![Schrauben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_8.png)
+![Schrauben](/images/thunderbirds/Bild_8.png)
 
 ### 10. Schritt:
 Erneut werden die Kontinente unter Verwendung der Vorlage auf das dünne Holz gezeichnet. Mit Hilfe einer Stichsäge werden die Kontinente ausgeschnitten.
 Achtung: Konturen der Kontinente müssen sehr detailliert sein.
 
-![Konturen auf dem dünnen Holz](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_9.png)
+![Konturen auf dem dünnen Holz](/images/thunderbirds/Bild_9.png)
 
 ### 11. Schritt:
 Kontinente mit der Spraydose schwarz matt lackieren.
 
-![Lackiertes dünnes Holz](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_10.png)
+![Lackiertes dünnes Holz](/images/thunderbirds/Bild_10.png)
 
 ### 12. Schritt:
 Die getrockneten Kontinente werden auf die befestigten Kontinente gelegt und es wird „zentral“ ein Loch, dass durch alle 3 Platten geht. Für die Bohrung wird eine Bohrmaschine mit einem Holz Bohraufsatz verwendet.
 
-![Bohraufsätze](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_40.png)
+![Bohraufsätze](/images/thunderbirds/Bild_40.png)
 ![Gebohrtes Loch](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/thunderbirds/Bild_12.png)
 
 ### 13. Schritt:
