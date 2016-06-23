@@ -44,7 +44,6 @@ Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getest
   - 1x Adapterkabel HDMI auf DVI | [Gibt es hier zu kaufen](https://www.amazon.de/AmazonBasics-Adapterkabel-HDMI-auf-DVI-Schwarz/dp/B00NH11X64)
   - 2x Acryl Scharniere 64mm | [Gibt es hier zu kaufen](https://www.amazon.de/gp/product/B00R0BCWNU/ref=oh_aui_detailpage_o04_s00?ie=UTF8&psc=1)
   - Tesa Power Strips Small | [Gibt es hier zu kaufen](https://www.amazon.de/tesa-Powerstrips-Strips-SMALL-Packung/dp/B000KJR2ES/)
-  - Tesa Powerbond | [Gibt es hier zu kaufen](https://www.amazon.de/tesa-doppelseitiges-Montageband-Powerbond-TRANSPARENT/dp/B001BVR8XE/ref=pd_sim_60_3?ie=UTF8&dpID=51gaFg9WxNL&dpSrc=sims&preST=_AC_UL160_SR147%2C160_&psc=1&refRID=21V96PHT0CDHP76F9ZMY)
   - Neopixel 1 Meter | [Gibt es hier zu kaufen](https://www.adafruit.com/product/1460)
   - 5x Kabelbinder
   - Pattex Kraftkleber transparent | [Gibt es hier zu kaufen](https://www.amazon.de/Pattex-PXT2C-Kraftkleber-125-transparent/dp/B0000WPL70)
@@ -259,7 +258,7 @@ Button mit Kabelstrang-Ende: PIN 6 (GROUND)
 
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.jpg)
+![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.JPG)
 
 ### Step 7: Push Dome Button LED an Arduino anschließen
 Hierfür benötigen wir
@@ -295,7 +294,7 @@ Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benöt
   - grau = GND 
 verwendet.
 
-!Neopixel(/images/taahw/led_streifen/ada.jpg)
+![Neopixel](/images/taahw/led_streifen/ada.jpg)
 
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
@@ -448,13 +447,13 @@ Die Aussparung hat eine Breite von 6cm und eine Höhe von 2cm und sitzt in der M
 Nachfolgende Abbildung zeigt den Sitz der Aussparung.
 Die äußeren beiden Linien sind markieren jeweils den Anfang der zwei Scharniere die in Step 6 befestigt werden und das dazwischen mittig liegende "Gerät" ist der Raspberry. Die Ausparrung beginnt ca. 10mm entfernt von dem linken Scharnier.
 
-![Ausparung](/images/taahw/wuerfel/platte_hinten.jpeg)
+![Aussparung](/images/taahw/wuerfel/platte_hinten.jpeg)
 
 Das fräsen der Ausparung erfolgt wieder mit dem Dremel und dem Mini Kreissägen Aufsatz der für den Schlitz für das Schloss verwendet wurde.
 
 Das folgende Bild zeigt die Aussparung und das dahinter liegende Gehäuse des Raspberry Pi's.
 
-![Ausparung](/images/taahw/wuerfel/schlitz_II.jpeg)
+![Aussparung](/images/taahw/wuerfel/schlitz_II.jpeg)
 
 ### Step 4: Milchglasfolie anbringen
 
@@ -540,8 +539,8 @@ Dies wiederholst du nun so lange bis alle Buttons angeschlossen sind.
 Das Befestigen der Buzzer funktioniert nach dem gleichen Prinzip.
 
 Das fertige Ergebis sollte dann so aussehen:
- ![angebrachte Buttons auf der Operplatte](/images/taahw/wuerfel_komplett.jpeg)
- ![angebrachte Buttons auf der Vorderplatte](/images/taahw/wuerfel_komplett_II.jpeg)
+ ![angebrachte Buttons auf der Operplatte](/images/taahw/wuerfel/wuerfel_komplett.jpeg)
+ ![angebrachte Buttons auf der Vorderplatte](/images/taahw/wuerfel/wuerfel_komplett_II.jpeg)
  
 ### Step 8: Zylinderschloss befestigen
 Benötigte Materialien: Zylinderschloss, hintere Plexiglasscheibe
@@ -556,6 +555,7 @@ Vorgehensweise:
 ### Step 9: Würfel an Holzplatte kleben
 
 Benötigte Materialien:
+
 1. Würfel
 2. MDF Platte
 3. Kleber
@@ -571,17 +571,19 @@ Vorgehensweise:
   5. Als nächstes nimmst du den Würfel und drückt diesen auf die MDF Platte.
   6. Zum Schluß solltest du ihn eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
-![Würfel mit MDF Platte](images/taahw/wuerfel_komplett_mdf.jpeg)
+![Würfel mit MDF Platte](/images/taahw/wuerfel/wuerfel_komplett_mdf.jpeg)
 
 ### Step 10: Raspberry an Würfel anbringen
 
 Benötigte Materialien:
+
 1. Raspberry mit Gehäuse
 2. Würfel
-3. Tesa Powerbond
+3. Tesa Powerstrips
 4. Schere
 
 Vorgehensweise:
+
   1. Als erstes schneidest du dir zwei Streifen Tesa Powerstrips zurecht.
   2. Diese klebst du jeweils rechts und links an die Unterseite des Raspberry Gehäuse.
   3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
@@ -592,6 +594,7 @@ Vorgehensweise:
 ### Step 11: Arduino an Würfel anbringen
 
 Benötigte Materialien:
+
 1. Arduino mit Gehäuse
 2. Würfel
 3. Tesa Powerbond
@@ -606,6 +609,7 @@ Vorgehensweise:
 ### Step 12: Kabelsalat aufräumen
 
 Verwendete Materialien:
+
 1. Kabelbinder
 
 Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltest du hierzu Kabelbinder verwenden, mit dem du mehrere Kabel zusammenschnüren kannst.
@@ -629,11 +633,12 @@ Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs
 
 ### Step 3: Benötigte Libraries installieren
 
-Benötigte Materialien:
+Benötigte Materialien
+
 1. Raspberry Pi 3 inkl. Maus, Tastatur und Bildschirm
 
 > :warning:
-  Die folgende Kommandos funktionieren NUR unter LINUX. Falls ein anderes Betriebssystem verwendet wird (z.B.: Windows 10 IoT) müssen diese entsprechend angepasst werden
+  Die folgende Kommandos funktionieren NUR unter RASPBIAN bzw. LINUX. Falls ein anderes Betriebssystem verwendet wird (z.B.: Windows 10 IoT) müssen diese entsprechend angepasst werden.
   
 Führe folgende Kommandos auf dem LX Terminal aus um die erforderlichen Libraries und den dazugehörigen Quellcode zu installieren.
 Nachfolgendes Bild zeigt den LX Terminal und wo du ihn findest:
@@ -663,12 +668,22 @@ Für Mac/Windows findest du die Arduino IDE [hier](https://www.arduino.cc/en/Mai
 ### Step 5: Quellcode auf den Arduino laden
 
 Benötigte Materialien:
+
 1. Arduino Uno inkl. mitgeliefertes USB Kabel
 2. Einen PC
 
 Sobal die IDE installiert wurde kannst du die Datei arduino2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
 
 Nun verbindest du den Arduino mit dem mitgelieferten USB Kabel mit dem PC und startest die soeben installierte Arduino IDE.
+
+Bevor du den Quellcode auf den Arduino lädst musst du noch die einzelnen Pixel/LED's auf dem LED Streifen zählen.
+Diese werden benötigte damit die Software auch alle LED's des Streifens ansteuern kann. Wenn zu viele angegeben wurden nkann es sein, dass das Programm nicht ordnungsgemäß funktioniert.
+
+Die Anzahl der LED's werden in Zeile dem Konstruktor des Adafruit_NeoPixel Objektes übergeben. In unserem Fall hatten wir insgesamt 141 LED's an unserem Streifen. Folgendes Snippet zeigt Zeile 18 des Quellcodes. 
+
+```c++
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(141, STRIPE_PIN, NEO_GRB + NEO_KHZ800);
+```
 
 Mit einem einfachen Klick auf "Hochladen" wird das Programm auf den Arduino geladen. Dieser bestätigt das erfolgreiche Hochladen mit einem Blinken der eingebauten LED.
 
@@ -679,11 +694,13 @@ Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind ka
 ### Step 6: Jetzt geht's los. QUBE starten.
 
 Benötigte Materialien:
+
 1. Den fertigen Würfel
 2. Deinen Bruder, deine Mama oder einen Freund/Bekannten (für den Zwei Spieler Modus) (macht noch mehr Spaß)
 3. Gute Laune
 
 Vorgehensweise:
+
 1. Gehe mit dem Terminal in das Verzeichnis in dem die Datei Qube.py liegt.
 2. `$ python3 Qube.py`
 3. Alternativ kannst du auch mit IDLE (Der Python IDE von Raspian) entweder Qube.py oder QubeHub.py öffnen und F5 drücken. Es gibt zwei Versionen von IDLE, eine für Python V2 und eine für V3 es ist wichtig, dass du IDLE Version 3! verwendest.
