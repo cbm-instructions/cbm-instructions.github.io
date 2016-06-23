@@ -6,7 +6,7 @@ date:   2016-04-29 15:09:51 +0200
 ---
 
 ## Ziel/POV:
-Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes einefreundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten und w. 
+Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten und sich dort wohl fühlen und Spaß haben. 
 
 ## Projektbeschreibung:
 Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hilfe eines Raspberry Pi und einem Arduino realisiert wurde. Das Projekt ist in der Form eines Würfels dargestellt, an welchem die verwendeten Bauteile angebracht sind. Den Spielern ist es möglich einen Einspieler- oder auch Zweispielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich.
@@ -293,8 +293,6 @@ Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benöt
   - gelb = Dh (Mitte) 
   - grau = GND 
 verwendet.
-
-![Neopixel](/images/taahw/led_streifen/ada.jpg)
 
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
@@ -629,7 +627,7 @@ Benötigte Materialien:
 Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
 Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
 
-### Step 3: Benötigte Libraries installieren
+### Step 2: Benötigte Libraries installieren
 
 Benötigte Materialien
 
@@ -656,14 +654,14 @@ Nachfolgendes Bild zeigt den LX Terminal und wo du ihn findest:
 Wenn du nur die Software installieren will ohne eigene Modifikationen an der GUI vorzunehmen muss Schritt 7 nicht ausgeführt werden.
 Der Qt4 Designer wird nur benötigt um die GUI zu erstellen bzw. zu modifizieren.
 
-### Step 4: Entwicklung für den Arduino Uno
+### Step 3: Entwicklung für den Arduino Uno
 
 Der Programmcode für den Arduino hast du mit Schritt 10 (siehe oben) schon geladen. Er befindet sich in src/arduino/arduino2pi/.
 Du kannst auf deinem Raspberry Pi die Arduino IDE herunterladen und dann den Quellcode auf den Arduino hochladen. Dafür musst du die IDE mit dem Kommand `$ sudo apt-get install arduino`. Diese findest du dann unter Start->Elektronik->Arduino IDE.
 Leider führte dies in unserem Fall zu erheblichem Problemen und wir entschieden uns dafür den Arduino an einen Windows PC/ Mac anzuschließen und den Quellcode von dort hochzuladen.
 Für Mac/Windows findest du die Arduino IDE [hier](https://www.arduino.cc/en/Main/Software).
 
-### Step 5: Quellcode auf den Arduino laden
+### Step 4: Quellcode auf den Arduino laden
 
 Benötigte Materialien:
 
@@ -689,7 +687,7 @@ Es kann sein, dass der USB Port bzw. der Arduino an dem USB Port nicht richtigt 
 
 Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind kannst du deine erste Runde mit Qube starten.
 
-### Step 6: Jetzt geht's los. QUBE starten.
+### Step 5: Jetzt geht's los. QUBE starten.
 
 Benötigte Materialien:
 
