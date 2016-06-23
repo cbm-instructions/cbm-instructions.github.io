@@ -233,7 +233,7 @@ Button mit Kabelstrang-Ende: PIN 6 (GROUND)
 
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.jpg)
+![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.JPG)
 
 ### Step 7: Push Dome Button LED an Arduino anschließen
 Hierfür benötigen wir: Push Dome Button LED, Arduino, Pins (Male)
@@ -251,7 +251,7 @@ Vorgehensweise:
   
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.jpg)
+![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.JPG)
 
 
 ### Step 8: Kabel an Neopixelstreifen löten
