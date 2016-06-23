@@ -77,7 +77,7 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
   1. Schneide dir ein Kabel in ausreichender Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten du nimmst Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
   2. Isoliere jeweils beide Kabelenden mit einer Abisolierzange ab.
   
-  ![Kabel](/image/taahw/01.JPG)
+  ![Kabel](/images/taahw/01.JPG)
 
   3. Als nächstes nimmst du eines der Kabelenden und lötest dies mit Hilfe des Lötkolben an den Microswitchcontroller eines Buttons/Buzzers.
 
@@ -203,7 +203,7 @@ Im Gegensatz zu dem Arduino Uno sind die Pins des Raspberry's nicht beschriftet 
 ![GPIO](/images/taahw/14.png)
 
 > :warning:
-Um die Pins korrekt lesen buw. zuordnen zu können, sollten sich die GPIO Pins des Raspberry's auf der rechten Seite befinden wenn er vor dir liegt. Siehe nächstes Bild.
+Um die Pins korrekt lesen bzw. zuordnen zu können, sollten sich die GPIO Pins des Raspberry's auf der rechten Seite befinden wenn er vor dir liegt. Siehe nächstes Bild.
 
 ![korrekte Ausrichtung des Raspberry Pi um die GPIO Pins anzubringen](/images/taahw/rpi_ausrichtung.jpeg)
 
