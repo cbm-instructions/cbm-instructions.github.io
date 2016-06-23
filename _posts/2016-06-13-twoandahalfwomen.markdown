@@ -5,17 +5,17 @@ layout: post
 date:   2016-04-29 15:09:51 +0200
 ---
 
-## Ziel/POV:
+## Ziel/POV
 Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten und sich dort wohl fühlen und Spaß haben. 
 
-## Projektbeschreibung:
+## Projektbeschreibung
 Qube der Würfel der Wissen schafft. Unser Projekt umfasst ein Quiz, das mit Hilfe eines Raspberry Pi und einem Arduino realisiert wurde. Das Projekt ist in der Form eines Würfels dargestellt, an welchem die verwendeten Bauteile angebracht sind. Den Spielern ist es möglich einen Einspieler- oder auch Zweispielermodus zu wählen. Die Steuerung bzw. Navigation des Quiz ist mithilfe der am Würfel angebrachten Buttons möglich.
 
 Die Seuerung der grafischen Oberfläche sowie die dahinterliegende Logik übernimmt ein Raspberry Pi 3. Der LED Streifen der den Würfel nochmals aufwertet wird mit einem Arduino Uno gesteuert. Dieser wird wiederum über den Raspberry Pi angesprochen.
 
 Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getestet wir empfehlen aber dennoch ein Raspberry Pi 3 zu verwenden da dieser bereits mit WLAN und Bluetooth ausgestattet ist und sich somit steuern lässt ohne eine USB Maus oder Tastatur zu verwenden bzw. der Einsatz von zusätzlichen WLAN- Bluetooth-Donglen entfällt.
 
-## Verwendete Materialien und Werkzeuge:
+## Verwendete Materialien und Werkzeuge
 
 ### Materialien:
   - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm) | ca. 12€
@@ -34,8 +34,8 @@ Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getest
   - 2x Black IL Concave Arcade Start Button ("One Player" und "Two Player") | [Gibt es hier zu kaufen](http://www.arcadeworlduk.com/products/Black-IL-Concave-Arcade-Start-Button.html)
   - Kabel
   - Insulated Daisy Chain Harness with 32 Crimp Connections [dt. Isolierter verketteter Kabelstrang mit 32 Crimpverbindungen] | [Gibt es hier zu kaufen](http://www.arcadeworlduk.com/products/insulated-daisy-chain-harness-with-32-crimp-connections.html)
-  - Verbindungskabel RB-CB3-25 (die Pins sind da schon dabei)| [Gibt es hier zu kaufen](https://www.conrad.de/de/raspberry-pi-verbindungskabel-rb-cb3-25-1182193.html)
   - Pins (Male) für Verbindungskabel
+  - Verbindungskabel RB-CB3-25 (die Pins sind da schon dabei)| [Gibt es hier zu kaufen](https://www.conrad.de/de/raspberry-pi-verbindungskabel-rb-cb3-25-1182193.html)
   - Kabelhülsen
   - Isolierband
   - 1x Universalzylinderschloss | [Gibt es hier zu kaufen](https://www.bauundhobby.ch/maschinen-%2B-werkstatt/sicherheit/schlösser-%2B-zylinder/univ.zylinderschloss-zs-77-sb/C041202/P3191726/de)
