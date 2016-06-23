@@ -89,7 +89,7 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
 
   5. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt. 
   
-  ![Kabelhülse](images/taahw/04.jpg)
+  ![Kabelhülse](/images/taahw/04.jpg)
   
 Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
