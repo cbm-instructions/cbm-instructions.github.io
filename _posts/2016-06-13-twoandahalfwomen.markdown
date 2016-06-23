@@ -1,5 +1,5 @@
 ---
-title: "How To Build The Qube Quiz"
+title: "How To Build The Qube"
 categories: instructions
 layout: post
 date:   2016-04-29 15:09:51 +0200
@@ -233,7 +233,7 @@ Button mit Kabelstrang-Ende: PIN 6 (GROUND)
 
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.pdf)
+![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.jpg)
 
 ### Step 7: Push Dome Button LED an Arduino anschließen
 Hierfür benötigen wir: Push Dome Button LED, Arduino, Pins (Male)
@@ -251,19 +251,19 @@ Vorgehensweise:
   
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.pdf)
+![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.jpg)
 
 
 ### Step 8: Kabel an Neopixelstreifen löten
 Hierfür benötigt ihr folgendes: Lötkolben, Abisolierzange, Neopixelstreifen, Isolierband
 
-Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die Input Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Prrojekt haben wir die Farben 
+Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die Input Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt haben wir die Farben 
   - rot = 5V 
   - gelb = Dh (Mitte) 
   - grau = GND 
 verwendet.
 
-!Neopixel(images/twoandahalfwomen/???.jpg)
+!Neopixel(/images/taahw/led_streifen/ada.jpg)
 
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
@@ -340,7 +340,7 @@ Die Anordnung der Löcher siehst du auf der Abbildung "fertige Oberplatte".
 
 Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt bevor dann mit der Lochfräse (25mm) die Löcher gebohrt werden können.
 
-![Lochfräse](/images/taahw/bohrer/lochfräse.jpg)
+![Lochfräse](/images/taahw/bohrer/lochfraese.jpg)
 
 Am besten spannt man die Lochfräse in einen Standbohrer, um mehr Stabilität zu bekommen und damit ein sauberes rundes Loch entsteht.
 
@@ -357,7 +357,7 @@ Die Buzzer sitzen sehr locker in den gebohrten Löcher aber das ist nicht weiter
 
 Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen.
 
-![fertige Oberplatte](/images/taahw/würfel/platte_oben.jpeg)
+![fertige Oberplatte](/images/taahw/wuerfel/platte_oben.jpeg)
 
 Den Schlitz den du hier siehst wird im nächsten Schritt angebracht
 
@@ -368,7 +368,7 @@ Um die Löcher zu bohren und zu schleifen musst du genauso vorgehen wie zuvor au
 
 Das fertige Ergebnis sieht dann so aus:
 
-![fertige Oberplatte](/images/taahw/würfel/platte_vorne.jpeg)
+![fertige Oberplatte](/images/taahw/wuerfel/platte_vorne.jpeg)
 
 ### Step 2: Loch und Schlitz für das Zylinderschloss bohren
 
@@ -386,7 +386,7 @@ Um den Schließmechanismus des Schlosses zu vervollständigen muss zusätzlich e
 
 Um den Schlitz zu fräsen nimmst du einen speziellen Mini Kreissägen Aufsatz für den Dremel. In dem nachfolgenden Bild wird die Mini Säge dargestellt.
 
-![Mini Kreissäge für den Dremel](25x-metall-trennscheibe-für-dremel-schleifer-drehwerkzeug-kreissägeblatt-dremel-rad-schneiden-schleifscheibe-werkzeuge-schleifscheibe.jpg_640x640.jpg)
+![Mini Kreissäge für den Dremel](/images/taahw/dremel/minisaege.jpg)
 
 ### Step 3: Aussparung für Raspberry und Arduino sägen
 
@@ -403,13 +403,13 @@ Die Aussparung hat eine Breite von 6cm und eine Höhe von 2cm und sitzt in der M
 Nachfolgende Abbildung zeigt den Sitz der Aussparung.
 Die äußeren beiden Linien sind markieren jeweils den Anfang der zwei Scharniere die in Step 6 befestigt werden und das dazwischen mittig liegende "Gerät" ist der Raspberry. Die Ausparrung beginnt ca. 10mm entfernt von dem linken Scharnier.
 
-![Ausparung](/images/taahw/würfel/platte_hinten.jpeg)
+![Ausparung](/images/taahw/wuerfel/platte_hinten.jpeg)
 
 Das fräsen der Ausparung erfolgt wieder mit dem Dremel und dem Mini Kreissägen Aufsatz der für den Schlitz für das Schloss verwendet wurde.
 
 Das folgende Bild zeigt die Aussparung und das dahinter liegende Gehäuse des Raspberry Pi's.
 
-![Ausparung](/images/taahw/würfel/schlitz_II.jpeg)
+![Ausparung](/images/taahw/wuerfel/schlitz_II.jpeg)
 
 ### Step 4: Milchglasfolie anbringen
 
@@ -430,7 +430,7 @@ Da du jetzt alle gebohrten Löcher mit der Klebefolie verdeckt hast hast, musst 
 
 Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
-![Ausparung](/images/taahw/würfel/folie_schneiden.jpeg)
+![Ausparung](/images/taahw/wuerfel/folie_schneiden.jpeg)
 
 ### Step 5: Plexiglasscheiben miteinander verkleben
 
@@ -446,9 +446,9 @@ Wenn alle Platten gebohrt und mit Milchlasfolie versehen wurden kann nun das Zus
 
 Damit der Würfel auch wirklich quadratisch wird müssen die vier kleinen Platten (24,75 x 24,75cm) in einer ganz bestimmten Anordnung miteinander verklebt werden.
 
-Dies ist auf nachfolgender Zeichnung zu erkennen:
+Dies ist auf nachfolgender Zeichnung zu erkennen. Hinweis: Die Zeichnung zeigt den Würfel von HINTEN.
 
-![Querschnitt der Platten des Würfels](/images/taahw/würfel/reihenfolge.jpeg)
+![Querschnitt der Platten des Würfels](/images/taahw/wuerfel/reihenfolge.jpeg)
 
 Damit die Platten bestmöglichst aufeinander kleben empfiehlt es sich auf der vorgesehenen Klebefläche (4mm breit) die zuvor angebrachte Michglasfolie zu entfernen. Das machst du am indem man die Folie vorsichtig mit dem Cutter Messer einschneidet (sodass die Platte nicht beschädigt wird) und dann abziehst.
 
@@ -456,11 +456,11 @@ Wenn du das erledigt hast kann wirklich mit dem Bekleben begonnen werden.
 
 Zum Bekleben fülle ein biscchen von dem Patex Kraftkleber in ein Behälter. Jetzt kannst du mit Hilfe des alten Pinsels den Kleber auf die Klebefläche aufbringen. Wichtig ist, dass nicht nur eine Seite sondern beide Seiten die verklebt werden sollen mit dem Kleber versehen werden. Anschließend kannst du den Kleber leicht antrocknen lassen und stark zusammenpressen.
 
-![Platten kleben](/images/taahw/würfel/kleber_anbringen.jpeg)
+![Platten kleben](/images/taahw/wuerfel/kleber_anbringen.jpeg)
 
 Damit die inneren Winkel auch hundertprozentig rechtwinklig werden kann ein Geodreieck, zur Unterstützung, zwischen die Platten gelegt werden. 
 
-![Geodreieck zur Ermittlung eines rechten Winkels](geodreieck.jpeg)
+![Geodreieck zur Ermittlung eines rechten Winkels](/images/taahw/wuerfel/geodreieck.jpeg)
 
 Sobald die ersten Vier Platten verklebt worden sind wird zum Schluss die Vorderplatte (die mit den drei Löcher) angeklebt.
 Es hat sich Bewährt, dass den Kleber ein paar Stunden trocknen lässt bevor die Frontplatte aufgeklebt wird. 
@@ -488,8 +488,8 @@ Dies wiederholst du nun so lange bis alle Buttons angeschlossen sind.
 Das Befestigen der Buzzer funktioniert nach dem gleichen Prinzip.
 
 Das fertige Ergebis sollte dann so aussehen:
- ![angebrachte Buttons auf der Operplatte](/images/taahw/würfel_komplett.jpeg)
- ![angebrachte Buttons auf der Vorderplatte](/images/taahw/würfel_komplett_II.jpeg)
+ ![angebrachte Buttons auf der Operplatte](/images/taahw/wuerfel_komplett.jpeg)
+ ![angebrachte Buttons auf der Vorderplatte](/images/taahw/wuerfel_komplett_II.jpeg)
  
 ### Step 8: Zylinderschloss befestigen
 Benötigte Materialien: Zylinderschloss, hintere Plexiglasscheibe
@@ -514,10 +514,11 @@ Vorgehensweise:
   1. Als erstes nimmst du die MDF Platte zur Hand und markierst, wo du den Würfel anbringen möchtest.
   2. Dazu zeichnest du ein Quadrat mit den entsprechenden Maßen.
   3. Nun verteilst du den Kleber mit einem Pinsel in dem eben gezeichneten Quadrat.
-  4. Als nächstes nimmst du den Würfel und drückt diesen auf die MDF Platte.
-  5. Zum Schluß solltest du ihn eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
+  4. Kurz antrocknen lasse.
+  5. Als nächstes nimmst du den Würfel und drückt diesen auf die MDF Platte.
+  6. Zum Schluß solltest du ihn eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
-![Würfel mit MDF Platte](images/taahw/würfel_komplett_mdf.jpeg)
+![Würfel mit MDF Platte](images/taahw/wuerfel_komplett_mdf.jpeg)
 
 ### Step 10: Raspberry an Würfel anbringen
 Benötigte Materialien:
@@ -527,7 +528,7 @@ Benötigte Materialien:
 4. Schere
 
 Vorgehensweise:
-  1. Als erstes schneidest du dir zwei Streifen Tesa Powerbond zurecht.
+  1. Als erstes schneidest du dir zwei Streifen Tesa Powerstrips zurecht.
   2. Diese klebst du jeweils rechts und links an die Unterseite des Raspberry Gehäuse.
   3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
   4. Hierbei solltest du darauf achten, dass in der Aussparrung der hinterseite des Würfels genug Platz für das Stromkabel des Arduinos vorhanden ist.
@@ -542,7 +543,7 @@ Benötigte Materialien:
 4. Schere
 
 Vorgehensweise:
-  1. Als erstes schneidest du dir zwei Streifen Tesa Powerbond zurecht.
+  1. Als erstes schneidest du dir zwei Streifen Tesa Powerstrips zurecht.
   2. Diese klebst du jeweils rechts und links an die Unterseite des Arduino Gehäuse.
   3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
   4. Den Arduino solltest du im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
@@ -551,11 +552,11 @@ Vorgehensweise:
 Verwendete Materialien:
 1. Kabelbinder
 
-Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltest du hierzu Kabelbnder verwenden. Mit Hilfe der Kabelbinder lassen sich mehrere Kabel zusammenschnüren.
+Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltest du hierzu Kabelbinder verwenden, mit dem du mehrere Kabel zusammenschnüren kannst.
 
 ## Programmierung
 
-### Step 1: Entwicklung auf dem Raspberry Pi 3
+### Step 1: Entwicklung auf dem Raspberry Pi 3						
 
 Die grafische Oberfläche des Qube wurde mit dem QT4 Designer realisiert. Dies ist ein Tool um die GUI per Drag & Drop zu erstellen.
 Mit dem Python Framework PyQT4 kann man dann die erstellte Oberfläche einbinden und die dazugehörige Logik implementieren.
@@ -614,9 +615,13 @@ Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind ka
 ###Herzlichen Glückwunsch!!!
 Du hast dir deinen eigenen Qube gebaut, benutze jetzt das Skript QubeHub.py um neue Fragen zu erstellen. Dies kannst du auf die gleiche Weise starten wie in Schritt 6 beschrieben.
 
-//Bilder mit kompletten Würfel und Kabelsalat
+Hier noch ein paar Eindrücke des kompletten Würfels.
 
-#### nützliche Quellen
+![Finale I](/images/taahw/finale_I.jpeg)
+![Finale II](/images/taahw/finale_II.jpeg)
+![Finale III](/images/taahw/finale_III.jpeg)
+
+## nützliche Quellen
 
 PyQt API
 
