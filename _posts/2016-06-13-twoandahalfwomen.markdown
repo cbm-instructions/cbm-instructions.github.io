@@ -75,7 +75,7 @@ Für diesen Schritt benötigen wir
 5. Feuerzeug
 6. Schere
 
-Damit die Arcade Buttons verwendet werden können, müssen an den Switch Coontrollern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So, dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
+Damit die Arcade Buttons verwendet werden können, müssen an den Switch Controllern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So, dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
 Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade Buttons und die 2 Push Dome Buttons genutzt:
   1. Schneide dir ein Kabel in ausreichender Länge von ca. 25cm  zurecht, da beim verbauen ein Stück der Länge verloren geht. Am besten du nimmst Kabel in den Farben der Arcade Buttons und Push Dome Buttons, um diese besser zu unterscheiden.
@@ -106,7 +106,7 @@ Um Step 2 durchzuführen benötigen wir
 5. Verbindungskabel RB-CB3-25
 6. Feuerzeug
 
-Das in Step 1 verlötete Kabel solltest du noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit du die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen kannst.
+Das in Step 1 verlötete Kabel solltest du noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit du die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry Pi anschließen kannst.
 
 Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise entschieden:
   1. Nehmt das Verbindungskabel RB-CB3-25 und schneidet es an gewünschter Stelle ab, so das noch eine ausreichende Länge zum verlöten vorhanden ist.
@@ -289,7 +289,7 @@ Hierfür benötigst du Folgendes:
 3. Neopixelstreifen
 4. Isolierband
 
-Der Neopixelstreifen hat sowohl Input als auch Output. Damit der Streifen ordnungsgemäß funktioniert musst du darauf achten, dass, das INPUT Ende verwendet wird. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt verwenden wir die Farben 
+Der Neopixelstreifen hat sowohl Input als auch Output. Damit der Streifen ordnungsgemäß funktioniert musst du darauf achten dass, das INPUT Ende verlötet wird. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt verwenden wir die Farben 
   - rot = 5V 
   - gelb = Dh (Mitte) 
   - grau = GND 
