@@ -69,7 +69,13 @@ Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getest
 ## Step-by-Step Guide - Arcade Buttons & Push Dome Buttons
 
 ### Step 1: Kabel an Switchcontroller der Arcade Buttons und Push Dome Buttons löten
-Für diesen Schritt benötigen wir: Abisolierzange, Lötkolben, Kabelhülse, Kabel, Feuerzeug, Schere
+Für diesen Schritt benötigen wir
+1. Abisolierzange
+2. Lötkolben
+3. Kabelhülse
+4. Kabel
+5. Feuerzeug
+6. Schere
 
 Damit die Arcade Buttons verwendet werden können, müssen an den Switch Coontrollern der Arcade Buttons und der Push Dome Buttons Kabel angebracht werden. So, dass diese zu einem späteren Zeitpunkt an die GPIO-PINS des Raspberry PI angeschlossen werden können.
 
@@ -94,7 +100,13 @@ Dazu haben wir in unserem Projekt die folgende Vorgehensweise für alle 7 Arcade
 Dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
 ### Step 2: Kabel der Arcade Buttons und Push Dome Buttons verlängern
-Um Step 2 durchzuführen benötigen wir: Schere, Abisolierzange, Lötkolben, Kabelhülse, Verbindungskabel RB-CB3-25, Feuerzeug
+Um Step 2 durchzuführen benötigen wir
+1. Schere
+2. Abisolierzange
+3. Lötkolben
+4. Kabelhülse
+5. Verbindungskabel RB-CB3-25
+6. Feuerzeug
 
 Das in Step 1 verlötete Kabel solltest du noch mit einem Verbindungskabel RB-CB3-25 erweitern. Dieser Schritt ist notwendig, damit du die Arcade Buttons und Push Dome Buttons an die GPIO-PINS des Raspberry PI anschließen kannst.
 
@@ -120,7 +132,13 @@ Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise en
 Auch dieses Vorgehen wurde für alle Arcade Buttons und Push Dome Buttons dieses Projektes angewandt.
 
 ### Step 3: Kabel an die LED der Push Dome Buttons anbringen
-Benötigte Materialien: Schere, Abisolierzange, Lötkolben, Kabel, Kabelhülse, Feuerzeug
+Benötigte Materialien
+1. Schere
+2. Abisolierzange
+3. Lötkolben
+4. Kabel
+5. Kabelhülse
+6. Feuerzeug
 
 Für die LED der Push Dome Buttons werden ähnliche Schritte wie in Step 1 durchgeführt. Auch hier ist es ratsam verschiedenfarbige Kabel wie z.B. blau und rot wie in unserem Projekt zu verwenden, um - und + zu unterscheiden.
 
@@ -139,7 +157,10 @@ Hierfür gehst du wie folgt vor:
 ![Push Dome Button](/images/taahw/09.jpg)
 
 ### Step 4: Micro Switches der Arcade Buttons und Push Dome Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
-Benötigt werden: Insulated Daisy Chain Kabelstrang, Schere, Alle Buttons
+Benötigt werden:
+1. Insulated Daisy Chain Kabelstrang
+2. Schere
+3. Alle Buttons
 
 Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Micro Switches der Buttons und der Buzzer verbunden. Folgendes Bild zeigt den Aufbau eines Micro Switches.
 
@@ -171,7 +192,12 @@ Dazu gehen wir folgendermaßen vor:
   6. Nach der letzten Verbindung - in unserem Fall der Arcade Button schwarz - musst du das Kabel mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern. Dieses Kabel wird am Ende an den GROUND Pin des Raspberry's angeschlossen.
 
 ### Step 5: Insulated Daisy Chain Harness verlängern
-Wir benötigen: Verbindungskabel RB-CB3-25, Schere, Kabelhülse, Lötkolbe, Kabelstrang
+Wir benötigen:
+1. Verbindungskabel RB-CB3-25
+2. Schere
+3. Kabelhülse
+4. Lötkolbe
+5. Kabelstrang
 
 Wie schon erwähnt verbinden wir nun das Ende des Kabelstrangs mit einem Verbindungskabel RB-CB3-25, damit dieses an den GROUND Pin des Raspberry's angeschlossen werden kann. 
 
@@ -203,7 +229,7 @@ Im Gegensatz zu dem Arduino Uno sind die Pins des Raspberry's nicht beschriftet 
 ![GPIO](/images/taahw/14.png)
 
 > :warning:
-Um die Pins korrekt lesen bzw. zuordnen zu können, sollten sich die GPIO Pins des Raspberry's auf der rechten Seite befinden wenn er vor dir liegt. Siehe nächstes Bild.
+Um die Pins korrekt lesen bzw. zuordnen zu können, ist es gut zu wissen , dass sich die PIN Nr. 40 und 39 in der unmittelbaren Nähe zu den USB Anschlüssen befinden.
 
 ![korrekte Ausrichtung des Raspberry Pi um die GPIO Pins anzubringen](/images/taahw/rpi_ausrichtung.jpeg)
 
@@ -233,10 +259,13 @@ Button mit Kabelstrang-Ende: PIN 6 (GROUND)
 
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
-![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.JPG)
+![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.jpg)
 
 ### Step 7: Push Dome Button LED an Arduino anschließen
-Hierfür benötigen wir: Push Dome Button LED, Arduino, Pins (Male)
+Hierfür benötigen wir
+1. Push Dome Button LED
+2. Arduino
+3. Pins (Male)
 
 Vorgehensweise:
   1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, musst du auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
@@ -253,9 +282,12 @@ Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Scha
 
 ![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.JPG)
 
-
 ### Step 8: Kabel an Neopixelstreifen löten
-Hierfür benötigt ihr folgendes: Lötkolben, Abisolierzange, Neopixelstreifen, Isolierband
+Hierfür benötigst du Folgendes:
+1. Lötkolben
+2. Abisolierzange
+3. Neopixelstreifen
+4. Isolierband
 
 Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die Input Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt haben wir die Farben 
   - rot = 5V 
@@ -281,7 +313,12 @@ Die folgenden Schritte solltet ihr dabei beachten:
 ![Neopixel](/images/taahw/20.jpg)
 
 ### Step 9: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
-Bnötigt werden: Verbindungskabel, Schere, Kabelhülse, Lötkolben, Feuerzeug
+Benötigt werden
+1. Verbindungskabel
+2. Schere
+3. Kabelhülse
+4. Lötkolben
+5. Feuerzeug
 
 Auch der Neopixelstreifen benötigt eine Verlängerung mit den Verbindungskabeln, um diese später an die PINS des Raspberry bzw. Arduino anschließen zu können. Es werden drei Verbindungskabel benötigt, diese solltet ihr nach den entsprechenden Farben (weiß, schwarz, rot) wählen.
 
@@ -294,7 +331,9 @@ Die Vorgehensweise lautet wie folgt:
   6. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
 
 ### Step 10: Neopixelstreifen mit Arduino verbinden
-Benötigte Materialien: Neopixel LED Streifen, Arduino Uno
+Benötigte Materialien:
+1. Neopixel LED Streifen
+2. Arduino Uno
 
 Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben.
 
@@ -309,14 +348,20 @@ Vorgehensweise:
 
 ### Step 11: Arduino und Raspberry verbinden
 
-Benötigte Materialien: Raspberry Pi 3, Arduino Uno, USB Kabel
+Benötigte Materialien:
+1. Raspberry Pi 3
+2. Arduino Uno
+3. USB Kabel
 
-Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten.
+Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten. Auf dem nachfolgenden Bild entspräche dies der rechten Seite.
 
 ![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpeg)
 
 ### Step 12: Raspberry und Monitor verbinden
-Benötigte Materialien: Monitor, Raspberry Pi 3, HDMI Kabel oder -Adapter
+Benötigte Materialien:
+1. Monitor
+2. Raspberry Pi 3
+3. HDMI Kabel oder -Adapter
 
 Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
 
@@ -466,7 +511,12 @@ Sobald die ersten Vier Platten verklebt worden sind wird zum Schluss die Vorderp
 Es hat sich Bewährt, dass den Kleber ein paar Stunden trocknen lässt bevor die Frontplatte aufgeklebt wird. 
 
 ### Step 6: Scharniere an Holzplatte/Plexiglas verkleben
-Benötigte Materialien: Scharniere, Pattex Kraftkleber, hintere Seite Plexiglas, MDF Platte
+
+Benötigte Materialien:
+1. Scharniere
+2. Pattex Kraftkleber
+3. hintere Seite Plexiglas
+4. MDF Platte
 
 Vorgehensweise:
   1. Als erstes solltet ihr euch eine kleine Markierung jeweils rechts und links an der unteren Seite des Plexiglases machen, damit ihr ungefähr wisst wo es anzubringen ist.
@@ -478,6 +528,8 @@ Vorgehensweise:
 
 ### Step 7: Arcade Buttons und Push Dome Buttons anbringen
 
+Benötigte Materialien:
+1. alle Buttons und Buzzer inkl. Micro Switches 
 Um die Buttons und Buzzer anzubringen musst du diese in Ihre Einzelteile zerlegen (wenn das noch nicht der Fall ist).
 Das heißt den Micro Switch und den Befestigungsring von den Buttons/Buzzer trennen.
 
@@ -502,6 +554,7 @@ Vorgehensweise:
  ![Zylinderschloss](/images/taahw/22.jpeg)
 
 ### Step 9: Würfel an Holzplatte kleben
+
 Benötigte Materialien:
 1. Würfel
 2. MDF Platte
@@ -521,6 +574,7 @@ Vorgehensweise:
 ![Würfel mit MDF Platte](images/taahw/wuerfel_komplett_mdf.jpeg)
 
 ### Step 10: Raspberry an Würfel anbringen
+
 Benötigte Materialien:
 1. Raspberry mit Gehäuse
 2. Würfel
@@ -536,6 +590,7 @@ Vorgehensweise:
 ![Aussparrung](/images/taahw/23.jpeg)
 
 ### Step 11: Arduino an Würfel anbringen
+
 Benötigte Materialien:
 1. Arduino mit Gehäuse
 2. Würfel
@@ -549,14 +604,13 @@ Vorgehensweise:
   4. Den Arduino solltest du im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
 
 ### Step 12: Kabelsalat aufräumen
+
 Verwendete Materialien:
 1. Kabelbinder
 
 Um den Kabelsalat innerhalb des Würfels ein wenig zu verringern solltest du hierzu Kabelbinder verwenden, mit dem du mehrere Kabel zusammenschnüren kannst.
 
 ## Programmierung
-
-### Step 1: Entwicklung auf dem Raspberry Pi 3						
 
 Die grafische Oberfläche des Qube wurde mit dem QT4 Designer realisiert. Dies ist ein Tool um die GUI per Drag & Drop zu erstellen.
 Mit dem Python Framework PyQT4 kann man dann die erstellte Oberfläche einbinden und die dazugehörige Logik implementieren.
@@ -565,11 +619,18 @@ Um die Resourcen des Raspberry's zu schonen wurde auf eine MySQL Datenbank verzi
 Um CRUD Operationen auf die Datenbank zu vereinfachen kommt das Python Toolkit und ORM SQLAlchemy zum Einsatz.
 Um die Kommunikation zwischen dem Raspberry Pi und dem Arduino zu ermöglichen wird die Bibliothek python3-serial verwendet.
 
-### Step 2: Raspbian installieren.
+### Step 1: Raspbian installieren.
+
+Benötigte Materialien:
+1. Raspberry Pi 3 inkl. Maus, Tastatur und Bildschirm
+
 Falls noch nicht geschehen installiere Raspbian auf dem Raspberry Pi.
 Am einfachsten geht das mit NOOBS. [Hier](https://www.raspberrypi.org/help/noobs-setup/) findet man die Anleitung dazu.
 
 ### Step 3: Benötigte Libraries installieren
+
+Benötigte Materialien:
+1. Raspberry Pi 3 inkl. Maus, Tastatur und Bildschirm
 
 > :warning:
   Die folgende Kommandos funktionieren NUR unter LINUX. Falls ein anderes Betriebssystem verwendet wird (z.B.: Windows 10 IoT) müssen diese entsprechend angepasst werden
@@ -593,13 +654,21 @@ Wenn du nur die Software installieren will ohne eigene Modifikationen an der GUI
 Der Qt4 Designer wird nur benötigt um die GUI zu erstellen bzw. zu modifizieren.
 
 ### Step 4: Entwicklung für den Arduino Uno
-Der Programmcode für den Arduino hast du mit Schritt 10 (siehe oben) schonn geladen sie befindet sich in src/arduino/arduino2pi/.
+
+Der Programmcode für den Arduino hast du mit Schritt 10 (siehe oben) schon geladen. Er befindet sich in src/arduino/arduino2pi/.
 Du kannst auf deinem Raspberry Pi die Arduino IDE herunterladen und dann den Quellcode auf den Arduino hochladen. Dafür musst du die IDE mit dem Kommand `$ sudo apt-get install arduino`. Diese findest du dann unter Start->Elektronik->Arduino IDE.
 Leider führte dies in unserem Fall zu erheblichem Problemen und wir entschieden uns dafür den Arduino an einen Windows PC/ Mac anzuschließen und den Quellcode von dort hochzuladen.
-Die Arduino IDE bekommst du [Hier](https://www.arduino.cc/en/Main/Software).
+Für Mac/Windows findest du die Arduino IDE [hier](https://www.arduino.cc/en/Main/Software).
 
 ### Step 5: Quellcode auf den Arduino laden
+
+Benötigte Materialien:
+1. Arduino Uno inkl. mitgeliefertes USB Kabel
+2. Einen PC
+
 Sobal die IDE installiert wurde kannst du die Datei arduino2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
+
+Nun verbindest du den Arduino mit dem mitgelieferten USB Kabel mit dem PC und startest die soeben installierte Arduino IDE.
 
 Mit einem einfachen Klick auf "Hochladen" wird das Programm auf den Arduino geladen. Dieser bestätigt das erfolgreiche Hochladen mit einem Blinken der eingebauten LED.
 
@@ -608,14 +677,23 @@ Es kann sein, dass der USB Port bzw. der Arduino an dem USB Port nicht richtigt 
 Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind kannst du deine erste Runde mit Qube starten.
 
 ### Step 6: Jetzt geht's los. QUBE starten.
+
+Benötigte Materialien:
+1. Den fertigen Würfel
+2. Deinen Bruder, deine Mama oder einen Freund/Bekannten (für den Zwei Spieler Modus) (macht noch mehr Spaß)
+3. Gute Laune
+
+Vorgehensweise:
 1. Gehe mit dem Terminal in das Verzeichnis in dem die Datei Qube.py liegt.
 2. `$ python3 Qube.py`
-3. Alternativ kannst du auch mit IDLE (Der Python IDE von Raspian) enweder Qube.py oder QubeHub.py öffnen und F5 drücken.
+3. Alternativ kannst du auch mit IDLE (Der Python IDE von Raspian) entweder Qube.py oder QubeHub.py öffnen und F5 drücken. Es gibt zwei Versionen von IDLE, eine für Python V2 und eine für V3 es ist wichtig, dass du IDLE Version 3! verwendest.
 
 ###Herzlichen Glückwunsch!!!
 Du hast dir deinen eigenen Qube gebaut, benutze jetzt das Skript QubeHub.py um neue Fragen zu erstellen. Dies kannst du auf die gleiche Weise starten wie in Schritt 6 beschrieben.
 
-Hier noch ein paar Eindrücke des kompletten Würfels.
+Wir hoffen, dass bauen, löten, schrauben und programmieren hat dir genauso viel Spaß gemacht wie uns. Das ganze QUBE Team wünscht dir viel Spaß mit deinem neuen Quiz Würfel.
+
+Hier noch ein paar Eindrücke von unserem fertigen Würfel.
 
 ![Finale I](/images/taahw/finale_I.jpeg)
 ![Finale II](/images/taahw/finale_II.jpeg)
