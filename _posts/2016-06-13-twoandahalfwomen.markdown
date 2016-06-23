@@ -430,7 +430,7 @@ Da du jetzt alle gebohrten Löcher mit der Klebefolie verdeckt hast hast, musst 
 
 Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
-![Ausparung](/images/taahw/wuerfel/folie_schneiden.jpeg)
+![Aussparung](/images/taahw/wuerfel/folie_schneiden.jpeg)
 
 ### Step 5: Plexiglasscheiben miteinander verkleben
 
@@ -599,13 +599,13 @@ Leider führte dies in unserem Fall zu erheblichem Problemen und wir entschieden
 Die Arduino IDE bekommst du [Hier](https://www.arduino.cc/en/Main/Software).
 
 ### Step 5: Quellcode auf den Arduino laden
-Sobal die IDE installiert wurde kannst du die Datei arduin2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
+Sobal die IDE installiert wurde kannst du die Datei arduino2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
 
 Mit einem einfachen Klick auf "Hochladen" wird das Programm auf den Arduino geladen. Dieser bestätigt das erfolgreiche Hochladen mit einem Blinken der eingebauten LED.
 
 Es kann sein, dass der USB Port bzw. der Arduino an dem USB Port nicht richtigt erkannt wird. In diesem Fall muss der Port manuell geändert werden. Dies kannst du unter Werkzeuge->Port einstellen.
 
-Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind kann deine erste Runde mit Qube erfolgen.
+Wenn alle Buzzer, Knöpfe Kabel und Geräte miteinander verbunden worden sind kannst du deine erste Runde mit Qube starten.
 
 ### Step 6: Jetzt geht's los. QUBE starten.
 1. Gehe mit dem Terminal in das Verzeichnis in dem die Datei Qube.py liegt.
@@ -620,6 +620,7 @@ Hier noch ein paar Eindrücke des kompletten Würfels.
 ![Finale I](/images/taahw/finale_I.jpeg)
 ![Finale II](/images/taahw/finale_II.jpeg)
 ![Finale III](/images/taahw/finale_III.jpeg)
+![Finale III](/images/taahw/finale_IV.jpeg)
 
 ## nützliche Quellen
 
