@@ -219,70 +219,7 @@ Hierfür führt ihr folgende Steps aus:
   7. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
   ![Verbindungskabel](/images/taahw/08.jpg)
 
-### Step 6: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry Pi 3 verbinden
-
-In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry Pi 3 anschließen.
-Im Gegensatz zu dem Arduino Uno sind die Pins des Raspberry's nicht beschriftet um denoch den Überblick zu behalten ist es ratsam folgende Abbildung zur Hilfe zu nehmen:
-
-![GPIO](/images/taahw/14.png)
-
-> :warning:
-Um die Pins korrekt lesen bzw. zuordnen zu können, ist es gut zu wissen , dass sich die PIN Nr. 40 und 39 in der unmittelbaren Nähe zu den USB Anschlüssen befinden.
-
-Hier eine Auflistung welcher Button bzw. welches Kabel des Buttons an welchen GPIO Pin gehört. Falls du die Zuordnung ändern willst kannst du das gerne tun musst aber bedenken, dass du die Pins dann auch später im Quellcode anpassen musst.
-
-Arcade Button Blau: PIN 22
-
-Arcade Button Gelb: PIN 29
-
-Arcade Button Grün: PIN 16
-
-Arcade Button Rot: PIN 18
-
-Arcade Button Schwarz: PIN 13
-
-Arcade Button Player 1: PIN 12
-
-Arcade Button Player 2: PIN 11
-
-Push Dome Button 1: PIN 15
-
-Push Dome Button 2: PIN 31
-
-Auch das Kabelende des oben verwendeten Kabelstrangs aus Step 5 solltest du an einen GPIO Pin anschließen, so benötigst du kein Breadboard und habt später mehr Platz im Würfel.
-
-Button mit Kabelstrang-Ende: PIN 6 (GROUND)
-
-![GPIO](/images/taahw/16.jpg)
-
-Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
-
-![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.JPG)
-
-### Step 7: Push Dome Button LED an Arduino anschließen
-Hierfür benötigen wir
-1. Push Dome Button LED
-2. Arduino
-3. Pins (Male)
-
-Vorgehensweise:
-  1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, musst du auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
-  
-![LED Push Dome Button](/images/taahw/17.jpg)
-
-  2. Das blaue Kabel wird an GND angeschlossen.
-  3. Das rote Kabel an Pin 13 anschließen.
-Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
-  1. Blaues Kabel an GND anschließen
-  2. Rotes Kabel an Pin 12 anschließen
-  
-Auch hier gilt: Wenn die Zuordnung geändert wird muss dies im Quellcode angepasst werden.
-  
-Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
-
-![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.JPG)
-
-### Step 8: Kabel an Neopixelstreifen löten
+### Step 6: Kabel an Neopixelstreifen löten
 Hierfür benötigst du Folgendes:
 1. Lötkolben
 2. Abisolierzange
@@ -310,7 +247,7 @@ Die folgenden Schritte solltet ihr dabei beachten:
   
 ![Neopixel](/images/taahw/20.jpg)
 
-### Step 9: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
+### Step 7: Verbindungskabel RB-CB3-25 an Kabel von Neopixelstreifen löten
 Benötigt werden
 1. Verbindungskabel
 2. Schere
@@ -327,41 +264,6 @@ Die Vorgehensweise lautet wie folgt:
   4. Danach solltest du die Kabelhülse über das Ende des Verbindungskabel bis zur Lötstelle ziehen. 
   5. Nun isolierst du die Lötstelle mit der überzogenen Kabelhülse.
   6. Die Kabelhülse musst du mit einem Feuerzeug oder einem Heißluftfön erhitzen, damit sich diese zusammenzieht und so die Lötstelle verdeckt.
-
-### Step 10: Neopixelstreifen mit Arduino verbinden
-Benötigte Materialien:
-1. Neopixel LED Streifen
-2. Arduino Uno
-
-Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben und auch hier gilt: Wenn die Zuordnung zu den Pins geändert wird muss dies im Quellcode berücksichtigt werden.
-
-grau (GND): PIN GND
-gelb (Dh): PIN 6
-rot (5V): PIN 5V
-
-Vorgehensweise:
-  1. Das graue Kabel an den GROUND Pin des Arduinos anschließen
-  2. Das rote Kabel schließt du an den 5V Pin des Arduinos an. 
-  3. Das letzte Verbindungskabel (gelb) kommt an PIN Nummer 6 des Arduinos.
-
-### Step 11: Arduino und Raspberry verbinden
-
-Benötigte Materialien:
-1. Raspberry Pi 3
-2. Arduino Uno
-3. USB Kabel
-
-Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten. Nachfolgendes Bild zeigt die erfolgreich angeschlossenen Geräte.
-
-![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpeg)
-
-### Step 12: Raspberry und Monitor verbinden
-Benötigte Materialien:
-1. Monitor
-2. Raspberry Pi 3
-3. HDMI Kabel oder -Adapter
-
-Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
 
 ## Step-by-Step Guide - Würfel
 
@@ -508,21 +410,24 @@ Damit die inneren Winkel auch hundertprozentig rechtwinklig werden kann ein Geod
 Sobald die ersten Vier Platten verklebt worden sind wird zum Schluss die Vorderplatte (die mit den drei Löcher) angeklebt.
 Es hat sich Bewährt, dass den Kleber ein paar Stunden trocknen lässt bevor die Frontplatte aufgeklebt wird. 
 
-### Step 6: Scharniere an Holzplatte/Plexiglas verkleben
+### Step 6: Scharniere mit Plexiglas verkleben
 
 Benötigte Materialien:
 1. Scharniere
 2. Pattex Kraftkleber
-3. hintere Seite Plexiglas
-4. MDF Platte
+3. hintere Seite Plexiglas sowie die Bodenplatte
 
 Vorgehensweise:
-  1. Als erstes solltet ihr euch eine kleine Markierung jeweils rechts und links an der unteren Seite des Plexiglases machen, damit ihr ungefähr wisst wo es anzubringen ist.
-  2. Den selben Schritt führt ihr auch auf der hinteren Seite des Würfels durch, da diese zwei Seiten miteinander verbunden werden
-  3. Danach verteilt ihr den Kleber auf einer Seite eines Scharnieres und drückt dieses nun fest an die untere Seite des Würfels.
+  1. Als erstes solltet ihr euch eine kleine Markierung jeweils rechts und links an der unteren Seite des Rückplatte machen, damit ihr ungefähr wisst wo die Scharniere anzubringen sind. Die Scharniere werden jeweils links und rechts an die Rückplatte angebracht, sodass sie noch ein bischen Luft bis zur Außenkante haben.
+  2. Den selben Schritt führt ihr auch auf der Bodenplatte des Würfels durch, da diese zwei Platten miteinander verbunden werden.
+  3. Danach verteilt ihr den Kleber auf einer Seite eines Scharnieres und drückt dieses nun fest an die untere Seite des Würfels. Achtet dabei darauf, dass sich der Klappmechanismus des Scharnieren außerhalb! des Würfels befinden muss.
   3. Nun solltet ihr das Scharnier eine Weile trocknen lassen bis es fest ist.
   4. Schritt 3 wiederholt ihr für die hintere Seite des Würfels und lasst das Scharnier ebenfalls trocknen.
   5. Die Schritte 1-4 sind auch für das zweite Scharnier durchzuführen.
+  
+Das fertige Ergebnis sollte dann ungefähr so aussehen:
+
+![Scharniere](/images/taahw/wuerfel/klappe.jpeg)
 
 ### Step 7: Arcade Buttons und Push Dome Buttons anbringen
 
@@ -603,7 +508,106 @@ Vorgehensweise:
   3. Entferne nun das Schutzpapier und drücke das Gehäuse an den Boden des Würfels.
   4. Den Arduino solltest du im hinteren Berecih des Würfels platzieren, so das der Raspberry ausreichend Platz hat.
 
-### Step 12: Kabelsalat aufräumen
+### Step 12: Arcade Buttons und Push Dome Buttons mit GPIO von Raspberry Pi 3 verbinden
+
+In diesem Schritt werden wir die angebrachten Verbindungskabel an die GPIO Pins des Raspberry Pi 3 anschließen.
+Im Gegensatz zu dem Arduino Uno sind die Pins des Raspberry's nicht beschriftet um denoch den Überblick zu behalten ist es ratsam folgende Abbildung zur Hilfe zu nehmen:
+
+![GPIO](/images/taahw/14.png)
+
+> :warning:
+Um die Pins korrekt lesen bzw. zuordnen zu können, ist es gut zu wissen , dass sich die PIN Nr. 40 und 39 in der unmittelbaren Nähe zu den USB Anschlüssen befinden.
+
+Hier eine Auflistung welcher Button bzw. welches Kabel des Buttons an welchen GPIO Pin gehört. Falls du die Zuordnung ändern willst kannst du das gerne tun musst aber bedenken, dass du die Pins dann auch später im Quellcode anpassen musst.
+
+Arcade Button Blau: PIN 22
+
+Arcade Button Gelb: PIN 29
+
+Arcade Button Grün: PIN 16
+
+Arcade Button Rot: PIN 18
+
+Arcade Button Schwarz: PIN 13
+
+Arcade Button Player 1: PIN 12
+
+Arcade Button Player 2: PIN 11
+
+Push Dome Button 1: PIN 15
+
+Push Dome Button 2: PIN 31
+
+Auch das Kabelende des oben verwendeten Kabelstrangs aus Step 5 solltest du an einen GPIO Pin anschließen, so benötigst du kein Breadboard und habt später mehr Platz im Würfel.
+
+Button mit Kabelstrang-Ende: PIN 6 (GROUND)
+
+![GPIO](/images/taahw/16.jpg)
+
+Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
+
+![Raspberry Pi Fritzing](/images/taahw/qube_raspberry_Steckplatine.JPG)
+
+### Step 13: Push Dome Button LED an Arduino anschließen
+Hierfür benötigen wir
+1. Push Dome Button LED
+2. Arduino
+3. Pins (Male)
+
+Vorgehensweise:
+  1. Damit die Kabel der LED von Push Dome Button 2 an den Arduino angeschlossen werden können, musst du auf die Kabelenden der LED jeweil ein Pin (Male) stecken, da der Arduino im Gegensatz zum Raspberry weibliche Anschlüsse besitzt.
+  
+![LED Push Dome Button](/images/taahw/17.jpg)
+
+  2. Das blaue Kabel wird an GND angeschlossen.
+  3. Das rote Kabel an Pin 13 anschließen.
+Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
+  1. Blaues Kabel an GND anschließen
+  2. Rotes Kabel an Pin 12 anschließen
+  
+Auch hier gilt: Wenn die Zuordnung geändert wird muss dies im Quellcode angepasst werden.
+  
+Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
+
+![Arduino Uno Fritzing](/images/taahw/qube_arduino_Steckplatine.JPG)
+
+
+### Step 14: Neopixelstreifen mit Arduino verbinden
+Benötigte Materialien:
+1. Neopixel LED Streifen
+2. Arduino Uno
+
+Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben und auch hier gilt: Wenn die Zuordnung zu den Pins geändert wird muss dies im Quellcode berücksichtigt werden.
+
+grau (GND): PIN GND
+gelb (Dh): PIN 6
+rot (5V): PIN 5V
+
+Vorgehensweise:
+  1. Das graue Kabel an den GROUND Pin des Arduinos anschließen
+  2. Das rote Kabel schließt du an den 5V Pin des Arduinos an. 
+  3. Das letzte Verbindungskabel (gelb) kommt an PIN Nummer 6 des Arduinos.
+
+### Step 15: Arduino und Raspberry verbinden
+
+Benötigte Materialien:
+1. Raspberry Pi 3
+2. Arduino Uno
+3. USB Kabel
+
+Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten. Nachfolgendes Bild zeigt die erfolgreich angeschlossenen Geräte.
+
+![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpeg)
+
+### Step 16: Raspberry und Monitor verbinden
+Benötigte Materialien:
+1. Monitor
+2. Raspberry Pi 3
+3. HDMI Kabel oder -Adapter
+
+Um die Grafische Oberfläche an einem Monitor anzeigen zu lassen, muss ein Monitor an den Raspberry angeschlossen werden. Dies geschieht entweder direkt über ein HDMI Kabel oder mit einem entsprechenden Adapter.
+
+### Step 17: Kabelsalat aufräumen
 
 Verwendete Materialien:
 
