@@ -106,7 +106,7 @@ Hierzu haben wir uns im Rahmen des Projektes für nachfolgende Vorgehensweise en
 
   3. Nun nimmst du einen Arcade Button oder Push Dome Button, an dem Step 1 bereits durchgeführt wurde und verbinde die jeweiligen abisolierten Kabelenden mit Hilfe des Lötkolbens.
 
-  ![Verbindung](/images/taahw/06.JPG)  
+  ![Verbindung](/images/taahw/06.jpg)  
 
   4. Danach solltest du die Kabelhülse über das Ende des Verbindungskabel (Female) bis zur Lötstelle ziehen.
   
@@ -186,7 +186,7 @@ Hierfür führt ihr folgende Steps aus:
 
   3. Nun nimmst du das Verbindungskabel RB-CB3-25, welches die gleiche Farbe wie der Kabelstrang haben sollte, zur Hand und schneidest eines der Female Stücke ab, sodass das Kabel ausreichend lang ist.
   
-![Verbindungskabel](/images/taahw/05.jpg)
+![Verbindungskabel](/images/taahw/05.JPG)
 
   4. Auch dieses Kabel musst du am abgeschnittenen Ende abisolieren.
   5. Als nächstes verlötest du das Ende des Crimp Kabelstrangs mit dem zuvor isolierten Verbindungskabel.
@@ -208,13 +208,21 @@ Um die Pins korrekt lesen bzw. zuordnen zu können, sollten sich die GPIO Pins d
 ![korrekte Ausrichtung des Raspberry Pi um die GPIO Pins anzubringen](/images/taahw/rpi_ausrichtung.jpeg)
 
 Arcade Button Blau: PIN 22
+
 Arcade Button Gelb: PIN 29
+
 Arcade Button Grün: PIN 16
+
 Arcade Button Rot: PIN 18
+
 Arcade Button Schwarz: PIN 13
+
 Arcade Button Player 1: PIN 12
+
 Arcade Button Player 2: PIN 11
+
 Push Dome Button 1: PIN 15
+
 Push Dome Button 2: PIN 31
 
 Auch das Kabelende des oben verwendeten Kabelstrangs aus Step 5 solltest du an einen GPIO Pin anschließen, so benötigst du kein Breadboard und habt später mehr Platz im Würfel.
@@ -305,7 +313,7 @@ Benötigte Materialien: Raspberry Pi 3, Arduino Uno, USB Kabel
 
 Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten.
 
-![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpg)
+![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpeg)
 
 ### Step 12: Raspberry und Monitor verbinden
 Benötigte Materialien: Monitor, Raspberry Pi 3, HDMI Kabel oder -Adapter
@@ -332,11 +340,11 @@ Die Anordnung der Löcher siehst du auf der Abbildung "fertige Oberplatte".
 
 Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt bevor dann mit der Lochfräse (25mm) die Löcher gebohrt werden können.
 
-![Lochfräse](images/taahw/bohrer/lochfräse.jpg)
+![Lochfräse](/images/taahw/bohrer/lochfräse.jpg)
 
 Am besten spannt man die Lochfräse in einen Standbohrer, um mehr Stabilität zu bekommen und damit ein sauberes rundes Loch entsteht.
 
-![Standbohrer](images/taahw/bohrer/stand.jpg)
+![Standbohrer](/images/taahw/bohrer/stand.jpg)
 
 Beim Bohren darf nicht mit zu hohen Umdrehungen gebohrt werden, da ansonsten die Platten zu schmelzen beginnen. Dies erkennt man an einem immer stärker werdenden beißenden Geruch.
 
@@ -349,7 +357,7 @@ Die Buzzer sitzen sehr locker in den gebohrten Löcher aber das ist nicht weiter
 
 Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen.
 
-![fertige Oberplatte](images/taahw/würfel/platte_oben.jpeg)
+![fertige Oberplatte](/images/taahw/würfel/platte_oben.jpeg)
 
 Den Schlitz den du hier siehst wird im nächsten Schritt angebracht
 
@@ -360,7 +368,7 @@ Um die Löcher zu bohren und zu schleifen musst du genauso vorgehen wie zuvor au
 
 Das fertige Ergebnis sieht dann so aus:
 
-![fertige Oberplatte](images/taahw/würfel/platte_vorne.jpeg)
+![fertige Oberplatte](/images/taahw/würfel/platte_vorne.jpeg)
 
 ### Step 2: Loch und Schlitz für das Zylinderschloss bohren
 
@@ -395,13 +403,13 @@ Die Aussparung hat eine Breite von 6cm und eine Höhe von 2cm und sitzt in der M
 Nachfolgende Abbildung zeigt den Sitz der Aussparung.
 Die äußeren beiden Linien sind markieren jeweils den Anfang der zwei Scharniere die in Step 6 befestigt werden und das dazwischen mittig liegende "Gerät" ist der Raspberry. Die Ausparrung beginnt ca. 10mm entfernt von dem linken Scharnier.
 
-![Ausparung](images/taahw/würfel/platte_hinten.jpeg)
+![Ausparung](/images/taahw/würfel/platte_hinten.jpeg)
 
 Das fräsen der Ausparung erfolgt wieder mit dem Dremel und dem Mini Kreissägen Aufsatz der für den Schlitz für das Schloss verwendet wurde.
 
 Das folgende Bild zeigt die Aussparung und das dahinter liegende Gehäuse des Raspberry Pi's.
 
-![Ausparung](images/taahw/würfel/schlitz_II.jpeg)
+![Ausparung](/images/taahw/würfel/schlitz_II.jpeg)
 
 ### Step 4: Milchglasfolie anbringen
 
@@ -422,7 +430,7 @@ Da du jetzt alle gebohrten Löcher mit der Klebefolie verdeckt hast hast, musst 
 
 Dazu die Platte auf den "Kopf" legen und an den Lochkanten entlang die Löcher ausschneiden.
 
-![Ausparung](images/taahw/würfel/folie_schneiden.jpeg)
+![Ausparung](/images/taahw/würfel/folie_schneiden.jpeg)
 
 ### Step 5: Plexiglasscheiben miteinander verkleben
 
@@ -440,7 +448,7 @@ Damit der Würfel auch wirklich quadratisch wird müssen die vier kleinen Platte
 
 Dies ist auf nachfolgender Zeichnung zu erkennen:
 
-![Querschnitt der Platten des Würfels](images/taahw/würfel/reihenfolge.jpeg)
+![Querschnitt der Platten des Würfels](/images/taahw/würfel/reihenfolge.jpeg)
 
 Damit die Platten bestmöglichst aufeinander kleben empfiehlt es sich auf der vorgesehenen Klebefläche (4mm breit) die zuvor angebrachte Michglasfolie zu entfernen. Das machst du am indem man die Folie vorsichtig mit dem Cutter Messer einschneidet (sodass die Platte nicht beschädigt wird) und dann abziehst.
 
@@ -448,7 +456,7 @@ Wenn du das erledigt hast kann wirklich mit dem Bekleben begonnen werden.
 
 Zum Bekleben fülle ein biscchen von dem Patex Kraftkleber in ein Behälter. Jetzt kannst du mit Hilfe des alten Pinsels den Kleber auf die Klebefläche aufbringen. Wichtig ist, dass nicht nur eine Seite sondern beide Seiten die verklebt werden sollen mit dem Kleber versehen werden. Anschließend kannst du den Kleber leicht antrocknen lassen und stark zusammenpressen.
 
-![Platten kleben](images/taahw/würfel/kleber_anbringen.jpeg)
+![Platten kleben](/images/taahw/würfel/kleber_anbringen.jpeg)
 
 Damit die inneren Winkel auch hundertprozentig rechtwinklig werden kann ein Geodreieck, zur Unterstützung, zwischen die Platten gelegt werden. 
 
@@ -480,8 +488,8 @@ Dies wiederholst du nun so lange bis alle Buttons angeschlossen sind.
 Das Befestigen der Buzzer funktioniert nach dem gleichen Prinzip.
 
 Das fertige Ergebis sollte dann so aussehen:
- ![angebrachte Buttons auf der Operplatte](images/taahw/würfel_komplett.jpeg)
- ![angebrachte Buttons auf der Vorderplatte](images/taahw/würfel_komplett_II.jpeg)
+ ![angebrachte Buttons auf der Operplatte](/images/taahw/würfel_komplett.jpeg)
+ ![angebrachte Buttons auf der Vorderplatte](/images/taahw/würfel_komplett_II.jpeg)
  
 ### Step 8: Zylinderschloss befestigen
 Benötigte Materialien: Zylinderschloss, hintere Plexiglasscheibe
@@ -491,7 +499,7 @@ Vorgehensweise:
   2. Als nächstes setzt du das Zylinderschloss ein und schraubst es fest.
   3. Nun richtest du es so aus, dass der Würfel mit der oberen Seite abschließbar ist.
 
- ![Zylinderschloss](images/taahw/22.jpeg)
+ ![Zylinderschloss](/images/taahw/22.jpeg)
 
 ### Step 9: Würfel an Holzplatte kleben
 Benötigte Materialien:
@@ -528,7 +536,7 @@ Vorgehensweise:
 
 ### Step 11: Arduino an Würfel anbringen
 Benötigte Materialien:
-1. Arduino mit Gehäuse#
+1. Arduino mit Gehäuse
 2. Würfel
 3. Tesa Powerbond
 4. Schere
