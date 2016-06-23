@@ -28,7 +28,6 @@ Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getest
   - 1x USB oder Bluetooth Maus für den Raspberry Pi 3
   - 1x USB oder Bluetooth Tastatur für den Raspberry Pi 3
   - 1x Arduino Uno | [Gibt es hier zu kaufen](https://www.amazon.de/Arduino-Uno-Rev-3-Mikrocontroller-Board/dp/B008GRTSV6/ref=sr_1_1?ie=UTF8&qid=1466531263&sr=8-1&keywords=Arduino+uno)
-  - 1x Netzteil für Arduino Uno - Goobay 2798 - Universal Netzgerät 3-12 V | [Gibt es hier zu kaufen](https://www.amazon.de/Goobay-2798-Universal-Netzgerät-3-12/dp/B0038WU2Z0)
   - 1x Laptop/PC um den Arduino zu programmieren
   - 2 x Push Dome Buttons blau | [Gibt es hier zu kaufen](https://www.amazon.de/Big-Dome-Push-Button-Blue/dp/B008FZJ2WE)
   - 5 x Einbautaster 35mm(blau, gelb, rot, grün, schwarz) | [Gibt es hier zu kaufen](http://www.watterott.com/index.php?page=search&page_action=query&desc=on&sdesc=on&keywords=Einbautaster&x=0&y=0)
@@ -145,7 +144,7 @@ Im Gegensatz zu einer "normalen LED" sind bei diesen LED's die Beinchen nicht ve
 Um die Kabel am richtigen Beinchen anzulöten benötigst du einen Multimeter mit dem du Heraus finden kannst welches Beinchen + oder - ist. Weitere Einzelheiten findest du [hier](http://www.ledhilfe.de/viewtopic.php?f=23&t=1223).
 Falls du kein Multimeter zur Hand hast musst du einfach ausprobieren :-) 
 
-Hierfür gehst du wie folgt vor:
+Um die Kabel an die LEDs zu löten gehst du wie folgt vor:
   1. Schneide dir zwei Kabel in ausreichender Länge von ca. 25cm zurecht, da beim verbauen ein Stück der Länge verloren geht. Du solltest hierfür ein blaues und ein rotes Kabel zur besseren Unterscheidung benutzen.
   2. Isoliere jeweils beide Kabelenden des blauen und roten Kabels mit einer Abisolierzange ab.
   3. Als nächstes nimmst du das Kabelende des blauen Kabel und lötest dies mit Hilfe des Lötkolben an den Minuspol an.
@@ -155,7 +154,7 @@ Hierfür gehst du wie folgt vor:
   
 ![Push Dome Button](/images/taahw/09.jpg)
 
-### Step 4: Micro Switches der Arcade Buttons und Push Dome Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
+### Step 4: Die Micro Switches der verschiedenen Buttons mit dem Insulated Daisy Chain Kabelstrang verbinden
 Benötigt werden:
 1. Insulated Daisy Chain Kabelstrang
 2. Schere
@@ -165,11 +164,11 @@ Mit Hilfe des Crimp Kabelstrangs werden die einzelnen Micro Switches der Buttons
 
 ![Aufbau Micro Switch](/images/taahw/cherry.gif)
 
-Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüße spielt hierbei keine Rolle.
+Hierfür werden 10 Steckverbindungen des Crimp Kabelstrangs benötigt. Die Reihenfolge der Anschlüsse spielt hierbei keine Rolle.
 
 ![Kabelstrang](/images/taahw/10.jpg)
 
-In unserem Projekt haben wir die Verbindungen zwischen den Komponenten in der Reihenfolge
+In unserem Projekt haben wir die Buttons in der Reihenfolge
   - Arcade Button rot
   - Arcade Button grün
   - Arcade Button gelb
@@ -180,15 +179,15 @@ In unserem Projekt haben wir die Verbindungen zwischen den Komponenten in der Re
   - Arcade Button (2 Player)
   - Arcade Button schwarz
 
-gewählt.
+verbunden.
 
-Dazu gehen wir folgendermaßen vor:
+Dazu gehst du folgendermaßen vor:
   1. Als erstes nimmst du den ersten Crimp Stecker des Kabelstrangs und befestigt diesen an dem COMMON (der Untere) Anschluss des Micro Switches des roten Arcade Buttons. Die Verbindung zum Microswitch sollte jetzt so aussehen wie auf dem folgenden Bild 
   
   ![Verbindungskabel](/images/taahw/11.jpg)
 
   2. Danach widerholst du Schritt eins bis alle Switches miteinander verbunden sind.
-  6. Nach der letzten Verbindung - in unserem Fall der Arcade Button schwarz - musst du das Kabel mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern. Dieses Kabel wird am Ende an den GROUND Pin des Raspberry's angeschlossen.
+  6. Nach der letzten Verbindung - in unserem Fall der Arcade Button schwarz - musst du das Kabel mit einer Schere trennen, um das Kabel im nächsten Schritt zu verlängern. Dieses Kabel wird am Ende an den GROUND Pin des Raspberry Pi's angeschlossen.
 
 ### Step 5: Insulated Daisy Chain Harness verlängern
 Wir benötigen:
@@ -230,7 +229,7 @@ Im Gegensatz zu dem Arduino Uno sind die Pins des Raspberry's nicht beschriftet 
 > :warning:
 Um die Pins korrekt lesen bzw. zuordnen zu können, ist es gut zu wissen , dass sich die PIN Nr. 40 und 39 in der unmittelbaren Nähe zu den USB Anschlüssen befinden.
 
-![korrekte Ausrichtung des Raspberry Pi um die GPIO Pins anzubringen](/images/taahw/rpi_ausrichtung.jpeg)
+Hier eine Auflistung welcher Button bzw. welches Kabel des Buttons an welchen GPIO Pin gehört. Falls du die Zuordnung ändern willst kannst du das gerne tun musst aber bedenken, dass du die Pins dann auch später im Quellcode anpassen musst.
 
 Arcade Button Blau: PIN 22
 
@@ -272,10 +271,12 @@ Vorgehensweise:
 ![LED Push Dome Button](/images/taahw/17.jpg)
 
   2. Das blaue Kabel wird an GND angeschlossen.
-  3. Das rote solltet ihr an Pin 13 anschließen
-  4. Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
-  5. Blaues Kabel an GND anschließen
-  6. Rotes Kabel an Pin 12 anschließen
+  3. Das rote Kabel an Pin 13 anschließen.
+Für den Push Dome Button 1 verfahrt ihr ebenso, jedoch unterscheidet sich hier die Pin Belegung
+  1. Blaues Kabel an GND anschließen
+  2. Rotes Kabel an Pin 12 anschließen
+  
+Auch hier gilt: Wenn die Zuordnung geändert wird muss dies im Quellcode angepasst werden.
   
 Für einen besseren Überblick hier nochmal das ganze Szenario als Fritzing Schaltplan:
 
@@ -288,11 +289,11 @@ Hierfür benötigst du Folgendes:
 3. Neopixelstreifen
 4. Isolierband
 
-Der Neopixelstreifen hat sowohl Input als auch Output. In unserem Projekt benötigen wir die Input Seite. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt haben wir die Farben 
+Der Neopixelstreifen hat sowohl Input als auch Output. Damit der Streifen ordnungsgemäß funktioniert musst du darauf achten, dass, das INPUT Ende verwendet wird. Dort werden drei verschiedenfarbige Kabel angeschlossen, in unserem Projekt verwenden wir die Farben 
   - rot = 5V 
   - gelb = Dh (Mitte) 
   - grau = GND 
-verwendet.
+.
 
 Hinweis: Die Kabel bzw. der Lötzinn sollte sich untereinander nicht berühren, da der Neopixelstreifen sonst nicht funktionieren wird.
 
@@ -332,7 +333,7 @@ Benötigte Materialien:
 1. Neopixel LED Streifen
 2. Arduino Uno
 
-Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben.
+Hinweis: Im Gegensatz zum Raspberry sind die Pins des Arduinos auf dessen Platine beschrieben und auch hier gilt: Wenn die Zuordnung zu den Pins geändert wird muss dies im Quellcode berücksichtigt werden.
 
 grau (GND): PIN GND
 gelb (Dh): PIN 6
@@ -350,7 +351,7 @@ Benötigte Materialien:
 2. Arduino Uno
 3. USB Kabel
 
-Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten. Auf dem nachfolgenden Bild entspräche dies der rechten Seite.
+Die Verbindung zwischen Arduino und Raspberry stellt ihr mittels USB-Kabel her. Im Regelfall ist dieses Verbindungskabel im Lieferumfang des Arduinos enthalten. Nachfolgendes Bild zeigt die erfolgreich angeschlossenen Geräte.
 
 ![Verbindung zwischen Raspberry Pi und Arduino Uno](/images/taahw/21.jpeg)
 
@@ -378,7 +379,7 @@ Damit die Bauteile an den Plexiglasscheiben angebracht werden können müssen zu
 
 Auf der oberen Platte müssen vier Löcher für die farbigen Buttons und zwei Löcher für die Buzzer gebohrt werden mit jeweils einem Durchmesser von 28mm bzw. 24mm.
 
-Die Anordnung der Löcher siehst du auf der Abbildung "fertige Oberplatte".
+Die Anordnung der Löcher siehst du auf der Abbildung weiter unten.
 
 Um die Löcher zu bohren wird zuerst ein Loch mit dem kleinen Bohrer vorgebohrt bevor dann mit der Lochfräse (25mm) die Löcher gebohrt werden können.
 
@@ -420,7 +421,7 @@ Benötigte Materialien:
 3. 6er Bohrer zum vorbohren
 
 Um die Sicherheit des Qubes zu erhöhen bzw. zu verhindern, dass nichts geklaut wird ist es sinnvoll noch zusätzlich ein Schloss anzubringen. Zusätzlich zu diesem Schloss werden noch Scharniere an die Rückplatte angebracht damit sich diese leicht öffnen lässt.
-Diese Scharniere werden mit Pattex Kraftkleber an der Bodenplatte angebracht. Das ankleben der Scharniere wird erst in Schritt Step 6 erfolgen sollte aber an dieser Stelle schonmal erwähnt werden.
+Diese Scharniere werden mit Pattex Kraftkleber an der Bodenplatte angebracht. Das Ankleben der Scharniere wird erst in Schritt Step 6 erfolgen sollte aber an dieser Stelle schonmal erwähnt werden.
 
 Um das Loch für das Schloss zu bohren wird zuerst die Mitte der Platte festgelegt und mit einem Abstand zur oberen Kante von 2cm eine Markierung gesetzt. Mit Hilfe dieser Markierung wird zuerst wieder ein Loch vorgebohrt bevor dann mit dem Forstner Bohrer das Loch gebohrt werden kann.
 
@@ -440,7 +441,7 @@ Benötigte Materialien:
 Damit der HDMI Eingang sowie die Eingänge für die Netzteile für das Raspberry und den Arduino zugänglich sind muss am unteren Ende der Rückplatte eine Aussparung gefräst werden.
 
 Neben der Aussparung für die Kabel muss rechts und links noch Platz gelassen werden für die Scharniere damit die Rückwand geöffnet werden kann.
-Die Aussparung hat eine Breite von 6cm und eine Höhe von 2cm und sitzt in der Mitte der Rückplatte. Dies passt genau um direkt dahinter den Raspberry anzubringen und damit ein wenig Luft bleibt für die externe Stromzufuhr des Arduinos.
+Die Aussparung hat eine Breite von 6cm und eine Höhe von 2cm und sitzt in der Mitte der Rückplatte. Dies passt genau um dahinter den Raspberry anzubringen.
 
 Nachfolgende Abbildung zeigt den Sitz der Aussparung.
 Die äußeren beiden Linien sind markieren jeweils den Anfang der zwei Scharniere die in Step 6 befestigt werden und das dazwischen mittig liegende "Gerät" ist der Raspberry. Die Ausparrung beginnt ca. 10mm entfernt von dem linken Scharnier.
@@ -465,7 +466,7 @@ Uns war es wichtig, dass Nutzer des Qubes in den Würfel hinein blicken konnten 
 
 Damit der spätere Lichteffekt des LED Streifens besser zur Geltung kommt kann aber auch der komplette Würfel mit Folie beklebt werden.
 
-Um die Milchglasfolie auf die Platten anzubringen ist es das einfachste wenn die Klebeseite der Milchglasfolie zuerst freigelegt und dann die Folie mit der Klebeseite nach oben flach auf einem Tisch ausgebreitet wird. Nun kannst du eine Platte mit der Rückseite auf die Klebefolie legen und dann die Klebefolie entlang der Kanten abschneiden.
+Um die Milchglasfolie auf die Platten anzubringen ist es das einfachste wenn du die Klebeseite der Milchglasfolie zuerst freigelegst und dann die Folie mit der Klebeseite nach oben flach auf einem Tisch ausgebreitest. Nun kannst du eine Platte mit der Rückseite auf die Klebefolie legen und dann die Klebefolie entlang der Kanten abschneiden.
 Danach musst du die Klebefolie sofort mit dem Schaber des Klebefolien Befestigungssets glatt streichen, um die restlichen Luftblässchen zu entfernen. Sollten nach ein paar Stunden weiter Bläschen entstehen so kannst du die mit einer Nadel einstechen und mit dem Schaber glattstreichen.
 
 Da du jetzt alle gebohrten Löcher mit der Klebefolie verdeckt hast hast, musst du nun die Löcher wieder ausschneiden. Dies funktioniert am besten mit einem Cutter Messer.
@@ -701,8 +702,8 @@ Vorgehensweise:
 2. `$ python3 Qube.py`
 3. Alternativ kannst du auch mit IDLE (Der Python IDE von Raspian) entweder Qube.py oder QubeHub.py öffnen und F5 drücken. Es gibt zwei Versionen von IDLE, eine für Python V2 und eine für V3 es ist wichtig, dass du IDLE Version 3! verwendest.
 
-###Herzlichen Glückwunsch!!!
-Du hast dir deinen eigenen Qube gebaut, benutze jetzt das Skript QubeHub.py um neue Fragen zu erstellen. Dies kannst du auf die gleiche Weise starten wie in Schritt 6 beschrieben.
+## Herzlichen Glückwunsch!!!
+Du hast dir deinen eigenen Qube gebaut. Jetzt kannst du das Skript QubeHub.py benutzen um Fragen zu erstellen. Dies kannst du auf die gleiche Weise starten wie in Schritt 6 beschrieben.
 
 Wir hoffen, dass bauen, löten, schrauben und programmieren hat dir genauso viel Spaß gemacht wie uns. Das ganze QUBE Team wünscht dir viel Spaß mit deinem neuen Quiz Würfel.
 
@@ -715,34 +716,16 @@ Hier noch ein paar Eindrücke von unserem fertigen Würfel.
 
 ## nützliche Quellen
 
-PyQt API
+[PyQt API](http://pyqt.sourceforge.net/Docs/PyQt4/classes.html)
 
-http://pyqt.sourceforge.net/Docs/PyQt4/classes.html
+[sqlite3](http://www.einplatinencomputer.com/sqlite-statt-mysql/)
 
-sqlite3
+[gpiozero](https://gpiozero.readthedocs.io/en/v1.2.0/)
 
-http://www.einplatinencomputer.com/sqlite-statt-mysql/
+[GPIO and Interrupts](http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio)
 
-gpiozero
+[QT4 Designer](http://www.rspilab.com/gui-application-development-using-qt4-designer-and-pyqt-in-raspbian-for-raspberry-pi/)
 
-https://gpiozero.readthedocs.io/en/v1.2.0/
+[SQLAlchemy](http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/)
 
-GPIO and Interrupts
-
-http://raspi.tv/2013/how-to-use-interrupts-with-python-on-the-raspberry-pi-and-rpi-gpio
-
-QT4 Designer
-
-http://www.rspilab.com/gui-application-development-using-qt4-designer-and-pyqt-in-raspbian-for-raspberry-pi/
-
-SQLAlchemy
-
-http://pythoncentral.io/introductory-tutorial-python-sqlalchemy/
-
-http://www.sqlalchemy.org/
-
-Verbindung zwischen dem Raspberry und Arduino herstellen
-
-https://oscarliang.com/connect-raspberry-pi-and-arduino-usb-cable/
-
-http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-verbinden
+[Verbindung zwischen dem Raspberry und Arduino herstellen](http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-verbinden)
