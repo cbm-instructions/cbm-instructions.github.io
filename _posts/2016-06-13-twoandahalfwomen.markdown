@@ -399,11 +399,11 @@ Da die 25mm für die farbigen Buttons zu klein sind muss mit einem Dremel mit pa
 Im Falle der Buzzer müssen die Löcher nur noch von den Schmelzrückständen entfernt werden und dann passen die Buzzer in die Löcher.
 Die Buzzer sitzen sehr locker in den gebohrten Löcher aber das ist nicht weiter schlimm da die Buzzer zusätzlich befestigt werden können.
 
-Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen.
+Wenn du mit den Löchern fertig bist sollte das Ergebnis ungefähr so aussehen:
 
 ![fertige Oberplatte](/images/taahw/wuerfel/platte_oben.jpeg)
 
-Den Schlitz den du hier siehst wird im nächsten Schritt angebracht
+Den Schlitz den du hier siehst wird im nächsten Schritt angebracht.
 
 Auf der Vorderseite (die zukünftige Vorderseite des Würfeln) müssen noch drei weitere Löcher angebracht werden. Zwei Löcher für jeweils den Ein - und Zweispielerbutton sowie ein Loch für den Navigationsbutton.
 Dabei haben wir das Loch für den Aracde Button schwarz rechts außen und das Loch für den Ein Spieler Button links außen angebracht. Jeweils mit einem Abstand von 3cm zur äußeren Plattenkante. Rechts neben dem Ein Spieler Button befindet sich das Loch für den Zwei Spieler Button (mit einem Absatnd von 2-3cm von Loch für den Arcade Button schwarz.)
@@ -490,11 +490,11 @@ Wenn alle Platten gebohrt und mit Milchlasfolie versehen wurden kann nun das Zus
 
 Damit der Würfel auch wirklich quadratisch wird müssen die vier kleinen Platten (24,75 x 24,75cm) in einer ganz bestimmten Anordnung miteinander verklebt werden.
 
-Dies ist auf nachfolgender Zeichnung zu erkennen. Hinweis: Die Zeichnung zeigt den Würfel von HINTEN.
+Dies ist auf nachfolgender Zeichnung zu erkennen. Hinweis: Die Zeichnung zeigt den Würfel von HINTEN, wobei auch oben die Operplatte darstellen soll.
 
 ![Querschnitt der Platten des Würfels](/images/taahw/wuerfel/reihenfolge.jpeg)
 
-Damit die Platten bestmöglichst aufeinander kleben empfiehlt es sich auf der vorgesehenen Klebefläche (4mm breit) die zuvor angebrachte Michglasfolie zu entfernen. Das machst du am indem man die Folie vorsichtig mit dem Cutter Messer einschneidet (sodass die Platte nicht beschädigt wird) und dann abziehst.
+Damit die Platten bestmöglichst aufeinander kleben, empfiehlt es sich auf der vorgesehenen Klebefläche (4mm breit) die zuvor angebrachte Michglasfolie zu entfernen. Das machst du am indem man die Folie vorsichtig mit dem Cutter Messer einschneidet (sodass die Platte nicht beschädigt wird) und dann abziehst.
 
 Wenn du das erledigt hast kann wirklich mit dem Bekleben begonnen werden.
 
@@ -571,8 +571,6 @@ Vorgehensweise:
   5. Als nächstes nimmst du den Würfel und drückt diesen auf die MDF Platte.
   6. Zum Schluß solltest du ihn eine Weile trocknen lassen, so das die Bauteile fest miteinander verbunden sind.
 
-![Würfel mit MDF Platte](/images/taahw/wuerfel/wuerfel_komplett_mdf.jpeg)
-
 ### Step 10: Raspberry an Würfel anbringen
 
 Benötigte Materialien:
@@ -597,7 +595,7 @@ Benötigte Materialien:
 
 1. Arduino mit Gehäuse
 2. Würfel
-3. Tesa Powerbond
+3. Tesa Powerstrips
 4. Schere
 
 Vorgehensweise:
