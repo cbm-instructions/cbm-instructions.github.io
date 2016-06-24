@@ -19,7 +19,7 @@ Dieses Projekt wurde auch mit einem Raspberry Pi 2 Revision B erfolgreich getest
 
 ### Materialien:
   - 4x Plexiglas (24,75cm x 24,75cm x 0,4cm) | ca. 12€
-  - 4x Plexiglas (25,25cm x 25,25cm x 0,4cm) | ca. 5€
+  - 1x Plexiglas (25,25cm x 25,25cm x 0,4cm) | ca. 5€
   - 1 x Plexiglas (24,05cm x 25,25cm x 0,04cm) | ca. 2€
   - Milchglasfolie (gibt es im Bauhaus von d-c-fix) | ca. 6€
   - 1x MDF Platte schwarz (27cm x 30cm x 0,19cm) | ca. 3€
