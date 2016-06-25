@@ -672,6 +672,7 @@ Benötigte Materialien:
 
 1. Arduino Uno inkl. mitgeliefertes USB Kabel
 2. Einen PC
+3. [Adafruit Neopixel Library](https://github.com/adafruit/Adafruit_NeoPixel)
 
 Sobal die IDE installiert wurde kannst du die Datei arduino2pi.ino öffnen. Diese befindet sich in dem Ordner src/arduino/arduino2pi/ in dem GitHub Repo, dass du vorher herunter geladen hast.
 
