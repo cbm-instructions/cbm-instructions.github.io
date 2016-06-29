@@ -5,6 +5,7 @@
 
 
 # 1. Projekt
+
 Ziel dieses Projektes war es Studierende, aus anderen Fakultäten von der Informatik und somit auch den dazugehörigen Studiengängen, zu überzeugen.
 Das Projekt hat 15 Wochen gedauert.
 Die Unterteilung dieses Projekts erfolgte in 2 Phasen.
@@ -14,14 +15,17 @@ Die Unterteilung dieses Projekts erfolgte in 2 Phasen.
 ---
  
 # 2. Einleitung
-                                                  POV
- Lisas Stimmung wird beim Betreten des Gebäudes gedrückt, weil sie sich nicht mit der Informatik identifizieren kann.
+
+    POV:
+    Lisas Stimmung wird beim Betreten des Gebäudes gedrückt, weil sie sich nicht 
+    mit der Informatik identifizieren kann.
  
 ---
 
 # 3. Material und Werkzeug
 
 ### Material (technisch)
+
 * Arduino Uno (2)
 * Kabel (Anzahl)
 * Photoresistoren (6)
@@ -35,6 +39,7 @@ Die Unterteilung dieses Projekts erfolgte in 2 Phasen.
 * Atari 2600 - Quickjoy SV 127 TopStar Joystick (1)
 
 ### Material
+
 * Spanplatte (100cm x 60cm x 2cm)
 * Holz (50cm x 50cm x2cm), ausgesägte Kontinente
 * Dünnes Holz (2qm), ausgesägte Kontinente
@@ -48,6 +53,7 @@ Die Unterteilung dieses Projekts erfolgte in 2 Phasen.
 * Auto-K Transparent-Spray Special schwarz (Art.-Nr. 33117, 2 Dosen)
 
 ### Werkzeug
+
 * Lötkolben
 * Bohrmaschine
    * Aufsätze: 10er und 4er Holzbohrer
