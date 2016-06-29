@@ -5,8 +5,6 @@ layout: post
 date:   2016-04-29 15:09:51 +0200
 ---
 
-## Ziel/POV
-
 Ziel unseres Projektes ist es Studenten bzw. Interessenten für die Informatik und die Hochschule Mannheim zu begeistern und den Kommunikationsaustausch zu fördern. Ausserdem soll mit Hilfe dieses Projektes eine freundlichere Atmosphäre geschaffen werden, damit sich Studierende gerne in der Fakultät für Informatik aufhalten und sich dort wohl fühlen und Spaß haben. 
 
 ## Projektbeschreibung
