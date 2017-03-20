@@ -8,7 +8,7 @@ Unser Projekt für das Fach "Challenge Based Making" - der "LaZer Computer".
 
 ## Unser Projekt
 
-Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und innovativer zu gestalten. 
+Wir bekamen die Aufgabe, das Informatik Gebäude der Hochschule Mannheim zu verschönern und viel innovativer zu gestalten. 
 
 Wir machten uns zum Ziel, Menschen die sich nicht oder nur wenig mit Computern auskennen zu zeigen aus welchen Bauteilen ein Computer besteht. Spielerisch kann man die einzelnen Bauteile mit Strom versorgen indem man sie mit einem Laserstrahl anleuchtet. Wenn alle Teile miteinander verbunden sind kann der Nutzer das Spiel Snake spielen.
 
