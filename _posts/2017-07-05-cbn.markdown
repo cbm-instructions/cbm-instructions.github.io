@@ -1,4 +1,12 @@
-# CBN
+---
+title: "Challenge Base Namefinding: Eine Verbindung zwischen den Fakultäten herstellen"
+categories: instructions
+layout: post
+date: 2017-07-05 12:00:00 +0200
+--- 
+
+"Challenge Based Making" an der Hochschule Mannheim im Sommersemester 2017. Betreut von Prof. Thomas Smits und Prof. Kirstin Kohler.
+Die Projektarbeit dieses Kurses fand in zwei Pfasen statt: Dem Design Thinking und der Umsetzung.
 
 ## Projekt
 
