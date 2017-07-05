@@ -226,8 +226,8 @@ const int deviation = 50;
 const int btnPerPin = 5;
 
 const int btnPins[]                    = {1, 2};
-const char btnBuildings[][btnPerPin]   = { {'A'  , 'B'   , 'C', 'E'   , 'F'   }, {'G'             , 'H' , 'J'     , 'K'     , 'L'    } };
-const int btnValues[][btnPerPin]       = {{ 318  , 408   , 695, 511   , 91    }, {319             , 409 , 696     , 512     , 91     } };
+const char btnBuildings[][btnPerPin]   = { {'A'  , 'B'   , 'C', 'E'   , 'F'   }, {'G'             , 'H' , 'J'     , 'K'     , 'L'    }};
+const int btnValues[][btnPerPin]       = {{ 318  , 408   , 695, 511   , 91    }, {319             , 409 , 696     , 512     , 91     }};
 const int ledPositions[][btnPerPin][4] = {{{6, 7}, {4, 5}, {3}, {8, 9}, {0   }}, {{18, 19, 20 , 21}, {10}, {12, 13}, {16, 17}, {14, 15}}};
 
 char selectedBuilding = ' ';
