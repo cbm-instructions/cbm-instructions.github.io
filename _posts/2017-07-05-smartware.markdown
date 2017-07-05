@@ -79,9 +79,9 @@ Bauteile:
 Der Reed-Schalter wird in diesem Beispiel an Pin 17, der Phototransistor an Pin 33 angeschlossen - Diese Pinbelegung wird auch im Code verwendet!
 
 ##### Code
-Der Source-Code für die Laserschranke befindet sich unter [/src/DoorLaser/](/src/DoorLaser/). Die WLAN-Funktionalität inkl. Webserver sind [arduino-esp32 - SimpleWiFiServer](https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFi/examples/SimpleWiFiServer/SimpleWiFiServer.ino) entnommen.
+Der Source-Code für die Laserschranke befindet sich unter [https://github.com/cbm-instructions/smartware/tree/master/src/DoorLaser/](https://github.com/cbm-instructions/smartware/tree/master/src/DoorLaser/). Die WLAN-Funktionalität inkl. Webserver sind [arduino-esp32 - SimpleWiFiServer](https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFi/examples/SimpleWiFiServer/SimpleWiFiServer.ino) entnommen.
 
-Wir haben, um das Hauptprogramm einfach zu halten, Klassen erstellt, die uns erlauben, bequem [digitale](/src/DoorLaser/DigitalListener.h) und [analoge](/src/DoorLaser/AnalogListener.h) Pins zu überwachen und deren Auslösungen zu zählen.
+Wir haben, um das Hauptprogramm einfach zu halten, Klassen erstellt, die uns erlauben, bequem [digitale](https://github.com/cbm-instructions/smartware/tree/master/src/DoorLaser/DigitalListener.h) und [analoge](https://github.com/cbm-instructions/smartware/tree/master/src/DoorLaser/AnalogListener.h) Pins zu überwachen und deren Auslösungen zu zählen.
 
 **Achtung:** Der ESP32 verwendet 12Bit ADCs, was bedeutet, dass analoge 5V-Signale anstatt des auf Arduinos üblichen Wertebereiches von 0-255 auf 0-4095 gemappt werden. 
 
@@ -214,10 +214,10 @@ Bauteile:
 Pin 1 des DHT22 wird mit VCC, Pin 4 mit Masse und Pin 3 gar nicht verbunden. Pin 2 wird mit einem digitalen IO-Pin und über einen 4.7k Ohm Widerstand mit VCC verbunden.
 
 #### Code
-Der Source-Code für die Messstation befindet sich unter [/src/SensorStation/](/src/SensorStation/). Die WLAN-Funktionalität inkl. Webserver sind [arduino-esp32 - SimpleWiFiServer](https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFi/examples/SimpleWiFiServer/SimpleWiFiServer.ino) entnommen. Backend und Frontend Code befinden sich unter
+Der Source-Code für die Messstation befindet sich unter [https://github.com/cbm-instructions/smartware/tree/master/src/SensorStation/](https://github.com/cbm-instructions/smartware/tree/master/src/SensorStation/). Die WLAN-Funktionalität inkl. Webserver sind [arduino-esp32 - SimpleWiFiServer](https://github.com/espressif/arduino-esp32/blob/master/libraries/WiFi/examples/SimpleWiFiServer/SimpleWiFiServer.ino) entnommen. Backend und Frontend Code befinden sich unter
 (src/WebComponent)
 
-Wir hatten im Verlauf des Projekts Probleme damit, den DHT22 stabil durch den ESP32 anzusteuern. Deswegen haben wir uns dazu entschieden, fehlerhafte Messwerte zu ignorieren und nur die aktuellsten ([korrekten](/src/SensorStation/SensorStation.ino#L58)) Messwerte an das Backend weiterzureichen. Unsere Tests haben ergeben, dass ungefähr 80% aller Messungen fehlerhaft sind - Das kompensieren wir durch häufige (sekündliche) Messungen.
+Wir hatten im Verlauf des Projekts Probleme damit, den DHT22 stabil durch den ESP32 anzusteuern. Deswegen haben wir uns dazu entschieden, fehlerhafte Messwerte zu ignorieren und nur die aktuellsten ([korrekten](https://github.com/cbm-instructions/smartware/tree/master/src/SensorStation/SensorStation.ino#L58)) Messwerte an das Backend weiterzureichen. Unsere Tests haben ergeben, dass ungefähr 80% aller Messungen fehlerhaft sind - Das kompensieren wir durch häufige (sekündliche) Messungen.
 
 ## Fazit
 
