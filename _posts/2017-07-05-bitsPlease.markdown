@@ -80,37 +80,37 @@ Wie können wir den Studierenden helfen den Hochschulalltag entspannter und krea
 
 ### Tischunterkonstruktion
 
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Bilder/empty_table.jpg" height="300">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/empty_table.jpg" height="300">
 
 Bauen des Tischs: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Tisch/README.md)
 
 
 ### Matrix
 
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Matrix/Matrix_1.jpg" height="300">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Matrix/Matrix_1.jpg" height="300">
 
 Anfertigen der Matrix mit dem Lasercutter: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
 
 ### Controller
 
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Controller/fertig.jpg" height="300">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Controller/fertig.jpg" height="300">
 
 Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
 
 ### Elektronik
 
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Elektronik/Verkabelung.jpg" height="300">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Elektronik/Verkabelung.jpg" height="300">
 
 Anleitung zur Elektronik: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Elektronik/README.md)
 
 ### Finish
 
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Finish/Finish.jpg" height="300">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Finish/Finish.jpg" height="300">
 
 Fertigstellen des Tischs: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Finish/README.md)
 
 ### Code
-Die verwendete .ino Datei gibt's hier: [CBM.ino](https://github.com/cbm-instructions/bits-please/blob/master/Code/CBM.ino)<br>
+Die verwendete .ino Datei gibt's hier: [CBM.ino](https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Code/CBM.ino)<br>
 
 Wer nur die Umsetzungen der einzelnen Spiele möchte findet diese hier:<br>
 
