@@ -1,10 +1,7 @@
 Anleitung zum Nachbau des "PlayTables"
 
 # bits-please | PlayTable
-
 <div>
-<img  style="float: right;" src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png" height="338" width="280">
-<br>
 <img style="float: right" src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/Animation.gif">
 </div>
 <br>
