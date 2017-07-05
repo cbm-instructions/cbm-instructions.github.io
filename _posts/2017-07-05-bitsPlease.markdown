@@ -6,7 +6,7 @@ Anleitung zum Nachbau des "PlayTables"
 <img  style="float: right;" src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png" height="338" width="280">
 <img style="float: right" src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/Animation.gif">
 </div>
-
+<br>
 ## Einleitung
 Der PlayTable ist ein Unterhaltungs-/Freizeitgegenstand und wurde von dem Team bits-please entwickelt. Es handelt sich hierbei um einen kleinen Tisch, in dem eine Matrix aus Pixel integriert ist, welche aufleuchten können. Es können bis zu zwei Leuten mit dem Tisch interagieren. Der PlayTable lässt jedes Gamerherz höher schlagen und dient für den Stressabbau des Hochschulalltags und den Zusammenschluss von Studierenden und Mitarbeitern.
  
