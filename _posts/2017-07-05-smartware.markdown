@@ -54,8 +54,8 @@ Folgende Teile benötigt (Angaben in mm):
 *   Optional: Lack in beliebiger Farbe
 *   Optional: Zur besseren Befestigung des Lasers, sowie des Fototransistors können Winkel eingesetzt werden.
 
-![Laserhalterung](/img/smartware/Laserhalterung.png)
-![Spiegelhalterung](/img/smartware/Spiegelhalterung.png)
+![Laserhalterung](/images/smartware/Laserhalterung.png)
+![Spiegelhalterung](/images/smartware/Spiegelhalterung.png)
 
 Die Halterungen werden wie auf den Bildern zu sehen, zusammengeschraubt und falls gewünscht mit dem Lack besprüht. An der rechten Halterung ist ein Metwallwinkel zu sehen. Dieser wurde an der Oberseite mit etwas Klebeband isoliert, damit er keinen Kurzschluss erzeugt. Darauf wird später der Laser montiert. An der anderen Halterung muss dann die Spiegelhalterung (Dachlatten 70mm lang) angeschraubt werden. In einigem Abstand darunter wird die zweite Spiegelhalterung montiert. Die Spiegel werden dann mit Heißkleber befestigt. 
 Funktionsweise: Der Laser schießt das Licht auf den oberen Spiegel, welcher das Licht auf den unteren reflektiert und anschließend wieder zurück zur anderen Halterung. An der Stelle, wo der Laser wieder auftrifft wird dann der Fototransistor befestigt, sodass erkannt werden kann, ob der Lichtstrahl unterbrochen wurde.
@@ -64,10 +64,10 @@ Funktionsweise: Der Laser schießt das Licht auf den oberen Spiegel, welcher das
 Diese Halterungen waren nur für den Prototyp gedacht. Wenn das System dauerhaft installiert werden soll, ist eine feste Verankerung (bspw. im Türrahmen) sinnvoll.
 
 #### Elektronik
-![DoorLaser](/img/smartware/DoorLaser01.png)
+![DoorLaser](/images/smartware/DoorLaser01.png)
 
 ##### Schaltplan
-![Schaltplan DoorLaser](/img/smartware/DoorLaserBoard.png)
+![Schaltplan DoorLaser](/images/smartware/DoorLaserBoard.png)
 Bauteile:
 * [ESP32](https://www.aliexpress.com/store/product/ESP32-Development-Board-WiFi-Bluetooth-Ultra-Low-Power-Consumption-Dual-Cores-ESP-32-ESP-32S/1983387_32799057508.html)
 * 2x4.7k Ohm Widerstände
@@ -89,8 +89,8 @@ Wir haben, um das Hauptprogramm einfach zu halten, Klassen erstellt, die uns erl
 
 #### Frontend
 
-![Frontend](/img/smartware/frontend.png)
-![Frontend_Modal](/img/smartware/frontendmodal.png)
+![Frontend](/images/smartware/frontend.png)
+![Frontend_Modal](/images/smartware/frontendmodal.png)
 
 Hier befindet sich die Benutzeroberfläche, welche mit HTML und CSS realisiert wird.
 Außerdem sind Bootstrap und die Material-Icons von Google im Einsatz.
@@ -201,10 +201,10 @@ Geschrieben in node.js. Außerdem wird eine mysql Datenbank genutzt.
 	(anzeigbar durch den Befehl ifconfig)
 
 ### Messstation
-![Messstation](/img/smartware/SensorStation01.png)
+![Messstation](/images/smartware/SensorStation01.png)
 
 #### Schaltplan
-![Schaltplan SensorStation](/img/smartware/SensorStationBoard.png)
+![Schaltplan SensorStation](/images/smartware/SensorStationBoard.png)
 Bauteile:
 * [ESP32](https://www.aliexpress.com/store/product/ESP32-Development-Board-WiFi-Bluetooth-Ultra-Low-Power-Consumption-Dual-Cores-ESP-32-ESP-32S/1983387_32799057508.html)
 * 4.7k Ohm Widerstand
