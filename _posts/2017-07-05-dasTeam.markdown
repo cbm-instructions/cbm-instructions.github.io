@@ -5,7 +5,7 @@ layout: post
 date: 2017-07-05 12:00:00 +0200
 --- 
 
-## Challenge Based Making Sommersemester 2017
+Der interaktive Campusplan ist im Rahmen der Vorlesung Challenge Based Making (CBM) mittels Design Thinking Methoden erstellt worden.
 
 <img src="/images/dasteam/iExpo.gif" alt="iExpo.gif"/>
 
@@ -73,6 +73,7 @@ Folgende Materialien werden für den Bau des Campus-Plans benötigt:
 
 
 ## Vorbereitung
+
 ### 1. Installieren von Raspbian
 Sofern noch nicht geschehen, muss mit Raspbian zunächst ein Betriebssystem auf den Raspberry PI überspielt werden. Am einfachsten geht das mit Noobs, einem kompletten Installer für Raspbian. Weitere Informationen dazu gibt es [hier](https://www.raspberrypi.org/downloads/noobs/).
 
@@ -94,6 +95,7 @@ Um mit dem Raspberry PI Informationen zu den Gebäuden anzeigen zu können, wird
     * und nach “/usr/local/bin” entpacken 
 
 ## Step-by-Step-Guide
+
 ### 1. Holzrahmen +Pappdeckel bauen
 Ein Holzrahmen von 60 cm x 70 cm wird gewählt, sodass die einzelnen Gebäude noch groß genug sind.
 Die Hauptplatte mit einer Dicke von 5 mm wird auf 10 mm dicke “Füße” gestellt. Um der Basis des Stativs für den Beamer zu gestatten unter der Fläche des Holzrahmen zu sitzen, wird die Hinterseite offen gelassen.
@@ -172,14 +174,14 @@ Im nächsten Schritt wird die Holzleiste (20cm x 4 cm x 2 cm) mit dem Scharnier 
 <img src="/images/dasteam/StepByStep/Step7-2.jpg" alt="Step7-2"/>
 
 ### 8. Coding / Arduino mit Raspberry zusammenführen
-Ergänzend zur Verdrahtung und dem physikalischen Aufbau der Taster und ihrer Widerstände muss der Arduino die Spannung am analogen PIN messen, auswerten und einem Gebäude zuordnen. Anschließend muss diese Zuordnung über die USB-Schnittstelle an den Raspberry Pi übertragen werden.
+Ergänzend zur Verdrahtung und dem physikalischen Aufbau der Taster und ihrer Widerstände muss der Arduino die Spannung am analogen PIN messen, auswerten und einem Gebäude zuordnen. Anschließend muss diese Zuordnung über die USB-Schnittstelle an den Raspberry Pi übertragen werden üben den die [Webseiten](https://github.com/cbm-instructions/das-team/tree/master/src/Websites) geöffnet werden.
 
 Zuerst muss der Arduino an das Endgerät, mit installierter Arduino IDE oder lauffähigem Arduino Web Editor, über USB angeschlossen werden. Die Datei LEDbtn.ino wird dann in der Arduino IDE geöffnet und der Port, an welchem der Arduino gefunden wird, ausgewählt.
 Nun muss der Sketch (Arduino Programm Code) kompiliert und auf den Arduino hochgeladen werden.
 Abschließend muss der Arduino vom Computer getrennt und an den Raspberry angeschlossen werden. Ist der Arduino an den eingeschalteten Raspberry angeschlossen, startet das hochgeladene Programm automatisch.
 
 
-#### Quellcode Raspberry Pi (python2)
+### [Quellcode Raspberry Pi (python2)](https://github.com/cbm-instructions/das-team/blob/master/src/RaspberryPi/receiver.py)
 ``` Python
 # -*- coding: utf-8 -*-
 import serial
@@ -207,4 +209,114 @@ while True:
         except:
             pass
 
+```
+
+### [Quellcode Arduino](https://github.com/cbm-instructions/das-team/tree/master/src/Arduino/LEDbtn)
+```CPP
+#include "LPD8806.h"
+#include "SPI.h" // Comment out this line if using Trinket or Gemma
+#ifdef __AVR_ATtiny85__
+#include <avr/power.h>
+#endif
+
+// Button values
+int lastValue = 0;
+int currentValue = 0;
+
+const int deviation = 50;
+
+const int btnPerPin = 5;
+
+const int btnPins[]                    = {1, 2};
+const char btnBuildings[][btnPerPin]   = {   {'A'  , 'B'   , 'C', 'E'   , 'F'   }, {'G'               , 'H' , 'J'     , 'K'     , 'L'    }};
+const int btnValues[][btnPerPin]       = {  { 318  , 408   , 695, 511   , 91    }, {319               , 409 , 696     , 512     , 91     } };
+const int ledPositions[][btnPerPin][4] = { { {6, 7}, {4, 5}, {3}, {8, 9}, {0   }}, { {18, 19, 20 , 21}, {10}, {12, 13}, {16, 17}, {14, 15}}};
+
+char selectedBuilding = ' ';
+char selectedBuildingLEDs[] = {0, 0};
+
+// Number of RGB LEDs in strand:
+const int nLEDs = 22;
+
+// Chose 2 pins for output; can be any valid output pins:
+const int dataPin  = 3;
+const int clockPin = 2;
+
+LPD8806 strip = LPD8806(nLEDs, dataPin, clockPin);
+
+
+void setup() {
+  Serial.begin(9600);
+
+#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000L)
+  clock_prescale_set(clock_div_1); // Enable 16 MHz on Trinket
+#endif
+
+  // Start up the LED strip
+  strip.begin();
+
+  // Update the strip, to start they are all 'off'
+  strip.show();
+
+  startUpShow();
+}
+
+void loop() {
+  selectedBuilding = ' ';
+
+  for (int i = 0; i < sizeof(btnPins) / sizeof(*btnPins); i++) {
+    currentValue = analogRead(btnPins[i]);
+
+    if (!isSameValue(currentValue, 0, 25)) {
+      for (int j = 0; j < sizeof(btnValues[i]) / sizeof(*btnValues[i]); j++) {
+        if (isSameValue(currentValue, btnValues[i][j], deviation)) {
+          selectedBuilding = btnBuildings[i][j];
+          selectedBuildingLEDs[0] = i;
+          selectedBuildingLEDs[1] = j;
+        }
+      }
+    }
+  }
+
+  if (selectedBuilding != ' ') {
+    Serial.println(selectedBuilding); // send to Pi
+
+    for (int i = 0; i < strip.numPixels(); i++) strip.setPixelColor(i, 0); // turn all pixels off
+
+    for (int i = 0; i < sizeof(ledPositions[selectedBuildingLEDs[0]][selectedBuildingLEDs[1]]) / sizeof(*ledPositions[selectedBuildingLEDs[0]][selectedBuildingLEDs[1]]); i++) {
+      if (!(i > 0 && ledPositions[selectedBuildingLEDs[0]][selectedBuildingLEDs[1]][i] == 0)) {
+        strip.setPixelColor(ledPositions[selectedBuildingLEDs[0]][selectedBuildingLEDs[1]][i], strip.Color(0, 0, 255));
+      }
+    }
+    strip.show(); // Refresh LED states
+
+    delay(100);
+  }
+
+}
+
+boolean isSameValue(int originalValue, int compareValue, int deviation) {
+  return originalValue >= compareValue - deviation && originalValue <= compareValue + deviation;
+}
+
+void startUpShow() {
+
+  for (int i = 0; i < sizeof(ledPositions) / sizeof(*ledPositions); i++) {
+    for (int j = 0; j < sizeof(ledPositions[i]) / sizeof(*ledPositions[i]); j++) {
+      for (byte m = 0; m <= 127; m++) {
+        for (int k = 0; k < sizeof(ledPositions[i][j]) / sizeof(*ledPositions[i][j]); k++) {
+          if (!(k > 0 && ledPositions[i][j][k] == 0)) {
+            strip.setPixelColor(ledPositions[i][j][k], strip.Color(0, 0, m));
+            delay(1);
+            strip.show(); // Refresh LED states
+          }
+        }
+      }
+    }
+  }
+
+  for (int i = 0; i < strip.numPixels(); i++) strip.setPixelColor(i, 0);
+  strip.show(); // Refresh LED states
+
+}
 ```
