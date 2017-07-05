@@ -67,9 +67,9 @@ Folgende Materialien werden für den Bau des Campus-Plans benötigt:
   * [Blender](https://www.blender.org/download/)
   * [1x Stichsäge](https://www.bauhaus.info/stichsaegen/bosch-easy-stichsaege-pst-700-e-/p/20444590?cid=PSMGoo225980461_18381777181&pla_campid=225980461&pla_adgrid=18381777181&pla_prpaid=302087884039&pla_prid=20444590&pla_adt=pla&pla_prch=online&pla_stco=)
   * [1x Schleifpapier](https://www.zamro.de/product/14D220/schleifgewebe-braun-230x280mm-k120?gclid=Cj0KEQjwhMjKBRDjxb31j-aesI4BEiQA7ivN-Jhw_WbLyqtekcPxskfgJAEs6rEpV_TLv91zDX9SbLwaAr188P8HAQ)
-  * Arduino IDE, welche zum Betriebssystem des verwendeten Endgeräts kompatibel ist hier wählen: https://www.arduino.cc/en/main/software
-  * Ein beliebiges Endgerät mit einem Betriebssystem, das zur aktuellen Arduino IDE  oder zum Web Editor kompatibel ist und einen freien USB-Port besitzt, z.B. Surface Pro 3.  
-  https://www.microsoft.com/surface/de-de/devices/surface-pro-3
+  * [Arduino IDE](https://www.arduino.cc/en/main/software), welche zum Betriebssystem des verwendeten Endgeräts kompatibel ist
+  * Ein beliebiges Endgerät mit einem Betriebssystem, das zur aktuellen Arduino IDE  oder zum Web Editor kompatibel ist und einen freien USB-Port besitzt, z.B. [Surface Pro 3](https://www.microsoft.com/surface/de-de/devices/surface-pro-3).  
+ 
 
 
 ## Vorbereitung
