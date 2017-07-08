@@ -5,7 +5,7 @@ layout: post
 date: 2016-06-22 15:09:51 +0200
 --- 
 
-# Thunderbirds und die Internetversorgung aus dem All
+Exponat, das eine Internetversorgung aus dem Weltall darstellt. Auf einer Weltkarte sind die Kontinente zu sehen und der Spieler muss sie über einen Satelliten ansteuern und mit Netz versorgen.
 
 ![Startbild](/images/thunderbirds/Startbild.gif)
 
