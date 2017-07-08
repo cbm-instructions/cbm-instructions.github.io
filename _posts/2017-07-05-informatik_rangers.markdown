@@ -5,6 +5,8 @@ layout: post
 date: 2017-07-05 11:59:59 +0200
 --- 
 
+Akustik-Wand, welche in Arbeitsräumen mit vielen Menschen aufgestellt werden kann, um eine angenehmere Akustik zu schaffen. Gleichzeitig wird Rückmeldung bei zu starker Lärmentwicklung geboten und somit indirekt die Lautstärkeentwicklung reduziert.
+
 <img src="/images/informatik_rangers/intro.jpg" height="1024">
 
 ## Einleitung
