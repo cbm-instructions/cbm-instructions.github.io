@@ -5,8 +5,6 @@ layout: post
 date: 2017-07-05 11:59:59 +0200
 --- 
 
-# Informatik-Rangers | Akustik-Wand
-
 <img src="/images/informatik_rangers/intro.jpg" height="1024">
 
 ## Einleitung
