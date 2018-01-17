@@ -61,7 +61,7 @@ Die 4 Viertelringe müssen zu einem Ring zusammengelötet werden und es müssen 
 Das folgende Bild zeigt einen zusammengelöteten Ring ohne Litzen.
 
 <p align="center">
-<img src="images/moon_moon/neopixel.jpg" alt="Neopixel.jpg"/>
+<img src="/images/moon_moon/neopixel.jpg" alt="Neopixel.jpg"/>
 </p>
 
 An einen der vier GND, IN und VCC Kontakte müssen jetzt noch Litzen mit einer Länge von circa 10cm angelötet werden.
@@ -87,13 +87,13 @@ Es müssen folgende SVG-Dateien geschnitten werden hierzu wird die Sperrholzplat
 Die geschnittenen Platten sollten ungefähr so aussehen:
 
 <p align="center">
-<img src="images/moon_moon/holzplatten.jpg" alt="holzplatten.jpg"/>
+<img src="/images/moon_moon/holzplatten.jpg" alt="holzplatten.jpg"/>
 </p>
 
 Als letztes wird noch einmal die LedRingHalterung benötigt aber diesmal mit der Plexiglassscheibe (170x170 mm). Diese liegt später auf dem LED-Ring.
 
 <p align="center">
-<img src="images/moon_moon/plexiglassscheibe.jpg" alt="plexiglassscheibe.jpg"/>
+<img src="/images/moon_moon/plexiglassscheibe.jpg" alt="plexiglassscheibe.jpg"/>
 </p>
 
 
@@ -115,7 +115,7 @@ In diesem Schritt werden die Drucksensoren verkabelt und über eine Platine verb
 Als erstes sollten Sie die drei Drucksensoren mit Kabeln verlöten.
 
 <p align="center">
-<img src="images/moon_moon/KabelSensor.png" alt="KabelSensor.png"/>
+<img src="/images/moon_moon/KabelSensor.png" alt="KabelSensor.png"/>
 </p>
 
 Danach bauen Sie eine Steckplatine um alle drei Drucksensoren später mit dem Arduino zu verbinden. Die obere waagerechte Steckleiste ist für die Grounds. An den vertikalen Stecker dieser Steckleiste wird der Ground des Arduinos befestigt.
@@ -124,7 +124,7 @@ An alle anderen Pins werden die Grounds von den drei Drucksensoren befestigt (di
 Ein logischer Schaltplan und Aufbau befindet sich [hier](#logischer-schaltplan-und-aufbau).
 
 <p align="center">
-<img src="images/moon_moon/SensorSteckplatten.png" alt="SensorSteckplatten.png"/>
+<img src="/images/moon_moon/SensorSteckplatten.png" alt="SensorSteckplatten.png"/>
 </p>
 
 #### 2. Fertigung der Bodenplatte mit Sensoren
@@ -142,7 +142,7 @@ In diesem Schritt werden die Sensoren an die Bodenplatte geklebt und die Stelzen
 
 Zusätzlich muss man die Schnittreste des Laser Cutters benutzen:
 <p align="center">
-<img src="images/moon_moon/kleineStuetzeb.jpg" alt="kleineStuetzeb.jpg"/ width ="200px" height ="180">
+<img src="/images/moon_moon/kleineStuetzeb.jpg" alt="kleineStuetzeb.jpg"/ width ="200px" height ="180">
 </p>
 
 Als erstes sollten Sie die Stelzenhalterplatte mittig auf die Bodenplatte legen und die Stellen markieren an denen die Löcher sind. Auf diese Stellen werden nun die Drucksensoren geklebt (diese haben bereits eine Klebefläche). Danach kann die Stelzenhalterplatte wie vorher auf die Bodenplatte gelegt werden. Wir haben die runden Schnittreste des Laser Cutters als Zwischenstücke benutzt um die Bodenplatte mit der Stelzenhalterplatte zu befästigen, so dass diese nicht die Sensoren berührt. Schneiden Sie drei gleichlange Stücke vom Rundstab (je 70 mm) ab . Kleben Sie diese wie auf dem unteren Bild leicht versetzt zu den Drucksensoren auf die Stelzenhalterplatte (Mit Holzleim oder Heißklebepistole).
@@ -150,7 +150,7 @@ Am Schluss können Sie noch die Kabel mit Klebeband fixieren und die Kabel mit d
 
 
 <p align="center">
-<img src="images/moon_moon/bodenFertig.jpg" alt="bodenFertig.jpg">
+<img src="/images/moon_moon/bodenFertig.jpg" alt="bodenFertig.jpg">
 </p>
 
 
@@ -172,7 +172,7 @@ Kleben Sie die Kabelplatte mit Holzleim auf die LedRingHalterung, so dass sich a
 Zusätzlich muss der Übergang vom 1. zum 60. Pixel exakt wie auf dem folgenden Bild ausgerichtet werden.
 
 <p align="center">
-<img src="images/moon_moon/numbered.png" alt="numbered.png">
+<img src="/images/moon_moon/numbered.png" alt="numbered.png">
 </p>
 
 * (3) 0. Pixel des Rings (Der erste Pixel nach dem Anlötpunkt der IN-Leitung)
@@ -191,7 +191,7 @@ Als letztes kleben Sie, mit Holzleim, die erstellte LED-Ring Platte auf die zuvo
 **Tipp:** Benutzen Sie den Rundstab als Fixierung.
 
 <p align="center">
-<img src="images/moon_moon/mittelstueck.jpg" alt="mittelstueck.jpg">
+<img src="/images/moon_moon/mittelstueck.jpg" alt="mittelstueck.jpg">
 </p>
 
 
@@ -211,7 +211,7 @@ In diesem Schritt wird die Druckplatte erstellt auf die später das Handy gelegt
 Als erstes kleben Sie die DruckplatteOben und die DruckplatteUnten mit Holzleim so zusammen das drei der Löcher exakt übereinande liegen. In die drei von der oberen Platte verschlossen Löcher werden nun drei gleich große Holzstäbe (78 mm) festgeklebt (Holzleim oder Heißklebepistole). Die unteren Enden der Holzstäbe können mit Schmirgelpapier oder einem Dremel an den Seiten verkleinert werden, so dass diese die Drucksensoren besser treffen.
 
 <p align="center">
-<img src="images/moon_moon/druckplatte.jpg" alt="druckplatte.jpg"/>
+<img src="/images/moon_moon/druckplatte.jpg" alt="druckplatte.jpg"/>
 </p>
 
 **Tipp:** Die Druckplatte kann optional auf der Rückseite mit Gewichten versehen um so ein erhöhtes Grundgewicht zu erhalten. Dadurch arbeiten die Sensoren wesentlich besser da sie vor allem bei wenig Druck dazu neigen ungenau zu sein. Der Sensor kommt so in seinen optimalen Arbeitsbereich. Der Schwellwert im Programm muss dazu angepasst werden [phoneIsThereThreshold in ForceSensors.cpp](https://github.com/cbm-instructions/moon-moon/blob/master/code/ForceSensors.cpp).
@@ -231,7 +231,7 @@ In diesem Schritt wird eine Steckplatte erstellt die mit den Drucksensoren und d
 Als erstes schneiden Sie eine Stück aus der Streifenrasterplatine aus, welches der Größe des Arduinos entspricht. Nehmen Sie den Arduino und Stecken Sie die 8 Pin Stiftleiste in Power die 6 Pin Stiftleiste in die Analogeingänge und die letzte 8 Pin Stiftleiste in die Digitaleingänge 0-7. Nun können Sie einfach die Streifenrasterplatine auf die Stiftleisten legen und diese festlöten. Achten Sie darauf, dass die Streifen von der einen Pinseite zu der anderen Pinseite des Arduinos verlaufen. Nachdem die Stiftleisten an der Streifenrasterplatine festgelötet sind, können sie die Platine abnehmen. Mit einem Teppichmesser können Sie nun wie im Bild in der mitte der Platine das Kupfer abkratzen um den Kontakt zu unterbrechen.
 
 <p align="center">
-<img src="images/moon_moon/arduinoSteckplatte.png" alt="arduinoSteckplatte.png"/>
+<img src="/images/moon_moon/arduinoSteckplatte.png" alt="arduinoSteckplatte.png"/>
 </p>
 
 Löten Sie jeweils das Power-Kabel des LED-Rings und der Sensorsteckplatte an den 5V Streifen der Steckplatte. Genauso werden jeweils der Ground des LED-Rings und der Sensorsteckplatte an den Ground-Streifen der Steckplatte gelötet.
@@ -259,7 +259,7 @@ In diesem Schritt werden alle vorher erstellen Komponenten zusammengesetzt.
 Als erstes verkabeln Sie den LED-Ring und die Drucksensoren mit dem Arduino und befestigen diesen mit doppelseitigen Klebeband an der Bodenplatte.
 
 <p align="center">
-<img src="images/moon_moon/verkabelung.jpg" alt="verkabelung.jpg"/>
+<img src="/images/moon_moon/verkabelung.jpg" alt="verkabelung.jpg"/>
 </p>
 
 Dann können Sie die Druckplatte in die dafür vorgesehenen Löcher stecken. Zwischen die Druckplatte und die LED-Ring Platte kommt die Plexiglassscheibe.
@@ -267,13 +267,13 @@ Dann können Sie die Druckplatte in die dafür vorgesehenen Löcher stecken. Zwi
 **Tipp:** Durch Klebeungenauigkeiten kann es sein, dass die Stelzen an einer der Führungsöffnungen reiben, oder die Stelzen nicht exakt die Sensoren berühren. In diesem Fall eignet es sich die Stelzen an den kritischen Stellen leicht mit dem Dremel anzupassen. So wird der reibungslose Ablauf ermöglicht.
 
 <p align="center">
-<img src="images/moon_moon/zusammen.jpg" alt="zusammen.jpg"/>
+<img src="/images/moon_moon/zusammen.jpg" alt="zusammen.jpg"/>
 </p>
 
 Als letztes wird der Holzmantel um die Konstruktion gelegt. Aus Wartungszwecken haben wir den Mantel nur mit einem Gummiband befestigt. Hierzu können Sie mit einem Dremel vier Löcher in den Mantel bohren und dann mit einer Schnur oder einem Gummiband befestigen. Die bleibende Öffnung ist für das Stromkabel des Arduinos.
 
 <p align="center">
-<img src="images/moon_moon/mantelbefestigung.jpg" alt="mantelbefestigung.jpg"/>
+<img src="/images/moon_moon/mantelbefestigung.jpg" alt="mantelbefestigung.jpg"/>
 </p>
 
 **Tipp:** Für eine saubere und permanente Ummantelung muss der Mantel ca 1cm länger gedruckt werden. Zusätzlich müssen Kabelöffnungen gebohrt werden und ein permanenter Befestigungsmechanismus gefunden werden.
@@ -301,9 +301,9 @@ Die [Memory.cpp](https://github.com/cbm-instructions/moon-moon/blob/master/code/
 Zur Darstellung wurde ein LED Stripe genommen. Dieser hat die gleichen Anschlüsse wie der zu verwendende Ring.
 
 <p align="center">
-<img src="images/moon_moon/cbm_Schaltplan.png" alt="cbm_Schaltplan.png"/>
+<img src="/images/moon_moon/cbm_Schaltplan.png" alt="cbm_Schaltplan.png"/>
 </p>
 
 <p align="center">
-<img src="images/moon_moon/cbm_Steckplatine.png" alt="cbm_SteckPlatine.png"/>
+<img src="/images/moon_moon/cbm_Steckplatine.png" alt="cbm_SteckPlatine.png"/>
 </p>
