@@ -1,3 +1,9 @@
+---
+title: "Halexa: Sleep better"
+categories: instructions
+layout: post
+date: 2018-01-17 11:30:00 +0200
+---
 
 Halexa hilft dem Nutzer dabei einen gesünderen Schlafrythmus zu bekommen, indem sie den Nutzer motiviert abends das Handy rechtzeitig wegzulegen.
 Zusätzlich wird die Stimmung des Nutzers nach dem Schlaf abgefragt, um zusammen mit den gesammelten Schlafdaten, einen Rückschluss auf das Schlafverhalten des Nutzers zu schließen.
