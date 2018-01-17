@@ -1,7 +1,9 @@
 
-# Einleitung und Motivation
+Halexa hilft dem Nutzer dabei einen gesünderen Schlafrythmus zu bekommen, indem sie den Nutzer motiviert abends das Handy rechtzeitig wegzulegen.
+Zusätzlich wird die Stimmung des Nutzers nach dem Schlaf abgefragt, um zusammen mit den gesammelten Schlafdaten, einen Rückschluss auf das Schlafverhalten des Nutzers zu schließen.
+Das Ergebnis ist eine Statistik, die Laune, Schlafdauer und rechtzeitiges Schlafen in Relation setzt, um dem Nutzer zu zeigen, dass seine Tageslaune von der Schlafqualität abhängt.
 
-Unsere Einleitung und die Motivation für dieses Projekt findet man [hier](https://github.com/cbm-instructions/moon-moon/blob/master/README.md).
+[Link zur Projekteinleitung und Aufgabenstellung](https://github.com/cbm-instructions/moon-moon/blob/master/README.md)
 
 # Bauanleitung
 
