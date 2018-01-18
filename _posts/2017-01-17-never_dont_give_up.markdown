@@ -1,12 +1,17 @@
-# Seat UP
-
+---
+title: "Seat UP: Ein interaktiver Stuhl"
+categories: instructions
+layout: post
+date: 2018-01-17 11:00:00 +0200
+---
 Ein interaktiver Stuhl, dessen Sensoren dabei helfen die Sitzhaltung im Büroalltag nachhaltig zu verbessern.
-
-
-<img src="../images/never-dont-give-up/final2.jpeg" height="300"> <img src="../images/never-dont-give-up/final.jpeg" height="300">
+
 
 ## Einleitung
-
+
+<img src="../images/never-dont-give-up/final2.jpeg" height="300"> <img src="../images/never-dont-give-up/final.jpeg" height="300">
+
+
 Viele kennen es. Ständig klagt der Kollege aus dem Büro über Rückenschmerzen, der Tischnachbar über schmerzende Augen oder man selbst hat wieder einen steifen Hals.
 Genau dieses Problem soll von nun an behaldelt werden, und das ganz ohne einen Arztbesuch.
 Der Seat UP erinnert den Nutzer bei falscher Sitzhaltung via Vibration, sich wieder richtig hinzusetzen. Dabei messen Sensoren an kritischen Punkten den Kontakt zum Stuhl.
