@@ -3,9 +3,11 @@ title: "Seat UP: Ein interaktiver Stuhl"
 categories: instructions
 layout: post
 date: 2018-01-17 11:00:00 +0200
+excerpt_separator: <!--more-->
 ---
 Ein interaktiver Stuhl, dessen Sensoren dabei helfen die Sitzhaltung im Büroalltag nachhaltig zu verbessern.
 
+<!--more-->
 
 ## Einleitung
 
