@@ -32,7 +32,8 @@ Thema des diesjährigen CBM-Projekts ist Nachhaltigkeit. Unsere Gruppe hat sich 
 - Schraubenzieher
 
 ## Empfohlene Vorkenntnisse
-* Hardwarenahe Programmiersprache wie C
+* Hardwarenahe Programmiersprache wie C++
+* Python und Javascript
 * Umgang mit Mikrocontrollern
 * Lasercutterworkshop
 
