@@ -1,3 +1,12 @@
+---
+title: "Ben: Kenne deinen Müll"
+categories: instructions
+layout: post
+date:   2022-02-02 09:51:12 +0200
+---
+
+Wenn du schon immer wissen wolltest wie viel Müll du produzierst, dann hilft dir *Ben*. *Ben* misst wie viel Müll du produzierst und gibt dir Feedback darüber.
+
 # Inhaltsverzeichnis
 
 <!-- TOC -->
