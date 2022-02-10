@@ -5,7 +5,7 @@ layout: post
 date: 2022-02-07 17:33:20 +0200
 ---
 
-# Greenbox
+Du willst nicht mehr für jeden Weg nach dem Autoschlüssel greifen, kannst dich aber einfach nicht dazu aufraffen auch mal zum Fahrrad zu greifen? Die Greenbox gibt dir den Funken um deine Entscheidung zu ändern.
 
 ## Inhaltsverzeichnis
 
