@@ -41,8 +41,8 @@ EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen z
 - Lötkolben
 - Seitenschneider
 - Abisolierzange
-- Bohrer(5 mm)
-- Bohrmaschine
+- Bohrer (5 mm)
+- (Stand-)Bohrmaschine
 - Gewindeschneider (6 mm)
 - Senker
 - Körner
@@ -51,25 +51,25 @@ EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen z
 
 ## Material
 
-- Arduino Nano oder vergleichbares Controller Board
-- LCD Display (...)
-- LED Ring (...)
-- 18650 Lithium Zelle mit Lötfahnen
-- Laderegler für Lithium Zellen(...)
-- Ladespulen für induktives Laden
+- Arduino Nano Every oder vergleichbares Micro Controller Board
+- [2" LCD TFT Display](https://www.amazon.de/dp/B08HX2TRJT?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [24-Bit LED Ring](https://www.amazon.de/dp/B07GF2MK54?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [18650 Lithium Zelle mit Lötfahnen](https://www.amazon.de/dp/B076J7ZLQ2?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [Laderegler für Lithium Zellen](https://www.amazon.de/dp/B07W5GZRRM?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [Ladespulen für induktives Laden](https://www.amazon.de/dp/B01C8F3YZC?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - Steckernetzteil mit 5V-7V Ausgang und mind. 1,2 A Stromfluss mit Rundstecker
 - Buchse, passend zum Rundstecker des Netzteils
-- Wasserdurchfluss Sensor (...)
-- Temperatursensor zum einschrauben (...)
-- Acrylglas, schwarz getönt (...)
-- 3 Saugnäpfe mit Gewinde
+- [Wasserdurchfluss Sensor](https://www.amazon.de/dp/B07XDZ25SY?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- [Temperatursensor zum einschrauben (inkl. Thermocouple)](https://www.amazon.de/dp/B09TSFDC6C?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- Acrylglas, schwarz getönt
+- [3 Saugnäpfe mit Gewinde](https://www.amazon.de/dp/B084C1L13D?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 - diverse Schaltlitzen (0,14mm² - 0,25mm²)
 - Schrumpfschlauch
 - Lötzinn
 - PLA Filament
 - Flüssiger Klebstoff für Kunststoffe
 - 1m Kabel mit 5 Adern (zB. Netzwerkkabel), alternativ können 5 Litzen verdrillt werden
-- Schneidöl(zb. WD 40)
+- Schneidöl (zb. WD 40)
 
 ## Empfohlene Vorkentnisse
 
@@ -91,7 +91,7 @@ Steckbuchsen und Steckleisten einlöten und die Litzen auf die Steckleisten löt
 
 Die Litzen direkt auf das Arduino Board löten (kompaktere Lösung, aber aufwendiger abzuändern). Die Litzen lötest du am besten erst an, wenn du eine Komponente mit dem Arduino verbinden willst.
 
-Den Quellcode des Projekts kannst du hier herunterladen. Die für diesen Sketch benötigten Libraries sind: …
+Den Quellcode des Projekts kannst du [hier](https://github.com/cbm-instructions/sparfuechse/blob/main/code/code.ino) herunterladen. Denke daran, dass du in deiner Arduino IDE zunächst die benötigten Liraries für den Sketch installieren musst, damit dieser lauffähig ist.
 Wenn du den Quellcode auf den Arduino geladen hast, bist du mit der Vorbereitung des Arduinos fertig.
 
 ## Gemeinsame 5V Quelle
@@ -100,15 +100,9 @@ Es werden insgesamt vier 5V Anschlüsse benötigt, um alle Komponenten mit Strom
 
 <img src="/images/sparfuechse/stromquelle.JPG" width="500">
 
-<mark style="background-color: orange; border-radius: 4px;">ACHTUNG!</mark> In dieser Schaltung übersteigt der Strombedarf der Komponenten geradeso nicht den maximalen Ausgangsstrom des 5V Pins des Arduinos. Wird die Schaltung erweitert, sollte direkt das Netzteil als 5V Quelle genutzt werden.
+### Achtung!
 
-## Display
-
-<img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
-
-## LED Ring
-
-<img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
+In dieser Schaltung übersteigt der Strombedarf der Komponenten geradeso nicht den maximalen Ausgangsstrom des 5V Pins des Arduinos. Wird die Schaltung erweitert, sollte direkt das Netzteil als 5V Quelle genutzt werden.
 
 ## Durchfluss- und Temperatursensor
 
@@ -139,15 +133,15 @@ Jetzt kann der Sensor eingeschraubt werden. Falls die Hülse noch beweglich (und
 
 ## Druckknopf zum Ein- und Ausschalten
 
-Den Schalter zum Ein- und Ausschalten schalten wir parallel zum ein- ausschalter der Stromversorgung (Boardbeschreibung). Loete die Litzen wie im Schaltplan beschrieben, bzw. wie hier gezeigt an: 
+Den Schalter zum Ein- und Ausschalten schalten wir parallel zum ein- ausschalter der Stromversorgung (Boardbeschreibung). Löte die Litzen wie im Schaltplan beschrieben, bzw. wie hier gezeigt, an. 
 
-<img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
+<img src="/images/sparfuechse/ladeplatine.JPG" width="500">
 
 In unserem Fall haben wir den vorhandenen Druckschalter entfernt um besser an die Kontakte zu kommen.
 
 ## Stromversorgung & Ladepad
 
-Die Stromversorgung geschieht induktiv über ein eigens entworfenes Ladepad. Das zugehörige Gehäuse muss ebenfalls mit dem 3D-Drucker gedruckt werden. Hier findest du das .stl File.
+Die Stromversorgung geschieht induktiv über ein eigens entworfenes Ladepad. Das zugehörige Gehäuse muss ebenfalls mit dem 3D-Drucker gedruckt werden. [Hier](https://github.com/cbm-instructions/sparfuechse/blob/main/stl_files/ecoShower_Ladepad.stl) findest du das .stl File.
 
 <span style="display: inline-block;">
   <img src="/images/sparfuechse/ladepad_1.JPG" width="500">
@@ -157,7 +151,6 @@ Die Stromversorgung geschieht induktiv über ein eigens entworfenes Ladepad. Das
 ## Schaltplan
 
 Hier siehst du den Schaltplan in einer vereinfachten Breadboard-Ansicht. Manche Boards können bei dir anders aussehen, sollten aber die gleichen Anschlüsse besitzen.
-Funktionsweise
 
 <img src="/images/sparfuechse/CBM_Schaltung_Steckplatine.svg" width="1000">
 
@@ -169,9 +162,7 @@ Wenn du die Komponenten mithilfe des Schaltplans verbindest, solltest du auf sau
 
 ## Gehäuse
 
-Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit diesem .stl file: gedruckt werden. Wir empfehlen eine Supportstruktur und ein Infill von mindestens 30%. Die Geschwindigkeit sollte nicht zu hoch gewählt werden (<=50mm/s), damit das Gewinde des Verschlusses eine ausreichende Qualität aufweist.
-
-<img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
+Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit [diesem](https://github.com/cbm-instructions/sparfuechse/blob/main/stl_files/ecoShower_Geh%C3%A4use.stl) .stl file: gedruckt werden. Wir empfehlen eine Supportstruktur und ein Infill von mindestens 30%. Die Geschwindigkeit sollte nicht zu hoch gewählt werden (<=50mm/s), damit das Gewinde des Verschlusses eine ausreichende Qualität aufweist.
 
 ## Komponenten zusammensetzen
 
