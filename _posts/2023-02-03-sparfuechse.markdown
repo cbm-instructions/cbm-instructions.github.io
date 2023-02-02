@@ -9,7 +9,7 @@ date: 2023-02-03 17:00:00 +0200
 
 <!-- TOC -->
 - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-- [Vorwort](#vorwort)
+- [Motivation](#motivation)
 - [Vorbereitung](#vorbereitung)
     - [Werkzeuge](#werkzeuge)
     - [Material](#material)
@@ -30,7 +30,7 @@ date: 2023-02-03 17:00:00 +0200
 - [Ausblick](#ausblick)
 <!-- /TOC -->
 
-# Vorwort
+# Motivation
 
 EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen zu erfahren und dadurch aktiv zu sparen. Der Wasserverbrauch und die Temperatur werden gemessen, um den Nutzer dabei zu unterstützen, ein auf ihn zugeschnittenes Energie Pensum bei jedem Duschvorgang einzuhalten - oder besser - zu unterbieten. Der Gamification Ansatz motiviert auch über längere Zeit durch die Berechnung der Kosten, die durch das Duschen entstehen.
 
@@ -87,7 +87,7 @@ In diesem Teil werden alle Komponenten getrennt beschrieben. Mithilfe des Schalt
 Der Arduino muss erst einmal für den Anschluss der Schaltlitzen vorbereitet werden. Hier gibt es 2 Möglichkeiten:
 Steckbuchsen und Steckleisten einlöten und die Litzen auf die Steckleisten löten(Wiederverwendbarkeit und Flexibilität sind hier im Vorteil)
 
-<img src="/images/sparfuechse/ladepad_1.JPG" width="500">
+<img src="/images/sparfuechse/arduino_verkabelung.jpeg" width="500">
 
 Die Litzen direkt auf das Arduino Board löten (kompaktere Lösung, aber aufwendiger abzuändern). Die Litzen lötest du am besten erst an, wenn du eine Komponente mit dem Arduino verbinden willst.
 
@@ -147,15 +147,19 @@ In unserem Fall haben wir den vorhandenen Druckschalter entfernt um besser an di
 
 ## Stromversorgung & Ladepad
 
-<img src="/images/sparfuechse/ladepad_1.JPG.JPG" width="500">
-<img src="/images/sparfuechse/ladepad_2.JPG.JPG" width="500">
+Die Stromversorgung geschieht induktiv über ein eigens entworfenes Ladepad. Das zugehörige Gehäuse muss ebenfalls mit dem 3D-Drucker gedruckt werden. Hier findest du das .stl File.
+
+<span style="display: inline-block;">
+  <img src="/images/sparfuechse/ladepad_1.JPG" width="500">
+  <img src="/images/sparfuechse/ladepad_2.JPG" width="500">
+</span>
 
 ## Schaltplan
 
 Hier siehst du den Schaltplan in einer vereinfachten Breadboard-Ansicht. Manche Boards können bei dir anders aussehen, sollten aber die gleichen Anschlüsse besitzen.
 Funktionsweise
 
-<img src="/images/sparfuechse/CBM_Schaltung_Steckplatine.svg" width="500">
+<img src="/images/sparfuechse/CBM_Schaltung_Steckplatine.svg" width="1000">
 
 ## Verkabelung
 
@@ -165,12 +169,17 @@ Wenn du die Komponenten mithilfe des Schaltplans verbindest, solltest du auf sau
 
 ## Gehäuse
 
-Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit diesen .stl file: gedruckt werden. Wir empfehlen eine Supportstruktur und ein Infill von mindestens 30%. Die Geschwindigkeit sollte nicht zu hoch gewählt werden (<=50mm/s), damit das Gewinde des Verschlusses eine ausreichende Qualität aufweist.
+Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit diesem .stl file: gedruckt werden. Wir empfehlen eine Supportstruktur und ein Infill von mindestens 30%. Die Geschwindigkeit sollte nicht zu hoch gewählt werden (<=50mm/s), damit das Gewinde des Verschlusses eine ausreichende Qualität aufweist.
 
 <img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
 
 ## Komponenten zusammensetzen
 
-<img src="/images/sparfuechse/fertiger_sensor.jpg" width="500">
+<span style="display: inline-block;">
+  <img src="/images/sparfuechse/zusammenbau_1.jpeg" width="500">
+  <img src="/images/sparfuechse/zusammenbau_2.jpeg" width="500">
+</span>
 
 # Ausblick
+
+<img src="/images/sparfuechse/fertiges_produkt.jpg" width="500">
