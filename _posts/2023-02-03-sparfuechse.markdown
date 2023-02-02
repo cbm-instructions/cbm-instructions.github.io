@@ -1,5 +1,5 @@
 ---
-title: "ecoShower"
+title: "ecoShower - Der Weg zum nachhaltigen Duschen"
 categories: instructions
 layout: post
 date: 2023-02-03 17:00:00 +0200
@@ -32,7 +32,7 @@ date: 2023-02-03 17:00:00 +0200
 
 # Motivation
 
-EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen zu erfahren und dadurch aktiv zu sparen. Der Wasserverbrauch und die Temperatur werden gemessen, um den Nutzer dabei zu unterstützen, ein auf ihn zugeschnittenes Energie Pensum bei jedem Duschvorgang einzuhalten - oder besser - zu unterbieten. Der Gamification Ansatz motiviert auch über längere Zeit durch die Berechnung der Kosten, die durch das Duschen entstehen.
+EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen zu erfahren und dadurch aktiv zu sparen. Der Wasserverbrauch und die Temperatur werden gemessen, um den Nutzer dabei zu unterstützen, ein auf ihn zugeschnittenes Energiepensum bei jedem Duschvorgang einzuhalten - oder besser noch - zu unterbieten. Der Gamification-Ansatz motiviert auch über längere Zeit, durch die Berechnung der exakten Kosten die durch das Duschen entstehen.
 
 # Vorbereitung
 
@@ -106,6 +106,8 @@ In dieser Schaltung übersteigt der Strombedarf der Komponenten geradeso nicht d
 
 ## Durchfluss- und Temperatursensor
 
+Der Durchfluss- und Temperatursensor, welcher zwischen der Duschamatur und dem Schlauch zum Duschkopf montiert wird, bildet das Herzstück von ecoShower. Durch diese Vorrichtung ist es möglich, in sekündlichen Intervallen die exakten Kosten für das Verbrauche Wasser zu berechnen.
+
 ### Werkzeuge und Material
 
 - 5mm Bohrer
@@ -166,6 +168,8 @@ Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit [diesem
 
 ## Komponenten zusammensetzen
 
+Nun geht es darum, die einzelnen Komponenten möglichst platzsparend zusammenzusetzen, damit diese im dafür vorgesehenen Gehäuse untergebracht werden. Wer möchte, kann dabei zur besseren Fixierung Heißkleber verwenden.
+
 <span style="display: inline-block;">
   <img src="/images/sparfuechse/zusammenbau_1.jpeg" width="500">
   <img src="/images/sparfuechse/zusammenbau_2.jpeg" width="500">
@@ -173,4 +177,11 @@ Das Gehäuse, der Gehäuseverschluss und das Ladepad können einfach mit [diesem
 
 # Ausblick
 
+Geht man nach der hier beschriebenen Anleitung vor, hält man danach ein voll funktionsfähigen Gerät in den Händen. Jedoch gibt es an dieser Version noch einiges an Optimierungspotential. Ein paar Aspekte sind im Folgenden bereits festgehalten. Weitere Anregungen und Kritik sind jederzeit erwünscht!
+
 <img src="/images/sparfuechse/fertiges_produkt.jpg" width="500">
+
+## Potentielle Verbesserungen
+
+- Das Gehäuse ist zum atkuellen Zeitpunkt noch nicht 100% wasserdicht. Hier besteht demnach noch Verbesserungspotential.
+- Die Ladestation/das induktive Laden funktioniert leider nur mäßig gut. Wie man in den obigen Abbildungen sehen kann, wurde auch beim Zusammenbau der Ladestation bereits Material abgetragen, um dem entgegenzuwirken. Ein Neuentwurf der gesamten Ladestation wäre auf lange sicht definitiv sinnvoll.
