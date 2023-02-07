@@ -97,20 +97,20 @@ Um eine robuste und feuchtigkeitsgeschützte Box für unsere Projektkomponenten 
 
 ### Das Display verpacken
 
-![Display](images/creative-visions/Display_in_Gehaeuse_Vorderseite.png "Display")
+![Display](/images/creative-visions/Display_in_Gehaeuse_Vorderseite.png "Display")
 
-Als Display wird ein E-Paper Display(Waveshare 7.5 Inch) benutzt. Um es außen am Kühlschrank zu befestigen wird ein Gehäuse aus Acrylglas [lasergecuttet](images/creative-visions/plattegroß.svg). Dabei wird dasselbe zweimal gecuttet, einmal durchsichtig für die Vorderseite, einmal in beliebiger Farbe für die Rückseite.
+Als Display wird ein E-Paper Display(Waveshare 7.5 Inch) benutzt. Um es außen am Kühlschrank zu befestigen wird ein Gehäuse aus Acrylglas [lasergecuttet](/images/creative-visions/plattegroß.svg). Dabei wird dasselbe zweimal gecuttet, einmal durchsichtig für die Vorderseite, einmal in beliebiger Farbe für die Rückseite.
 In die Vorderseite wird nun noch ein Loch zur befestigung des Knopfs zum Auslösen der Kamera gebohrt.
 In die Rückseite wird nun noch ein Loch zur befestigung des Magneten gebohrt, dabei können je nach Saugnapf oder Magnet auch mehrere Löcher gebohrt werden.
-![Display Rückseite](images/creative-visions/Display_in_Gehaeuse_Rueckseite.png "Display Rückseite")
+![Display Rückseite](/images/creative-visions/Display_in_Gehaeuse_Rueckseite.png "Display Rückseite")
 
 Dann legt man zuerst die das Display mittig auf die durchsichtige Acryl-Platte. Danach kommt sehr weicher Schaumstoff (z.B. aus der Bildschirmverpackung) von hinten auf das Display. Als Letztes kommt die Acryl-Rückseite, mit dem Saugnapf darauf. Zusammengehalten wird das ganze von vier Schrauben mit Muttern in den Ecken. Beim Zusammenschrauben darauf achten, dass das Display und die Schraube om Saugnapf sich nicht berühren und im zweifelsfall die Acryl unterlegscheiben zwischen Vorder- und Rückseite mitverschrauben. Im Bild sind 3 solcher Unterlegscheiben zwischen und eine hintendran verwendet worden.
 
-![Verschraubung Gehäuse](images/creative-visions/Display_Gehaeuse_Stapel.png "Verschraubung Gehäuse")
+![Verschraubung Gehäuse](/images/creative-visions/Display_Gehaeuse_Stapel.png "Verschraubung Gehäuse")
 
 
 ### Verkabelung
-![Verkabelung](images/creative-visions/Verkabelung.jpg)
+![Verkabelung](/images/creative-visions/Verkabelung.jpg)
 
 | ESP32-CAM | ePaper-Connector |
 |-----------|----------------|
@@ -149,7 +149,7 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 Um das ESP32-Cam Board mit dem PC zu verbinden, wird ein FTDI programmer benötigt. Folge dieser Schematik:
 
-![Verkabelung_FTDI](images/creative-visions/Verkabelung_FTDI.png)
+![Verkabelung_FTDI](/images/creative-visions/Verkabelung_FTDI.png)
 
 | ESP32-CAM | FTDI programmer |
 |-----------|-----------------|
@@ -179,14 +179,14 @@ Zuerst wird der LED-Ring und die Linse der ESP32-CAM in der Wand 1 der Box einge
 
 ## Funktionsweise
 Der größte Teil der Funktion von FridgeView findet innerhalb der Box statt, die in den Kühlschrank eingesetzt ist. Der andere Teil davon findet beim Bildschirm statt, der am Kühlschrank befestigt ist. Das Setup mit geöffneter Kühlschranktür (angenommen wird, dass der Kasten ein Kühlschrank ist) sollte dann in etwa so aussehen.
-![Setup](images/creative-visions/Setup.jpg)
+![Setup](/images/creative-visions/Setup.jpg)
 
  Auf dem Bildschirm befindet sich ein Schalter, der betätigt wird. Nachdem der Schalter gedrückt wurde, wird ein Signal an die Box gesendet. Das Signal wird vom Arduino empfangen, welcher den LED-Ring aktiviert und ihn 20 Sekunden mit Strom versorgt. Damit, wie auf dem Foto zu sehen, der Kühlschrank beleuchtet wird.
- ![Licht](images/creative-visions/Licht.jpg)
+ ![Licht](/images/creative-visions/Licht.jpg)
 
  Während dieser 20 Sekunden wird eine Kamera mit 160 Grad ausgelöst, die ein Foto des Inneren des Kühlschranks mit dem Licht des LED-Rings aufnimmt. Das Foto wird dann an das E-Paper gesendet, welches es jedoch nur kurzzeitig anzeigt, da es anschließend vom ESP32 bearbeitet wird. Dieser filtert die Graustufen aus dem Bild und stellt den Kontrast ein. Währenddessen flackert das Bild ein paar Mal auf dem E-Paper, bis es schließlich in seiner endgültigen Form angezeigt wird. Sobald das Bild angezeigt wird, sind 20 Sekunden vergangen und der LED-Ring im Kühlschrank schaltet sich aus. 
 
- ![Bild_auf_ePaper](images/creative-visions/Bild_auf_ePaper.jpg)
+ ![Bild_auf_ePaper](/images/creative-visions/Bild_auf_ePaper.jpg)
  
  Es wird gewartet, bis erneut der Schalter gedrückt wird und das Verfahren von vorne beginnt.
 
