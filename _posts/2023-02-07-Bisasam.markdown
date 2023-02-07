@@ -1,5 +1,5 @@
 ---
-title: "ELEKTEK - Der Weg zum nachhaltigen Duschen"
+title: "ELEKTEK"
 categories: instructions
 layout: post
 date: 2023-02-07 12:00:00 +0200
