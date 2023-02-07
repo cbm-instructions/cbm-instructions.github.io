@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/65849767/214650400-81b4364d-c6a2-4903-
 - [Motivation](#motivation)
 - [Aufgabenstellung/ Herausforderung](#aufgabenstellung)
     - [Interviews](#interviews)
-       - [Das Problem](#problem)
+       - [Das Problem](#das problem)
     - [Persona die sich ergab](#persona)
     - [Unsere Lösung "Elektek"](#lösung)
       - [Funktionen von Elektek](#elektek)
