@@ -1,6 +1,8 @@
 ---
 title:  "Frideview"
-date:   2023-02-01 15:04:23
+categories: instructions
+layout: post
+date: 2023-02-07 13:00:00 +0200
 ---
 
 ## Inhaltsverzeichnis
