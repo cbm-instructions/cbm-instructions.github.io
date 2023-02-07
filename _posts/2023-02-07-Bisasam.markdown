@@ -133,6 +133,7 @@ Als Erstes werden wir unser Pedal bereitstellen. Zum Bauen unseres Pedals nutzen
 ## Schritt 2: Flachstange anbauen
 
 In diesem Schritt wird die Flachstange an das Pedal angebunden. 
+
 ![2](https://user-images.githubusercontent.com/65849767/216325079-96a10d7c-dcd0-4fe6-915f-ffecd01562f0.png)
 ### Benötigte Materialien für diesen Schritt:
 - Flachstange O
