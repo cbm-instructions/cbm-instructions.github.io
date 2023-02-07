@@ -14,24 +14,23 @@ https://user-images.githubusercontent.com/65849767/214650400-81b4364d-c6a2-4903-
 
 <!-- TOC -->
 - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-- [Motivation](#motivation)
-- [Aufgabenstellung/ Herausforderung](#aufgabenstellung)
-    - [Interviews](#interviews)
-     - [Das Problem](#Das Problem)
-    - [Persona die sich ergab](#persona)
-    - [Unsere Lösung "Elektek"](#lösung)
-     - [Funktionen von Elektek](#elektek)
+- [Aufgabenstellung](#aufgabenstellung)
+	- [Interviews](#interviews)
+		- [Das Problem](#das-problem)
+	- [Persona die sich ergab](#persona-die-sich-ergab)
+	- [Unsere Idee Elektek](#unsere-idee-elektek)
+		- [Funktionen von Elektek](#funktionen-von-elektek)
 - [Material](#material)
 - [Werkzeuge](#werkzeuge)
 - [Vorkentnisse](#vorkenntnisse)
 - [Bauanleitung](#bauanleitung)
 - [Code](#code)
-- [Feedback und Ideen für die Zukunft](#zukunft)
-- [Das Team](#team) 
+- [Feedback und Ideen für die Zukunft](#feedback-und-ideen-für-die-zukunft)
+- [Das Team](#das-team) 
 <!-- /TOC -->
 
 
-# Aufgabenstellung/ Herausforderung
+# Aufgabenstellung
 
 "Wie können wir mit intelligenten Objekten dazu beitragen, dass Menschen über Ihren Energieverbrauch Bescheid wissen und aktiv Energie sparen?"
 
@@ -53,7 +52,7 @@ Wie können wir Ash helfen, Stromerzeugung besser zu verstehen? Er kennt die Wer
 - Arbeitet im Homeoffice für seinen Studentenjob
 - Lernt am Schreibtisch und verbringt auch seine Freizeit oft vor dem PC
 
-## Unsere Lösung "Elektek"
+## Unsere Idee Elektek
 
 - Möglichkeit, selbstständig Strom zu generieren!
 - Bringt Messwerte bei 
