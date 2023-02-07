@@ -143,6 +143,7 @@ Um die Flachstange O an das Pedal zu verbinden, sollten Sie zuvor zwei kleine L�
 ## Schritt 3: Gestell zusammenbauen
 
 In diesem Schritt werden die Stützen der Wippe gebaut.
+
 ![3](https://user-images.githubusercontent.com/65849767/216325094-38aa99ab-779b-4256-a6e7-c502cbdaf968.png)
 
 # Benötigte Materialien für diesen Schritt:
