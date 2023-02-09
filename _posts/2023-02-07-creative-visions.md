@@ -1,5 +1,5 @@
 ---
-title:  "Frideview"
+title:  "Fridgeview"
 categories: instructions
 layout: post
 date: 2023-02-07 13:00:00 +0200
