@@ -112,7 +112,7 @@ Hierbei werden die folgenden SVGs benötigt:
 Für den Bau des Gehäuses entschieden wir uns dazu, Sperrholzplatten zu benutzen. Die Sperrholzplatten wurden mit dem
 Vektorgrafik-Programm Inkscape erstellt und können mithilfe des Lasercutters ausgeschnitten werden. Die dafür benötigten
 SVG-Dateien sind
-im [SVG Verzeichnis](/images/teamrocket/svgs/) zu finden.
+im [SVG Verzeichnis](https://github.com/cbm-instructions/cbm-instructions.github.io/tree/master/images/teamrocket/svgs) zu finden.
 
 Nachdem alle Platten vom Lasercutter geschnitten wurden, wird der Automat vorerst nur zusammengesteckt und nicht
 verklebt.
