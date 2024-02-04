@@ -8,7 +8,7 @@ Die Challenge, welche im Rahmen des Moduls "Challenge Based Making (WS 23/24)" g
 
 Anhand dieser Challenge führten wir einige Interviews mit Studierenden, um herauszufinden, was die größten Auslöser für eine schlechte Aufenthaltsqualität sind. Aus dem Ergebnis der Interviews haben wir eine Persona erstellt: 
    
-   ![persona](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/POV.png)
+   ![persona](/images/sixtysix/POV.png)
 
 Aufgrund dieser Persona haben wir uns dazu entschieden, den Zugang zu praktischen Technikgegenständen mithilfe des TechTresors zu ermöglichen.
 
@@ -63,41 +63,41 @@ In diesem Abschnitt befindet sich die komplette Anleitung zum Bau des TechTresor
 
 ## Schritt für Schritt Anleitung
 ### 1. Schrank bauen
-Zu Beginn wird der Schrankkorpus durch Zuschneiden und Zusammenbauen der großen Holzplatten erstellt. In unserem Fall haben wir ehemalige Tischplatten gewählt und diese passend mit einer Kreissäge zugeschnitten. Die genauen Schnittmaße können aus den beigefügten SVG-Dateien entnommen werden: [Schrank SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Au%C3%9Fengestell_Ma%C3%9Fe.svg).
+Zu Beginn wird der Schrankkorpus durch Zuschneiden und Zusammenbauen der großen Holzplatten erstellt. In unserem Fall haben wir ehemalige Tischplatten gewählt und diese passend mit einer Kreissäge zugeschnitten. Die genauen Schnittmaße können aus den beigefügten SVG-Dateien entnommen werden: [Schrank SVG](/images/sixtysix/Au%C3%9Fengestell_Ma%C3%9Fe.svg).
 Dabei ist zu beachten, dass in die Decke (Nr. 5 in der SVG) ein kleines Loch gebohrt werden muss, um später die Kabel für den Entfernungsmesser und den Lautsprecher hindurchführen zu können. In die hintere Wand (Nr. 3 in der SVG) muss ein etwas größeres Loch gebohrt werden, um später das Stromkabel und gegebenenfalls ein HDMI-Kabel für den Raspberry Pi zu verlegen. Außerdem ist es erforderlich, in die Seitenwände (Nr. 1 & 2 in der SVG) einen passenden Bereich zu fräsen, um dort später die Neopixel LED Strips zu montieren. Zusätzlich muss an jeder Seite ein Loch in den gefrästen Bereich der Wände gebohrt werden, um die LED Strips mit Strom zu versorgen. Die genauen Abstände und Maße, sowohl von den LED-Strips als auch von den Löchern, sind realitätsgetreu in der oben genannten SVG-Datei eingezeichnet.
 
 Sobald die Wände zugeschnitten und die zuvor beschriebenen Vorkehrungen getroffen wurden, ist es Zeit, die Wände miteinander zu befestigen. Dies erfolgt mit einem Akkuschrauber, mit dem die Wände miteinander verschraubt werden.
 
 Zuerst werden die beiden Seitenwände (Nr. 1 & 2) mit der Rückwand (Nr. 3) verschraubt. Hierfür werden insgesamt 8 Schrauben benötigt: 
-![Rückwand Schrauben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/R%C3%BCckSchrauben.png)
+![Rückwand Schrauben](/images/sixtysix/R%C3%BCckSchrauben.png)
 
 Als nächstes wird die Decke (Nr. 5) mit den Seitenwänden und der Rückwand verschraubt. Dazu werden 8 Schrauben benötigt: 
-![Decke Schrauben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/DeckeSchrauben.png)
+![Decke Schrauben](/images/sixtysix/DeckeSchrauben.png)
 
 Der letzte Schritt ist das Verschrauben des Bodens mit den Wänden. Auch dazu werden 8 Schrauben benötigt:
-![Boden Schrauben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/BodenSchrauben.png)
+![Boden Schrauben](/images/sixtysix/BodenSchrauben.png)
 
 Am Ende soll der Schrank so aussehen: 
-![Fertig Wände](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/SchrankW%C3%A4ndeFertig.jpg)
+![Fertig Wände](/images/sixtysix/SchrankW%C3%A4ndeFertig.jpg)
 
 ### 2. Schrankinneres erstellen
 #### 2.1 Innenleben
 Das TechTresor-Innenleben kann natürlich den eigenen Bedürfnissen (Größe der Fächer etc.) individuell angepasst werden. Wir haben uns für folgende Aufteilung entschieden, welche in dieser Anleitung näher beschrieben wird:
-![Nahaufnahme innen](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Innenschrank.jpg)
+![Nahaufnahme innen](/images/sixtysix/Innenschrank.jpg)
 
-Als erstes werden 3 Sperrholzplatten (Maße: [Regale SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Regalex2_Maße.svg)) zugeschnitten und 2 von diesen Platten werden von unten auf Innenhöhe 15cm und 45cm angebracht.
-Auf die unterste Platte wird das Regal mit den 8 Fächern gelegt und befestigt (Maße: [Fächer SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Unterteilungsfachx8_Maße.svg)).
+Als erstes werden 3 Sperrholzplatten (Maße: [Regale SVG](/images/sixtysix/Regalex2_Maße.svg)) zugeschnitten und 2 von diesen Platten werden von unten auf Innenhöhe 15cm und 45cm angebracht.
+Auf die unterste Platte wird das Regal mit den 8 Fächern gelegt und befestigt (Maße: [Fächer SVG](/images/sixtysix/Unterteilungsfachx8_Maße.svg)).
 Es empfiehlt sich, das Regal aus Sperrholz zu fertigen und dabei den Lasercutter zu nutzen. Dies gilt auch für das Pegboard und die USB-Sticks-Schublade. Das Pegboard und die USB-Sticks-Schublade werden wiederum auf des Regal geschoben und befestigt.
 Wir haben das wie auf folgenden Bildern zu sehen ist gelöst, allerdings gibt es hier bestimmt auch andere Lösungen, das Pegboard und die Schublade zu fixieren:
 
 (BILDER VON INNENKONSTRUKTION EINFÜGEN)
 
-- Maße Pegboard mit passenden Pins: [Pegboard und Pins SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/PegboardPlusPin_Maße.svg)
-- Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/UsedSticks_Schublade_Maße.svg)
+- Maße Pegboard mit passenden Pins: [Pegboard und Pins SVG](/images/sixtysix/PegboardPlusPin_Maße.svg)
+- Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](/images/sixtysix/UsedSticks_Schublade_Maße.svg)
 
 #### 2.2 Entfernungsmesser Box
-Auf dem Schrank wird folgende Box aus Sperrholz angebracht (Maße für den Lasercutter: [Entfernungsmesser Box SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/LautsprecherBox_Oben_Maße.svg)):
-![Entfernungsmesser Box](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/MotionSensorAußen.jpg)
+Auf dem Schrank wird folgende Box aus Sperrholz angebracht (Maße für den Lasercutter: [Entfernungsmesser Box SVG](/images/sixtysix/LautsprecherBox_Oben_Maße.svg)):
+![Entfernungsmesser Box](/images/sixtysix/MotionSensorAußen.jpg)
 Die Box wird zunächst nur zusammengebaut und dann im weiteren Verlauf der Anleitung weiter bearbeitet und schließlich mittig auf den Schrank geklebt.
 
 ### 3. Technik konfigurieren
@@ -158,61 +158,61 @@ Damit der TechTresor richtig funktioniert muss für die einzelnen Technikkompone
 
 Es muss auch ein Skript geschrieben werden, welches auf dem Arduino Uno läuft. In diesem befindet sich die Logik für den RFID-Scanner, Servo-Motor und LED-Strips. Der Arduino Code befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/Arduino.ino).
 
-Das dritte Skript ist ein Python-Skript, das auf dem konfigurierten Raspberry Pi ausgeführt werden muss. Dieses Python-Skript ermöglicht die Kommunikation zwischen dem Arduino und dem Raspberry Pi mithilfe einer Bibliothek namens "Pyserial". Darüber hinaus erfasst das Python-Skript die Artikel des Barcode-Scanners und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokale SQLite-Datenbank unter dem Tabellennamen "images". Zusätzlich wird für jedes ausgeliehene und zurückgegebene Objekt die Tabelle "items" aktualisiert, um den aktuellen Status jedes Objekts zu verfolgen (mit Status ist gemeint, ob ein Objekt derzeit ausgeliehen ist oder nicht). Das Python-Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/asdf.py).
+Das dritte Skript ist ein Python-Skript, das auf dem konfigurierten Raspberry Pi ausgeführt werden muss. Dieses Python-Skript ermöglicht die Kommunikation zwischen dem Arduino und dem Raspberry Pi mithilfe einer Bibliothek namens "Pyserial". Darüber hinaus erfasst das Python-Skript die Artikel des Barcode-Scanners und speichert sie zusammen mit dem von der URL abgerufenen Bild der ESP32-Cam beim Schließen der Schranktür in die lokale SQLite-Datenbank unter dem Tabellennamen "images". Zusätzlich wird für jedes ausgeliehene und zurückgegebene Objekt die Tabelle "items" aktualisiert, um den aktuellen Status jedes Objekts zu verfolgen (mit Status ist gemeint, ob ein Objekt derzeit ausgeliehen ist oder nicht). Das Python-Skript befindet sich [hier](https://github.com/cbm-instructions/sixtysix/blob/main/code/Raspberry.py).
 ### 5. Schranktür bauen
 So wird die fertige TechTresor-Tür aus Sperrholz aussehen:
-![Fertige Tür](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TürFertig.jpg)
-- Maße der Tür: [Tür SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Tür_Maße.svg)
-- Maße Tür-Cover, hinter welches später Technik befestigt wird: [Tür-Cover SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TürCover_Maße.svg)
+![Fertige Tür](/images/sixtysix/TürFertig.jpg)
+- Maße der Tür: [Tür SVG](/images/sixtysix/Tür_Maße.svg)
+- Maße Tür-Cover, hinter welches später Technik befestigt wird: [Tür-Cover SVG](/images/sixtysix/TürCover_Maße.svg)
 - Die Tür wird mit den Scharnieren am Schrank befestigt, wie es auf dem Bild zu erkennen ist. Das Tür-Cover wird erst im weiteren Verlauf angebracht.
 
 ### 6. Technik anbringen
 Die Verkabelung der Technikkomponenten ist, wie in der folgenden Grafik schematisch dargestellt, aufgebaut:
-![Schaltplan](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Schaltplan.png)
+![Schaltplan](/images/sixtysix/Schaltplan.png)
 Wir haben uns dafür entschieden die Kabel zu löten und eine Lochrasterplatine zu nutzen um die Chance von Wackelkontakten usw. zu verringern. Es ist aber natürlich auch möglich mithilfe von Breadboards und Steckkabel ohne löten auszukommen. 
 
 Um die Technikkomponenten bestmöglich nutzen und verstauen zu können haben wir diese in zwei verschiedenen Technikspaces untergebracht. 
 
 Der erste Technikspace befindet sich im Inneren des Schrankes unterhalb der "Free Stuff" Schublade. Dort befindet sich der Raspberry Pi und der Arduino Uno. Von dort aus verlaufen alle Kabel an die einzelnen Komponenten, die entweder von dem Raspberry oder Arduino gesteuert werden. Um den Raspberry mit Strom zu versorgen muss ein Stromkabel durch das dafür vorgesehene Loch in der in der Rückwand des Schrankes geführt werden. Der Technikspace im Inneren des Schrankes sollte am Schluss so aussehen: 
-![Technik Schrank](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TechnikSchrank.jpg)
+![Technik Schrank](/images/sixtysix/TechnikSchrank.jpg)
 Innerhalb der Schranktür befindet sich der zweite Technikspace. Hier müssen nicht nur einige der steuerbaren Komponenten angebracht werden, sondern auch die Lochrasterplatine für die Stromversorgung ist hier positioniert. Der RFID-Sensor, der Barcode-Scanner, der Servo-Motor und die Kamera müssen hier sicher befestigt werden, um ein ungewolltes Verrutschen während des Öffnens und Schließens der Tür zu verhindern. Wir empfehlen das befestigen der Komponenten durch die Verwendung mehrerer Schrauben und kleiner Holzstücke, welche z.B. den RFID-Sensor an der Tür halten. Der zweite Technikspace sollte ungefähr so aussehen:
-![Technik Tür](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TechnikTür.jpg)
-Der RFID-Sensor befindet sich in der Tür, damit ein Nutzer den TechTresor ganz simpel durch das Anhalten des Studi-Ausweises von Außen öffnen kann. Die Kamera und der Barcode-Scanner sind durch Aussparungen im Türcover sichtbar, damit wenn der Schrank offen ist, gescannt werden kann und wenn der Schrank geschlossen wird, ein Foto gemacht werden kann. Der Servo-Motor befindet sich in einem speziell für ihn mit einem 3D-Drucker hergestellten [Behälter](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Servo_Bracket.stl) direkt neben dem Schloss in der Tür. Dieser Motor ermöglicht das Öffnen und Schließen des [Schlosses](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Sliding_Lock.stl) durch einen Draht, der sowohl mit dem Servo-Motor als auch mit dem Schloss verbunden ist. Um die Kabel zu schützen lohnt es sich alle Kabel, die vom Technikspace im TechTresor zum Technikspace in der Tür führen, durch eine Kabelspirale zu leiten.
+![Technik Tür](/images/sixtysix/TechnikTür.jpg)
+Der RFID-Sensor befindet sich in der Tür, damit ein Nutzer den TechTresor ganz simpel durch das Anhalten des Studi-Ausweises von Außen öffnen kann. Die Kamera und der Barcode-Scanner sind durch Aussparungen im Türcover sichtbar, damit wenn der Schrank offen ist, gescannt werden kann und wenn der Schrank geschlossen wird, ein Foto gemacht werden kann. Der Servo-Motor befindet sich in einem speziell für ihn mit einem 3D-Drucker hergestellten [Behälter](/images/sixtysix/Servo_Bracket.stl) direkt neben dem Schloss in der Tür. Dieser Motor ermöglicht das Öffnen und Schließen des [Schlosses](/images/sixtysix/Sliding_Lock.stl) durch einen Draht, der sowohl mit dem Servo-Motor als auch mit dem Schloss verbunden ist. Um die Kabel zu schützen lohnt es sich alle Kabel, die vom Technikspace im TechTresor zum Technikspace in der Tür führen, durch eine Kabelspirale zu leiten.
 
 Nachdem die Technik in den beiden großen Technikspaces soweit gelötet oder gesteckt ist, können jetzt der Bewegungssensor und der Lautsprecher von dem Loch oben im Schrank in den Technikspace geführt werden. Danach kann die Entfernungsmesser-Box mittig auf dem Schrank platziert und befestigt werden.
-Das sollte zum Schluss dann so aussehen: ![Motionsensor außen](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/MotionSensorAußen.jpg)
+Das sollte zum Schluss dann so aussehen: ![Motionsensor außen](/images/sixtysix/MotionSensorAußen.jpg)
 
-![Motionsensor innen](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/MotionSensorInnen.jpg)
+![Motionsensor innen](/images/sixtysix/MotionSensorInnen.jpg)
 
-Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges [Plexiglas](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/LED_Plexiglascover_Ma%C3%9Fe.svg) zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
+Zu guter Letzt befindet sich außen an beiden Seiten des Schranks ein NeoPixel LED Strip mit jeweils ca. 26 Pixeln. Die Strips müssen nun in den in Schritt 1 erläuterten gefrästen Bereichen geklebt werden und die Kabel durch ein kleines Loch geführt werden. Anschließend kann man optional noch weißes, milchiges [Plexiglas](/images/sixtysix/LED_Plexiglascover_Ma%C3%9Fe.svg) zuschneiden und über die LEDs kleben, um das Licht zu brechen. Die LEDs müssen, wenn korrekt angebracht so aussehen: 
 
-![LEDs](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/LEDAußen.jpg)
+![LEDs](/images/sixtysix/LEDAußen.jpg)
 
-Nachdem die Technik fertig verkabelt ist, wird das dritte Regal auf 50cm Höhe von unten angebracht und das [Technikspace-Cover](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TechnikspaceCover_Maße.svg) wird festgeschraubt, sodass der Technikspace im Schrank komplett verschlossen ist. Danach wird das Cover für den Technikspace in der [Tür](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TürCover_Maße.svg) (hier nochmal die Maße) ausgeschnitten und verschraubt. Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
+Nachdem die Technik fertig verkabelt ist, wird das dritte Regal auf 50cm Höhe von unten angebracht und das [Technikspace-Cover](/images/sixtysix/TechnikspaceCover_Maße.svg) wird festgeschraubt, sodass der Technikspace im Schrank komplett verschlossen ist. Danach wird das Cover für den Technikspace in der [Tür](/images/sixtysix/TürCover_Maße.svg) (hier nochmal die Maße) ausgeschnitten und verschraubt. Bei der Abdeckung für die Tür ist darauf zu achten, dass der Barcode-Scanner und die Kamera korrekt durch die Löcher in der Abdeckung geführt werden, damit weder die Linse noch der Scanner verdeckt werden.
 ### 7. Free Stuff Schublade
 Die Idee hinter der Free Stuff Schublade ist, dass Studierende sich nicht nur Technikgegenstände ausleihen können sondern auch kleinere Artikel kostenlos erhalten können. Solche Artikel sind beispielsweise Süßgikeiten oder Hygieneartikel.
 
-Die Free Stuff Schublade besteht aus Sperrholz, das nach folgenden Maßen zugeschnitten werden muss: [Free Stuff SVG](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/FreeStuffSchublade_Ma%C3%9Fe.svg). Die Schublade muss zusammengeklebt werden und anschließend oberhalb des Technikspaces im Inneren des TechTresors angebracht werden. 
+Die Free Stuff Schublade besteht aus Sperrholz, das nach folgenden Maßen zugeschnitten werden muss: [Free Stuff SVG](/images/sixtysix/FreeStuffSchublade_Ma%C3%9Fe.svg). Die Schublade muss zusammengeklebt werden und anschließend oberhalb des Technikspaces im Inneren des TechTresors angebracht werden. 
 
-Zum Schluss muss die Schublade so eingefügt werden wie unten im Bild: ![Free Stuff Schublade](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/FreeStuff.jpg)
+Zum Schluss muss die Schublade so eingefügt werden wie unten im Bild: ![Free Stuff Schublade](/images/sixtysix/FreeStuff.jpg)
 ### 8. Letzte Kleinigkeiten
-Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben, sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade angebracht worden. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Vinyl_Sticker_Ma%C3%9Fe.svg).
+Um den TechTresor zu verschönern und den Nutzern wichtige Hinweise zu geben, sind Sticker für den RFID-Reader, die Free Stuff Schublade, den Barcode Scanner und die benutzte USB-Sticks Schublade angebracht worden. Die Sticker befinden sich in folgender SVG-Datei: [Sticker](/images/sixtysix/Vinyl_Sticker_Ma%C3%9Fe.svg).
 
 Jetzt da der TechTresor fertig gebaut wurde, müsste er ungefähr so aussehen: 
 
-Entfernungsmesser und Free Stuff Schublade: ![oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/ObenFertig.jpg)
+Entfernungsmesser und Free Stuff Schublade: ![oben](/images/sixtysix/ObenFertig.jpg)
 
 Das Innere des TechTresors: 
-![oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/InnenFertig.jpg)
+![oben](/images/sixtysix/InnenFertig.jpg)
 
 Das Äußere des TechTresors: 
-![oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/AußenFertig.jpg)
+![oben](/images/sixtysix/AußenFertig.jpg)
 
 Von Hinten:
-![oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/HintenFertig.jpg)
+![oben](/images/sixtysix/HintenFertig.jpg)
 
 Fertige Tür:
-![oben](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/TürFertig.jpg)
+![oben](/images/sixtysix/TürFertig.jpg)
 
 ## Funktionsweise
 Angesichts der Vielzahl an Funktionen des TechTresors halten wir es für sinnvoll, die allgemeine Funktionsweise in einem separaten Abschnitt zu erläutern.
@@ -227,5 +227,5 @@ Das zweite Feature sind die zwei LED-Strips, die sich an den Seitenwänden des T
 Damit auch Nutzer schnell und einfach die Funktionsweise des Schrankes verstehen, haben wir noch eine Anleitung erstellt, die man (dort wo der Schrank aufgestellt wird) hinlegen kann.
 
 Die Anleitung findet man hier:
-![Anleitung](https://github.com/cbm-instructions/cbm-instructions.github.io/blob/master/images/sixtysix/Anleitung-1.png)
+![Anleitung](/images/sixtysix/Anleitung-1.png)
 
