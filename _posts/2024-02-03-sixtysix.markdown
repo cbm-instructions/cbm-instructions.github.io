@@ -1,7 +1,34 @@
 ﻿# TechTresor: Helfer in der Not
+ 
 TechTresor ist ein smarter Schrank, der Studierenden die Möglichkeit bietet, technische Gebrauchsgegenstände ganz einfach mit ihrem Studi-Ausweis auszuleihen, um ihnen in Notfall-Situationen den Tag zu retten. Neben den technischen Gegenständen, die nur zur Ausleihe stehen, stellt der TechTresor durch die sogenannte "Free Stuff"-Schublade auch eine Reihe verschiedenster Freebies, wie z.B. Hygieneartikel und Süßigkeiten, zur Verfügung. Das Ziel davon ist es, den Aufenthalt an der Hochschule angenehmer zu gestalten.
 
 Durch verschiedene Aufzeichnungsmethoden ist es den Betreibern des TechTresors möglich, festzustellen, welcher Studierender welchen Gegenstand ausgeliehen hat und wann. Dadurch kann geprüft werden, falls ein Gegenstand verschwunden ist, wer möglicherweise für das Verschwinden des Gegenstands verantwortlich ist.
+
+## Inhaltsverzeichnis
+- [Die Challenge](#die-challenge)
+- [Bauanleitung](#bauanleitung)
+- [Materialien und Werkzeuge](#materialien-und-werkzeuge)
+  - [Materialien](#materialien)
+  - [Werkzeuge](#werkzeuge)
+- [Schritt für Schritt Anleitung](#schritt-für-schritt-anleitung)
+  - [1. Schrank bauen](#1-schrank-bauen)
+  - [2. Schrankinneres erstellen](#2-schrankinneres-erstellen)
+    - [2.1 Innenleben](#21-innenleben)
+    - [2.2 Entfernungsmesser Box](#22-entfernungsmesser-box)
+  - [3. Technik konfigurieren](#3-technik-konfigurieren)
+    - [3.1 Raspberry](#31-raspberry)
+    - [3.2 Arduino Uno](#32-arduino-uno)
+    - [3.3 ESP32-Cam](#33-esp32\-cam)
+    - [3.4 Barcode-Scanner](#34-barcode\-scanner)
+    - [3.5 RFID Reader](#35-rfid-reader)
+    - [3.6 Datenbank erstellen](#36-datenbank-erstellen)
+  - [4. Code schreiben](#4-code-schreiben)
+  - [5. Schranktür bauen](#5-schranktür-bauen)
+  - [6. Technik anbringen](#6-technik-anbringen)
+  - [7. Free Stuff Schublade](#7-free-stuff-schublade)
+  - [8. Letzte Kleinigkeiten](#8-letzte-kleinigkeiten)
+- [Funktionsweise](#funktionsweise)
+- [Nutzungsanleitung für Studierende](#nutzungsanleitung-für-studierende)
 
 ## Die Challenge
 Die Challenge, welche im Rahmen des Moduls "Challenge Based Making (WS 23/24)" gestellt wurde, lautete: "Wie können wir durch smarte Devices dabei helfen, dass die Aufenthaltsqualität an der Hochschule steigt?"   
@@ -90,8 +117,6 @@ Auf die unterste Platte wird das Regal mit den 8 Fächern gelegt und befestigt (
 Es empfiehlt sich, das Regal aus Sperrholz zu fertigen und dabei den Lasercutter zu nutzen. Dies gilt auch für das Pegboard und die USB-Sticks-Schublade. Das Pegboard und die USB-Sticks-Schublade werden wiederum auf des Regal geschoben und befestigt.
 Wir haben das wie auf folgenden Bildern zu sehen ist gelöst, allerdings gibt es hier bestimmt auch andere Lösungen, das Pegboard und die Schublade zu fixieren:
 
-(BILDER VON INNENKONSTRUKTION EINFÜGEN)
-
 - Maße Pegboard mit passenden Pins: [Pegboard und Pins SVG](/images/sixtysix/PegboardPlusPin_Maße.svg)
 - Maße USB-Sticks-Schublade: [USB-Sticks-Schublade SVG](/images/sixtysix/UsedSticks_Schublade_Maße.svg)
 
@@ -114,7 +139,7 @@ Es empfiehlt sich, den Raspberry neu aufzusetzen und `sudo apt update` & `sudo a
     - MFRC522
     - Servo
 
-#### 3.3 ESP32-Cam
+#### 3.3 ESP32-Cam 
 1.  Öffne  `File/Preferences`
 2.  Gebe folgendes in das  `Additional Board Mananger URLs`  Feld ein: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 und http://arduino.esp8266.com/stable/package_esp8266com_index.json
