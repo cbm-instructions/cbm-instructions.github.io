@@ -1,5 +1,5 @@
 ---
-title: "React to Snack"
+title: "Die Arcade Machine mit Snackpreisen"
 categories: instructions
 layout: post
 date: 2024-01-29 14:00:00 +0200
@@ -7,8 +7,6 @@ date: 2024-01-29 14:00:00 +0200
 
 Unsere Motivation für den Bau des "React to Snack"-Automaten war es, eine innovative und unterhaltsame Lösung zu schaffen, die den Campusalltag von Studenten bereichert. Wir wollten ein Spiel entwickeln, das nicht nur Spaß macht, sondern auch eine Belohnung bietet - in diesem Fall einen Snack.
 <!--more-->
-
-# Die Arcade Machine mit Snackpreisen
 
 # Inhaltsverzeichnis
 
