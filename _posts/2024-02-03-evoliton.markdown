@@ -5,10 +5,11 @@ layout: post
 date: 2024-02-03 11:30:00 +0200
 ---
 
+Unser Anzeigegerät bietet eine bequeme Möglichkeit, schnell einen Überblick über die aktuelle Raumsituation zu erlangen. Neben der Anzahl an anwesenden Personen, die relativ zu der Raumkapazität farblich bewertet wird, gibt es auch eine symbolische Kategorisierung von "Vorlesungen", "Klausuren" oder "Besser-nicht-stören".
+
 # DIY-Anleitung: Anzeigegerät für freie Lernräume
 
 Unser Anzeigegerät bietet eine bequeme Möglichkeit, schnell einen Überblick über die aktuelle Raumsituation zu erlangen. Neben der Anzahl an anwesenden Personen, die relativ zu der Raumkapazität farblich bewertet wird, gibt es auch eine symbolische Kategorisierung von "Vorlesungen", "Klausuren" oder "Besser-nicht-stören". Somit bietet sich der Einsatzbereich vor allem in Instituten des Bildungswesens an.
-<!--more-->
 
 # Inhaltsverzeichnis
 <!-- TOC -->
