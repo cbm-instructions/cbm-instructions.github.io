@@ -8,8 +8,6 @@ date: 2024-02-03 12:30:00 +0200
 Ziel ist es, eine Lösung zu entwickeln, die die Aufenthaltsqualität an der Hochschule steigert. Studierende können einen Tisch reservieren, damit sie planen können, wo und wann die Gruppenarbeit stattfinden kann und damit sie zu Beginn der Gruppenarbeit nicht erst einen freien Tisch suchen müssen.
 <!--more-->
 
-# Team Äähh? - Bauanleitung Tisch-Reservierungs-Tool
-
 ## Inhaltsverzeichnis
 <!-- TOC -->
 - [Inhaltsverzeichnis](#inhaltsverzeichnis)
