@@ -29,22 +29,16 @@ date: 2024-01-29 14:00:00 +0200
 
 # Motivation
 
-Unsere Motivation für den Bau des "React to Snack"-Automaten war es, eine innovative und unterhaltsame Lösung zu
-schaffen, die den Campusalltag von Studenten bereichert. Wir wollten ein Spiel entwickeln, das nicht nur Spaß
-macht, sondern auch eine Belohnung bietet - in diesem Fall einen Snack.
+Unsere Motivation für den Bau des "React to Snack"-Automaten war es, eine innovative und unterhaltsame Lösung zu schaffen, die den Campusalltag von Studenten bereichert. Wir wollten ein Spiel entwickeln, das nicht nur Spaß macht, sondern auch eine Belohnung bietet - in diesem Fall einen Snack.
+<!--more-->
 
-Wir haben erkannt, dass es Zeiten gibt, in denen die Mensa und die Fachschaft geschlossen sind und die Studenten keine
-Möglichkeit haben, Essen zu kaufen. Unser Automat bietet in diesen Situationen eine schnelle und unterhaltsame
-Möglichkeit, an einen Snack zu kommen.
+Wir haben erkannt, dass es Zeiten gibt, in denen die Mensa und die Fachschaft geschlossen sind und die Studenten keine Möglichkeit haben, Essen zu kaufen. Unser Automat bietet in diesen Situationen eine schnelle und unterhaltsame Möglichkeit, an einen Snack zu kommen.
 
-Darüber hinaus wollten wir eine willkommene Ablenkung vom Uni-Alltag bieten. Unser Automat bietet eine spielerische
-Pause und hilft den Studenten, sich für einen Moment vom Studium abzuwenden.
+Darüber hinaus wollten wir eine willkommene Ablenkung vom Uni-Alltag bieten. Unser Automat bietet eine spielerische Pause und hilft den Studenten, sich für einen Moment vom Studium abzuwenden.
 
-Der Bau dieses Automaten war für uns nicht nur eine technische Herausforderung, sondern auch eine Gelegenheit, das
-Studentenleben ein wenig angenehmer zu gestalten. Wir sind stolz auf das, was wir erreicht haben, und hoffen, dass
-unsere Arbeit anderen Studenten Freude bereitet.
+Der Bau dieses Automaten war für uns nicht nur eine technische Herausforderung, sondern auch eine Gelegenheit, das Studentenleben ein wenig angenehmer zu gestalten. Wir sind stolz auf das, was wir erreicht haben, und hoffen, dass unsere Arbeit anderen Studenten Freude bereitet.
 
-![Alternativer Text](/images/teamrocket/images/Snackautomat.jpg)
+![Snackautomat](/images/teamrocket/images/Snackautomat.jpg)
 
 # Vorbereitung
 
