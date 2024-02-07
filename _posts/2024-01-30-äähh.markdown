@@ -1,6 +1,17 @@
+---
+title: "Tisch-Reservierungs-Tool"
+categories: instructions
+layout: post
+date: 2024-02-03 12:30:00 +0200
+---
+
+Ziel ist es, eine Lösung zu entwickeln, die die Aufenthaltsqualität an der Hochschule steigert. Studierende können einen Tisch reservieren, damit sie planen können, wo und wann die Gruppenarbeit stattfinden kann und damit sie zu Beginn der Gruppenarbeit nicht erst einen freien Tisch suchen müssen.
+<!--more-->
+
 # Team Äähh? - Bauanleitung Tisch-Reservierungs-Tool
 
 ## Inhaltsverzeichnis
+<!-- TOC -->
 - [Inhaltsverzeichnis](#inhaltsverzeichnis)
 - [Challenge](#challenge)
   - [Problem](#problem)
@@ -24,33 +35,30 @@
   - [Funktionsweise des RFID-Moduls(ESP8266 mit angeschlossenem RFID-Leser und LED-Ring)](#funktionsweise-des-rfid-modulsep8266-mit-angeschlossenem-rfid-leser-und-led-ring)
   - [Funktionsweise des Displaymoduls(ESP8266 mit angeschlossenem Display)](#funktionsweise-des-displaymodulsep8266-mit-angeschlossenem-display)
   - [Schritte zum Hochladen des Codes auf den ESP8266(mit angeschlossenem RFID-Leser und LED-Ring)](#schritte-zum-hochladen-des-codes-auf-den-esp8266mit-angeschlossenem-rfid-leser-und-led-ring)
-
 - [Programmierung und Hochladen des Quellcodes auf den ESP8266 (RFID + Ring)-Modul](#programmierung-und-hochladen-des-quellcodes-auf-den-esp8266-rfid--ring-modul)
   - [Schritte zum Hochladen des Codes auf das ESP8266 Displaymodul](#schritte-zum-hochladen-des-codes-auf-das-esp8266-displaymodul)
   - [Hinweise](#hinweise)
 - [Ausblick](#ausblick)
-
+<!-- /TOC -->
 
 ## Challenge
-    Wie können wir durch smarte Devices Leonie dabei helfen, dass die Aufenthaltsqualität an der Hochschule steigt?
+
+> Wie können wir durch smarte Devices Leonie dabei helfen, dass die Aufenthaltsqualität an der Hochschule steigt?
 
 Ziel ist es, eine Lösung zu entwickeln, die die Aufenthaltsqualität an der Hochschule steigert.
-Um mögliche Probleme an der Hochschule zu identifizieren, haben wir uns mit den Studierenden und Proffesoren unterhalten
-und eine Umfrage durchgeführt. Dabei haben wir einige Probleme identifiziert, die wir zu unserer Personas zusammengefasst haben.
+Um mögliche Probleme an der Hochschule zu identifizieren, haben wir uns mit den Studierenden und Proffesoren unterhalten und eine Umfrage durchgeführt. Dabei haben wir einige Probleme identifiziert, die wir zu unserer Personas zusammengefasst haben.
 
 ![Persona](/images/äähh/Leonie_Empathy_Map.png)
 
 ### Problem
-Mit hilfe der Persona Leonie haben wir volgende POV erstellt:
+Mithilfe der Persona Leonie haben wir volgende POV erstellt:
 
-
-    Wie können wir Leonie dabei helfen ihre Gruppenarbeit an der Hochschule stattfinden zu lassen, um effektiver ihre Aufgaben in Gruppen zu bearbeiten.
+> Wie können wir Leonie dabei helfen ihre Gruppenarbeit an der Hochschule stattfinden zu lassen, um effektiver ihre Aufgaben in Gruppen zu bearbeiten.
 
 Leonie kann einen Tisch reservieren, damit sie Planen kann, wo und wann die Gruppenarbeit stattfinden kann und damit sie zu Beginn der Gruppenarbeit nicht erst einen freien Tisch suchen muss.
 
 ### Lösung
-Um Leonie zu helfen, haben wir eine Tisch-Reservierungs-Tool entschieden. Damit kann Leonie einen Tisch reservieren und die Gruppenarbeit planen.  
-Dazu haben wir einige Prototypen erstellt und mit Leonie getestet. Dabei haben wir die Prototypen immer weiter verbessert, bis wir eine Lösung gefunden haben, die Leonie gefällt.
+Um Leonie zu helfen, haben wir eine Tisch-Reservierungs-Tool entschieden. Damit kann Leonie einen Tisch reservieren und die Gruppenarbeit planen. Dazu haben wir einige Prototypen erstellt und mit Leonie getestet. Dabei haben wir die Prototypen immer weiter verbessert, bis wir eine Lösung gefunden haben, die Leonie gefällt.
 
 ![Tisch-Reservierungs-Tool](/images/äähh/20231026_110512.jpg)
 
