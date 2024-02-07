@@ -5,6 +5,9 @@ layout: post
 date: 2024-01-29 14:00:00 +0200
 ---
 
+Unsere Motivation für den Bau des "React to Snack"-Automaten war es, eine innovative und unterhaltsame Lösung zu schaffen, die den Campusalltag von Studenten bereichert. Wir wollten ein Spiel entwickeln, das nicht nur Spaß macht, sondern auch eine Belohnung bietet - in diesem Fall einen Snack.
+<!--more-->
+
 # Die Arcade Machine mit Snackpreisen
 
 # Inhaltsverzeichnis
@@ -30,7 +33,6 @@ date: 2024-01-29 14:00:00 +0200
 # Motivation
 
 Unsere Motivation für den Bau des "React to Snack"-Automaten war es, eine innovative und unterhaltsame Lösung zu schaffen, die den Campusalltag von Studenten bereichert. Wir wollten ein Spiel entwickeln, das nicht nur Spaß macht, sondern auch eine Belohnung bietet - in diesem Fall einen Snack.
-<!--more-->
 
 Wir haben erkannt, dass es Zeiten gibt, in denen die Mensa und die Fachschaft geschlossen sind und die Studenten keine Möglichkeit haben, Essen zu kaufen. Unser Automat bietet in diesen Situationen eine schnelle und unterhaltsame Möglichkeit, an einen Snack zu kommen.
 
