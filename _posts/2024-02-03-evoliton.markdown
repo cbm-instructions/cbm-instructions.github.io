@@ -5,11 +5,9 @@ layout: post
 date: 2024-02-03 11:30:00 +0200
 ---
 
-Unser Anzeigegerät bietet eine bequeme Möglichkeit, schnell einen Überblick über die aktuelle Raumsituation zu erlangen. Neben der Anzahl an anwesenden Personen, die relativ zu der Raumkapazität farblich bewertet wird, gibt es auch eine symbolische Kategorisierung von "Vorlesungen", "Klausuren" oder "Besser-nicht-stören".
-
-# DIY-Anleitung: Anzeigegerät für freie Lernräume
-
 Unser Anzeigegerät bietet eine bequeme Möglichkeit, schnell einen Überblick über die aktuelle Raumsituation zu erlangen. Neben der Anzahl an anwesenden Personen, die relativ zu der Raumkapazität farblich bewertet wird, gibt es auch eine symbolische Kategorisierung von "Vorlesungen", "Klausuren" oder "Besser-nicht-stören". Somit bietet sich der Einsatzbereich vor allem in Instituten des Bildungswesens an.
+che Kategorisierung von "Vorlesungen", "Klausuren" oder "Besser-nicht-stören". 
+<!--more-->
 
 # Inhaltsverzeichnis
 <!-- TOC -->
@@ -30,7 +28,7 @@ Du bist StudentIn und hast keine Ahnung, wo ein ruhiger Raum zum Lernen ist? Die
 
 Jetzt gibt es aber eine neue Möglichkeit: Einfach einen Blick auf das Anzeigegerät werfen und schon hat man einen Raum, der zu den eigenen Bedürfnissen passt.
 
-<img src="../images/evolition/Anzeigegerät/Anzeigegerat.webp" alt="Anzeigegerät">
+<img src="/images/evolition/Anzeigegerät/Anzeigegerat.webp" alt="Anzeigegerät">
 
 Das Anzeigegerät wurde im Rahmen der Projektfrage "Wie können wir die Aufenthaltsqualität hier an der Hochschule Mannheim verbessern?"
 Zu dieser Fragestellung haben wir ausführliche Interviews geführt und folgende Probleme festgestellt: Sowohl Studierenden als auch Angestellten und Lehrbeauftragten der Hochschule fehlt es an ruhigen Orten bzw. eher an Erreichbarkeit von ruhigen Orten. Die befragten Studierenden wünschen sich einen Ort, der ruhig genug zum Lernen ist, denn die Angebote der Hochschule selbst (Bibliothek, Denkräume, Aufenthaltsräume) sind zu überfüllt. Lehrbeauftragte suchen einen ruhigen Rückzugsort für die Pause oder Überbrückung bis zur Vorlesung. Ohne ein eigenes Büro ist dies aber schwer.
@@ -139,8 +137,8 @@ In dieser Bauanleitung wird beschrieben, wie das Anzeigegerät zusammengebaut wi
 ## Schritt 2: Einbauen der Schiebevorrichtung
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="../images/evolition/Stange/stange_seitlich.jpg" alt="Stange seitlich" width="281.5" height="500">
-    <img src="../images/evolition/Stange/holzgerüst.jpg" alt="Holzgerüst mit Stange" width="281.5" height="500">
+    <img src="/images/evolition/Stange/stange_seitlich.jpg" alt="Stange seitlich" width="281.5" height="500">
+    <img src="/images/evolition/Stange/holzgerüst.jpg" alt="Holzgerüst mit Stange" width="281.5" height="500">
 </div>
 
 
@@ -181,7 +179,7 @@ In dieser Bauanleitung wird beschrieben, wie das Anzeigegerät zusammengebaut wi
 
 ## Schritt 3: Motor einbauen
 
-<img src="../images/evolition/verletzungssicher/verletzungsicher.jpg" alt="Motor" width="281.5" height="500">
+<img src="/images/evolition/verletzungssicher/verletzungsicher.jpg" alt="Motor" width="281.5" height="500">
 
 **Benötigte Materialien und Werkzeuge**:
 
@@ -213,12 +211,12 @@ In dieser Bauanleitung wird beschrieben, wie das Anzeigegerät zusammengebaut wi
 ## Schritt 4: Schaltplan der unteren Box
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="../images/evolition/Schaltplan_Bilder/Schaltplan_untereBox.PNG" alt="Schaltplan" width="820" height="281.5">
-    <img src="../images/evolition/Schaltplan_Bilder/arduino_uno.jpg" alt="Arduino Uno" width="500" height="281.5">
-    <img src="../images/evolition/Schaltplan_Bilder/breadboard.jpg" alt="Breadboard" width="500" height="281.5">
-    <img src="../images/evolition/Schaltplan_Bilder/unten_kabel1.jpg" alt="Verkabelung untere Box" width="500" height="281.5">
-    <img src="../images/evolition/Schaltplan_Bilder/unten_kabel2.jpg" alt="Verkabelung untere Box" width="500" height="281.5">
-    <img src="../images/evolition/innenaufbau_untere_box/innen_unten.jpg" alt="Innenaufbau unten" width="281.5" height="500">
+    <img src="/images/evolition/Schaltplan_Bilder/Schaltplan_untereBox.PNG" alt="Schaltplan" width="820" height="281.5">
+    <img src="/images/evolition/Schaltplan_Bilder/arduino_uno.jpg" alt="Arduino Uno" width="500" height="281.5">
+    <img src="/images/evolition/Schaltplan_Bilder/breadboard.jpg" alt="Breadboard" width="500" height="281.5">
+    <img src="/images/evolition/Schaltplan_Bilder/unten_kabel1.jpg" alt="Verkabelung untere Box" width="500" height="281.5">
+    <img src="/images/evolition/Schaltplan_Bilder/unten_kabel2.jpg" alt="Verkabelung untere Box" width="500" height="281.5">
+    <img src="/images/evolition/innenaufbau_untere_box/innen_unten.jpg" alt="Innenaufbau unten" width="281.5" height="500">
 </div>
 
 **Benötigte Materialien und Werkzeuge**:
@@ -310,7 +308,7 @@ In dieser Bauanleitung wird beschrieben, wie das Anzeigegerät zusammengebaut wi
 
 
 ## Schritt 8: Einbauen der Zahl in die Box
-<img src="../images/evolition/Zahlen_an_Lücke_anpassen/Zahlen_an_Lücke_anpassen.jpg" alt="Schaltplan Neopixel" width="400" height="300">
+<img src="/images/evolition/Zahlen_an_Lücke_anpassen/Zahlen_an_Lücke_anpassen.jpg" alt="Schaltplan Neopixel" width="400" height="300">
 
 
 **Benötigte Materialien und Werkzeuge**:
@@ -349,9 +347,9 @@ Hierbei ist es wichtig, darauf zu achten, dass die einzelnen LEDs möglichst par
 ## Schritt 9: Schaltplan der oberen Box
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="../images/evolition/Innenaufbau_obere_Box/Innenaufbau_obere_Box1.jpg" alt="Innenaufbau oben" width="500" height="375">
-    <img src="../images/evolition/Verkabelung_Loch/Verkabelung.jpg" alt="Verkabelung Loch" width="500" height="281.5">
-    <img src="../images/evolition/Schaltplan_Bilder/schaltplan_zahlen.jpg" alt="Schaltplan Neopixel" width="505.25" height="206.75">
+    <img src="/images/evolition/Innenaufbau_obere_Box/Innenaufbau_obere_Box1.jpg" alt="Innenaufbau oben" width="500" height="375">
+    <img src="/images/evolition/Verkabelung_Loch/Verkabelung.jpg" alt="Verkabelung Loch" width="500" height="281.5">
+    <img src="/images/evolition/Schaltplan_Bilder/schaltplan_zahlen.jpg" alt="Schaltplan Neopixel" width="505.25" height="206.75">
 </div>
 
 **Benötigte Materialien und Werkzeuge**:
@@ -378,7 +376,7 @@ Hierbei ist es wichtig, darauf zu achten, dass die einzelnen LEDs möglichst par
 7. Schließen Sie den Deckel der oberen Box noch nicht, da dieser danach schwer zu entfernen ist und dies die spätere Trennung des Raspberry Pis, des HDMI-Kabels sowie der Maus und der Tastatur erschwert.
 
 ## Schritt 10: Schaltplan des ToF-Sensors
-<img src="../images/evolition/Schaltplan_Bilder/Schaltplan_Sensor.jpg" alt="Schaltplan Neopixel" width="281.5" height="500">
+<img src="/images/evolition/Schaltplan_Bilder/Schaltplan_Sensor.jpg" alt="Schaltplan Neopixel" width="281.5" height="500">
 
 **Benötigte Materialien und Werkzeuge**:
 
@@ -422,8 +420,8 @@ Hierbei ist es wichtig, darauf zu achten, dass die einzelnen LEDs möglichst par
 
 ## Schritt 13: Raumnummer hinzufügen
 <div style="display: flex; justify-content: space-between;">
-    <img src="../images/evolition/Raumnummer/IMG_20240118_134036.webp" alt="Raumnummer" width="431.3" height="323.3">
-    <img src="../images/evolition/Raumnummer_einhaken/IMG_20240118_134045.webp" alt="Raumnummer einhaken" width="431.3" height="323.3">
+    <img src="/images/evolition/Raumnummer/IMG_20240118_134036.webp" alt="Raumnummer" width="431.3" height="323.3">
+    <img src="/images/evolition/Raumnummer_einhaken/IMG_20240118_134045.webp" alt="Raumnummer einhaken" width="431.3" height="323.3">
 </div>
 
 **Benötigte Materialien und Werkzeuge**:
@@ -441,7 +439,7 @@ Hierbei ist es wichtig, darauf zu achten, dass die einzelnen LEDs möglichst par
 # Funktionsweise
 
 
-<img src="../images/evolition/Funktion_ToF_Sensor/bild_iexpo-removebg-preview_1.webp" alt="Funktionsweise ToF">
+<img src="/images/evolition/Funktion_ToF_Sensor/bild_iexpo-removebg-preview_1.webp" alt="Funktionsweise ToF">
 
 Der Time-of-Flight (ToF) wird normalerweise zur Messung der Entfernung zwischen einem Sensor und einem Objekt genutzt. Der ToF-Sensor sendet Lichtimpulse, welche im Infrarotbereich liegen, da menschliche Augen nicht empfindlich für Infrarotlicht sind.
 Anschließend wird berechnet, wie lange das Licht benötigt, vom Sensor zum Objekt und anschließend wieder zum Sensor zu gelangen. Der Sensor kann so berechnen, wie groß die Entfernung zu einem Objekt ist.
