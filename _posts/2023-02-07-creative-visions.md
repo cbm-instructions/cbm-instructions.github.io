@@ -5,6 +5,12 @@ layout: post
 date: 2023-02-07 13:00:00 +0200
 ---
 
+Hast du es satt, jedes Mal den Kühlschrank zu öffnen, um nachzusehen, was du noch im Haus hast? Mit FridgeView von CreativeVision hast du immer einen Überblick über deine Vorräte, ohne den Kühlschrank zu öffnen. 
+<!--more-->
+
+Die eingebaute Kamera projiziert das Innere des Kühlschranks auf ein E-Paper-Display an der Vorderseite, so dass du jederzeit weißt, was du hast und was du noch brauchst. Spare Zeit, Energie und vermeide unnötige Einkäufe mit FridgeView.  
+
+
 ## Inhaltsverzeichnis
 
 <!-- TOC -->
@@ -21,13 +27,10 @@ date: 2023-02-07 13:00:00 +0200
   + [Alles zusammenbringen](#alles-zusammenbringen)
 * [Funktionsweise](#funktionsweise)
 * [Ausblick](#ausblick)
-<!-- TOC -->
+<!-- /TOC -->
 
-Hast du es satt, jedes Mal den Kühlschrank zu öffnen, um nachzusehen, was du noch im Haus hast? Mit FridgeView von CreativeVision hast du immer einen Überblick über deine Vorräte, ohne den Kühlschrank zu öffnen. Die eingebaute Kamera projiziert das Innere des Kühlschranks auf ein E-Paper-Display an der Vorderseite, so dass du jederzeit weißt, was du hast und was du noch brauchst. Spare Zeit, Energie und vermeide unnötige Einkäufe mit FridgeView.  
 ![Test](/images/creative-visions/Passivbetrieb.png)
 ![Test](/images/creative-visions/Aktivbetrieb.png)
-
-
 
 Mit FridgeView bewusst Energie sparen - Unser Beitrag zur Lösung der Energie-Challenge 
 
