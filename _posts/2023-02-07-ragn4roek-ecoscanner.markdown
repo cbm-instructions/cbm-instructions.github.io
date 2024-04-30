@@ -1,25 +1,16 @@
 ---
-title: "EcoScam"
+title: "EcoScam: Kenne deinen ökologischen Fußabdruck"
 categories: instructions
 layout: post
 date: 2023-02-07 11:00:00 +0200
 ---
 
-# Unser Projekt
+In dem Projekt wurde sich die Frage gestellt, wie man Menschen dazu motivieren kann oder darüber informieren kann, wie man Energie spart.
+<!-- more -->
 
-In dem Projekt wurde sich die Frage gestellt, wie man Menschen dazu
-motivieren kann oder darüber informieren kann, wie man Energie spart.
+Um dieses Problem zu lösen, haben wir einen Scanner entwickelt, der die Informationen über die Nachhaltigkeit des Produkts mithilfe des so genannten [[Ecoscores]{.underline}](https://world.openfoodfacts.org/eco-score-the-environmental-impact-of-food-products) zusammenfasst, und alternative Produkte vorschlägt, die besser für die Umwelt sind.
 
-Um dieses Problem zu lösen, haben wir einen Scanner entwickelt, der die
-Informationen über die Nachhaltigkeit des Produkts mithilfe des so
-genannten
-[[Ecoscores]{.underline}](https://world.openfoodfacts.org/eco-score-the-environmental-impact-of-food-products)
-zusammenfasst, und alternative Produkte vorschlägt, die besser für die
-Umwelt sind.
-
-Für dieses Projekt wird ein Raspberry Pi Zero W in Kombination mit einem
-Display und einem Scanner verwendet, um die gewünschten Informationen
-darzustellen. Eine Anleitung dafür ist im Folgenden zu finden.
+Für dieses Projekt wird ein Raspberry Pi Zero W in Kombination mit einem Display und einem Scanner verwendet, um die gewünschten Informationen darzustellen. Eine Anleitung dafür ist im Folgenden zu finden.
 
 # Material
 
