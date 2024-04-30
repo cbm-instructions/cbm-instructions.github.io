@@ -5,6 +5,11 @@ layout: post
 date: 2023-02-03 17:00:00 +0200
 ---
 
+EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen zu erfahren und dadurch aktiv zu sparen. Der Wasserverbrauch und die Temperatur werden gemessen, um den Nutzer dabei zu unterstützen, ein auf ihn zugeschnittenes Energiepensum bei jedem Duschvorgang einzuhalten - oder besser noch - zu unterbieten. 
+<!-- more -->
+
+Der Gamification-Ansatz motiviert auch über längere Zeit, durch die Berechnung der exakten Kosten die durch das Duschen entstehen.
+
 # Inhaltsverzeichnis
 
 <!-- TOC -->
@@ -29,10 +34,6 @@ date: 2023-02-03 17:00:00 +0200
     - [Komponenten zusammensetzen](#komponenten-zusammensetzen)
 - [Ausblick](#ausblick)
 <!-- /TOC -->
-
-# Motivation
-
-EcoShower hilft dem Nutzer dabei, mehr über seinen Energiebedarf beim Duschen zu erfahren und dadurch aktiv zu sparen. Der Wasserverbrauch und die Temperatur werden gemessen, um den Nutzer dabei zu unterstützen, ein auf ihn zugeschnittenes Energiepensum bei jedem Duschvorgang einzuhalten - oder besser noch - zu unterbieten. Der Gamification-Ansatz motiviert auch über längere Zeit, durch die Berechnung der exakten Kosten die durch das Duschen entstehen.
 
 # Vorbereitung
 
